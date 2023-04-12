@@ -1,0 +1,71 @@
+    8  wget iitdac.met.edu/shared/java/jdk.tar.gz
+    9  tar xf jdk.tar.gz
+   10  wget iitdac.met.edu/shared/java/gf.tar.gz 
+   11  tar xf gf.tar.gz
+   12  ls
+   13  rm gf.tar.gz jdk.tar.gz 
+   14  ls
+   15  ~/glassfish7/glassfish/bin/asadmin start-domain
+   16  exit
+   17  ls
+   18  exit
+   19  exit
+   20  ls
+   21  exit
+   22  ls
+   23  gcc
+   24  g++
+   25  clear
+   26  exit
+   27  clear
+   28  ls
+   29  mkdir Foundations
+   30  cd Foundations/
+   31  mkdir Machine
+   32  cd Machine/
+   33  wget iitdac.met.edu/shared/asm-x64.tar.gz
+   34  tar xf asm-x64.tar.gz 
+   35  rm asm-x64.tar.gz 
+   36  ls
+   37  vi hellox64.s
+   38  cd ~
+   39  wget iitdac.met.edu/shared/my.vimrc
+   40  mv my.vimrc .vimrc
+   41  vi .vim
+   42  vi .vimrc 
+   43  cd Foundations/Machine/
+   44  vi hellox64.s 
+   45  vi ~/.vimrc 
+   46  vi hellox64.s 
+   47  as hellox64.s -o hello.o
+   48  vi hellox64.s 
+   49  as hellox64.s -o hello.o
+   50  vi hellox64.s 
+   51  as hellox64.s -o hello.o
+   52  ls
+   53  vi hello.o
+   54  ld hello.o console.o -o program
+   55  ll
+   56  ./program 
+   57  vi hellox64.s 
+   58  ./program 
+   59  as hellox64.s -o hello.o
+   60  ld hello.o console.o -o program
+   61  ./program 
+   62  vi hellox64.s 
+   63  vi console.o
+   64  vi console.i
+   65  ld hello.o -o program
+   66  ld hello.o console.o -o program
+   67  vi console.i
+   68  vi hellox64.s 
+   69  as hellox64.s -o hello.o
+   70  vi hellox64.s 
+   71  as hellox64.s -o hello.o
+   72  ld hello.o console.o -o program
+   73  ./program 
+   74  vi hellox64.s 
+   75  as hellox64.s -o hello.o
+   76  ld hello.o console.o -o program
+   77  ./program 
+   78  history > cmd0604morning.txt

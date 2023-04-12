@@ -1,0 +1,22 @@
+    1  cd Machine/
+    2  cp registertest.s condjumptest1.s 
+    3  vi condjumptest1.s 
+    4  as condjumptest1.s 
+    5  ld a.out console.o -o program
+    6  ./program 
+    7  vi condjumptest1.s 
+    8  ./program 
+    9  vi condjumptest1.s 
+   10  as condjumptest1.s 
+   11  ld a.out console.o -o program
+   12  ./program 
+   13  vi condjumptest1.s 
+   14  vi condjumptest2.s 
+   15  as condjumptest2.s 
+   16  ld a.out console.o -o program
+   17  ./program 
+   18  vi condjumptest2.s 
+   19  ./program 
+   20  vi condjumptest1.s 
+   21  cd ..
+   22  history >cmd0704evening.txt 

@@ -1,0 +1,14 @@
+  107  exit
+  108  clear
+  109  cd Foundations/Machine/
+  110  cp registertest.s memaddrtest.s
+  111  vi memaddrtest.s 
+  112  as memaddrtest.s 
+  113  ld a.out console.o -o program
+  114  ./program 
+  115  vi memaddrtest.s 
+  116  as memaddrtest.s 
+  117  ld a.out console.o -o program
+  118  ./program 
+  119  vi memaddrtest.s 
+  120  cd ..

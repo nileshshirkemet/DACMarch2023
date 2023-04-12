@@ -1,0 +1,32 @@
+    1  cp condjumptest1.s callproctest1.s
+    2  vi callproctest1.s 
+    3  as callproctest1.s 
+    4  ld a.out console.o -o program
+    5  ./program 
+    6  vi callproctest1.s 
+    7  as callproctest1.s 
+    8  ld a.out console.o -o program
+    9  ./program 
+   10  vi callproctest1.s 
+   11  vi gcd.s
+   12  vi console.i
+   13  vi gcd.s
+   14  as gcd.s -o gcd.o
+   15  ls
+   16  vi callproctest2.s 
+   17  as callproctest2.s 
+   18  ld a.out console.o -o program
+   19  ld a.out console.o gcd.o -o program
+   20  ./program 
+   21  vi gcd.s
+   22  as gcd.s -o gcd.o
+   23  ld a.out console.o -o program
+   24  ld a.out console.o gcd.o -o program
+   25  vi gcd.s
+   26  as gcd.s -o gcd.o
+   27  ld a.out console.o gcd.o -o program
+   28  ./program 
+   29  vi gcd.s
+   30  cd ..
+   31  history cmd0804morning.txt 
+   32  history >cmd0804morning.txt 

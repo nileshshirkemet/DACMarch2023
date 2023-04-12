@@ -1,0 +1,48 @@
+    1  clear
+    2  ls
+    3  cd Foundations/
+    4  ls
+    5  cd Language/
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd Language/
+   10  ls
+   11  cd Basics/
+   12  ls
+   13  cd ..
+   14  ls
+   15  cd ..
+   16  ls
+   17  cd Machine/
+   18  ls
+   19  cd ..
+   20  cd Language/
+   21  ls
+   22  cd Basics/
+   23  ls
+   24  clear
+   25  ls
+   26  vi dowhiletest.c
+   27  cc dowhiletest.c -o program 
+   28  ./program 
+   29  vi dowhiletest.c
+   30  vi whiletest.c
+   31  cc whiletest.c -p program 
+   32  cc whiletest.c -o program 
+   33  ./program 
+   34  vi whiletest.c
+   35  vi fortest.c
+   36  cc fortest.c -o program 
+   37  ./program 
+   38  vi fortest.c
+   39  cd ..
+   40  mkdir Functions
+   41  cd Functions/
+   42  vi funccalltest.c
+   43  cc funccalltest.c -o program
+   44  ./program 
+   45  vi funccalltest.c
+   46  cd ..
+   47  ls
+   48  history >cmd1104evening.txt 

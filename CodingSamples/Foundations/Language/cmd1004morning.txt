@@ -1,0 +1,18 @@
+    1  clear
+    2  cd Foundations/
+    3  mkdir Language
+    4  cd Language/
+    5  mkdir Basics
+    6  cd Basics/
+    7  vi variabletest.c
+    8  cc variabletest.c -o program
+    9  ls
+   10  ./program 
+   11  vi variabletest.c
+   12  ./program 
+   13  cc variabletest.c -o program
+   14  ./program 
+   15  vi variabletest.c
+   16  cd ..
+   17  ls
+   18  history >cmd1004morning.txt
