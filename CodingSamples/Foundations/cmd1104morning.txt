@@ -1,0 +1,27 @@
+    1  cd ../Language/Basics/
+    2  vi arraytest.c
+    3  cc arraytest.c -o program
+    4  ./program 
+    5  vi arraytest.c
+    6  cc arraytest.c -o program
+    7  vi arraytest.c
+    8  cc arraytest.c -o program
+    9  vi arraytest.c
+   10  ./program 
+   11  cp variabletest.c ifelsetest.c
+   12  vi ifelsetest.c 
+   13  cc ifelsetest.c -o program
+   14  ./program 
+   15  vi ifelsetest.c 
+   16  cc ifelsetest.c -o program
+   17  ./program 
+   18  vi ifelsetest.c 
+   19  vi switchtest.c
+   20  cc switchtest.c -o program
+   21  ./program 
+   22  vi switchtest.c
+   23  pwd
+   24  ls
+   25  cd ..
+   26  ls
+   27  history >cmd1104morning.txt

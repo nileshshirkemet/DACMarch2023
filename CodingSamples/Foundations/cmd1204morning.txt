@@ -1,0 +1,24 @@
+    1  cd Foundations/Language/
+    2  cd Functions/
+    3  cp ../../Machine/gcd.o .
+    4  vi gcd.o
+    5  vi extfunctest1.c
+    6  cc extfunctest1.c -o program
+    7  cc extfunctest1.c gcd.o -o program
+    8  ./program 
+    9  vi extfunctest1.c
+   10  vi primes.c
+   11  cc -c primes.c 
+   12  objdump -t primes.o
+   13  objdump -t gcd.o
+   14  vi extfunctest2.c 
+   15  cc extfunctest2.c -o program 
+   16  cc extfunctest2.c primes.o -o program 
+   17  ./program 
+   18  cc -c primes.c 
+   19  vi primes.c
+   20  cc -c primes.c 
+   21  cc extfunctest2.c primes.o -o program 
+   22  ./program 
+   23  cd ..
+   24  history >cmd1204morning.txt 

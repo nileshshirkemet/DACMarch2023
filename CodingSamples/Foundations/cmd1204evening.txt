@@ -1,0 +1,33 @@
+    1  clear
+    2  cd Functions
+    3  ls *.o
+    4  ld -shared primes.o -o primes.so
+    5  ls primes.*
+    6  vi primes.c 
+    7  cc -c primes.c
+    8  ld -shared primes.o -o primes.so
+    9  vi primes.c 
+   10  cc -c primes.c
+   11  ld -shared primes.o -o primes.so
+   12  vi extfunctest3.py
+   13  python3 extfunctest3.py 
+   14  vi extfunctest3.py
+   15  python3 extfunctest3.py 
+   16  vi extfunctest3.py
+   17  python3 extfunctest3.py 
+   18  vi pointertest.c
+   19  cc pointertest.c -o program 
+   20  ./program 
+   21  vi pointertest.c
+   22  cc pointertest.c -o program 
+   23  ./program 
+   24  vi pointertest.c
+   25  cc pointertest.c -o program 
+   26  vi pointertest.c
+   27  cc pointertest.c -o program 
+   28  ./program 
+   29  vi pointertest.c
+   30  ls
+   31  cd ..
+   32  ls
+   33  history >cmd1204evening.txt 

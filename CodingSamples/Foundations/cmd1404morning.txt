@@ -1,0 +1,33 @@
+    1  cd Foundations/Language/Functions/
+    2  ls
+    3  ls ..
+    4  mv *.c .
+    5  ls
+    6  cd ..
+    7  ls
+    8  mv *.c Functions/
+    9  mv *.* Functions/
+   10  ls
+   11  rm program 
+   12  cd Functions/
+   13  ls
+   14  vi banner2.h
+   15  vi banner2.c
+   16  cd ../..
+   17  ls
+   18  mkdir Methodology
+   19  cd Methodology/
+   20  mkdir Abstraction
+   21  cd Abstraction/
+   22  vi banner1.h
+   23  vi classtest1.cpp
+   24  c++ classtest1.cpp -o program
+   25  vi classtest1.cpp
+   26  c++ classtest1.cpp -o program
+   27  ./program 
+   28  ls
+   29  cd ..
+   30  ls
+   31  cd ..
+   32  ls
+   33  history >cmd1404morning.txt 

@@ -1,0 +1,69 @@
+   35  ls
+   36  cd Language/
+   37  ls
+   38  cd Functions/
+   39  ls
+   40  cd ..
+   41  ls
+   42  cd Methodology/
+   43  ls
+   44  cd Abstraction/
+   45  ls
+   46  cd..
+   47  ls
+   48  cd Lan
+   49  cd ..
+   50  ls
+   51  cd Language/
+   52  ls
+   53  vi Functions/
+   54  ls Functions/
+   55  vi Functions/banner2.h
+   56  vi Functions/banner2.c
+   57  clear
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd Methodology/
+   62  ls
+   63  cd Abstraction/
+   64  ls
+   65  vi banner1.h 
+   66  vi classtest1.cpp 
+   67  c++ classtest1.cpp -o program
+   68  vi classtest1.cpp 
+   69  vi banner1.h 
+   70  c++ classtest1.cpp -o program
+   71  vi classtest1.cpp 
+   72  vi banner1.h 
+   73  c++ classtest1.cpp -o program
+   74  vi banner1.h 
+   75  vi classtest1.cpp 
+   76  c++ classtest1.cpp -o program
+   77  vi banner1.h 
+   78  vi classtest1.cpp 
+   79  vi banner1.h 
+   80  c++ classtest1.cpp -o program
+   81  vi banner1.h 
+   82  c++ classtest1.cpp -o program
+   83  vi banner1.h 
+   84  c++ classtest1.cpp -o program
+   85  vi banner1.h 
+   86  c++ classtest1.cpp -o program
+   87  vi banner1.h 
+   88  cp banner1.h banner2.h
+   89  vi banner2.h 
+   90  man printf
+   91  vi banner2.h 
+   92  cp classtest1.cpp classtest2.cpp 
+   93  vi classtest2.cpp 
+   94  c++ classtest2.cpp -o program 
+   95  ./program 
+   96  vi classtest2.cpp 
+   97  c++ classtest2.cpp -o program 
+   98  ./program 
+   99  vi classtest2.cpp 
+  100  cd ..
+  101  ls
+  102  cd ..
+  103  history >cmd1404evening.txt 

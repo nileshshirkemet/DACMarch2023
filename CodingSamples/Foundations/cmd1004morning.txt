@@ -1,30 +1,18 @@
-    1  cd Foundations/Machine/
-    2  ls
-    3  vi helloany1.c
-    4  cc -S helloany1.c 
-    5  ls
-    6  as helloany1.s
-    7  ld a.out console.o -o hello
-    8  ./hello 
-    9  vi helloany1.c
-   10  cc -S helloany1.c 
-   11  vi helloany1.s
-   12  as helloany1.s
-   13  ld a.out console.o -o hello
-   14  ./hello 
-   15  vi helloany2.py
-   16  python helloany2.py 
-   17  python3 helloany2.py 
-   18  scp helloany*.* unipro@linuxarm.km-husain.xyz:Testing
-   19  scp helloany*.* unipro@linuxarm.km-hussain.xyz:Testing
-   20  ssh unipro@linuxarm.km-hussain.xyz
-   21  ls
-   22  ls *.o
-   23  rm hello.o
-   24  ls *.o
-   25  cc -c helloany1.c
-   26  ls *.o
-   27  ld helloany1.o console.o -o greet
-   28  ./greet 
-   29  cd ..
-   30  history >cmd1004morning.txt 
+    1  clear
+    2  cd Foundations/
+    3  mkdir Language
+    4  cd Language/
+    5  mkdir Basics
+    6  cd Basics/
+    7  vi variabletest.c
+    8  cc variabletest.c -o program
+    9  ls
+   10  ./program 
+   11  vi variabletest.c
+   12  ./program 
+   13  cc variabletest.c -o program
+   14  ./program 
+   15  vi variabletest.c
+   16  cd ..
+   17  ls
+   18  history >cmd1004morning.txt

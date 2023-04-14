@@ -1,0 +1,53 @@
+    1  clear
+    2  vi banner1.h
+    3  vi banner1.c
+    4  cc -c banner1.c
+    5  vi banner1.c
+    6  vi banner1.h
+    7  vi banner1.c
+    8  cc -c banner1.c
+    9  vi banner1.c
+   10  cc -c banner1.c
+   11  vi udttest1.c
+   12  ls
+   13* ls /usr/include/st
+   14  vi udttest1.c
+   15  cc udttest1.c banner1.o -o program
+   16  vi udttest1.c
+   17  cc udttest1.c banner1.o -o program
+   18  ./program 
+   19  vi udttest1.c
+   20  cc udttest1.c banner1.o -o program
+   21  ./program 
+   22  vi udttest1.c
+   23  cp banner1.h banner2.h
+   24  vi banner2.h 
+   25  cp banner1.c banner2.c
+   26  vi banner2.c
+   27  cc -c banner2.c
+   28  vi banner2.c
+   29  cc -c banner2.c
+   30  vi banner2.c
+   31  cc -c banner2.c
+   32  vi banner2.c
+   33  cc -c banner2.c
+   34  cp udttest1.c udttest2.c
+   35  vi udttest2.c 
+   36  cc udttest2.c banner2.o -o program
+   37  ./program
+   38  vi udttest2.c 
+   39  cc udttest2.c banner2.o -o program
+   40  ./program
+   41  vi udttest2.c 
+   42  cd ..
+   43  ls
+   44  cd Language/
+   45  ls
+   46  cp cmd*.* ../
+   47  ls
+   48  ls ..
+   49  mv cmd*.* ../
+   50  ls
+   51  ls ..
+   52  cd ..
+   53  history >cmd1304evening.txt 

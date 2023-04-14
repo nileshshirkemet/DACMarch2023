@@ -1,0 +1,17 @@
+  340  cd Foundations/Language/Functions/
+  341  vi funcptrtest.c
+  342  cc funcptrtest.c -o program 
+  343  ./program 
+  344  vi funcptrtest.c
+  345  cc funcptrtest.c -o program 
+  346  ./program 
+  347  vi funcptrtest.c
+  348  cc funcptrtest.c -o program 
+  349  ./program 
+  350  vi funcptrtest.c
+  351  cc funcptrtest.c -o program 
+  352  ./program 
+  353  vi funcptrtest.c
+  354  vi funccalltest.c 
+  355  cd ..
+  356  history > cmd1304morning.txt
