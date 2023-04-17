@@ -9,7 +9,7 @@ double BannerPrice(Banner info, int count)
 
 int main(void)
 {
-	Banner mybanner(20, 8);
+	Banner mybanner(20, 8); //automatic activation (on stack)
 	float w, h;
 	int n;
 

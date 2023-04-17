@@ -8,13 +8,14 @@ public:
 	//optional parameters of functions are initialized with default arguments
 	//which are implicitly passed when the corresponding arguments are not
 	//passed by the caller
-	Banner(float w = 20,  float h = 8)
+	Banner(float w = 20, float h = 4)
 	{
 		width = w;
 		height = h;
 		border = BorderStyle::None;
 		puts("Banner instance initialized.");
 	}
+	
 
 	void ApplyBorder(bool yes = true)
 	{
