@@ -1,0 +1,565 @@
+    1  vi .bashrc 
+    2  exit
+    3  sudo apt update 
+    4  sudo apt upgrade 
+    5  sudo apt install gcc
+    6  sudo apt install g++
+    7  ls
+    8  wget iitdac.met.edu/shared/java/jdk.tar.gz
+    9  tar xf jdk.tar.gz
+   10  wget iitdac.met.edu/shared/java/gf.tar.gz 
+   11  tar xf gf.tar.gz
+   12  ls
+   13  rm gf.tar.gz jdk.tar.gz 
+   14  ls
+   15  ~/glassfish7/glassfish/bin/asadmin start-domain
+   16  exit
+   17  ls
+   18  exit
+   19  exit
+   20  ls
+   21  exit
+   22  ls
+   23  gcc
+   24  g++
+   25  clear
+   26  exit
+   27  clear
+   28  ls
+   29  mkdir Foundations
+   30  cd Foundations/
+   31  mkdir Machine
+   32  cd Machine/
+   33  wget iitdac.met.edu/shared/asm-x64.tar.gz
+   34  tar xf asm-x64.tar.gz 
+   35  rm asm-x64.tar.gz 
+   36  ls
+   37  vi hellox64.s
+   38  cd ~
+   39  wget iitdac.met.edu/shared/my.vimrc
+   40  mv my.vimrc .vimrc
+   41  vi .vim
+   42  vi .vimrc 
+   43  cd Foundations/Machine/
+   44  vi hellox64.s 
+   45  vi ~/.vimrc 
+   46  vi hellox64.s 
+   47  as hellox64.s -o hello.o
+   48  vi hellox64.s 
+   49  as hellox64.s -o hello.o
+   50  vi hellox64.s 
+   51  as hellox64.s -o hello.o
+   52  ls
+   53  vi hello.o
+   54  ld hello.o console.o -o program
+   55  ll
+   56  ./program 
+   57  vi hellox64.s 
+   58  ./program 
+   59  as hellox64.s -o hello.o
+   60  ld hello.o console.o -o program
+   61  ./program 
+   62  vi hellox64.s 
+   63  vi console.o
+   64  vi console.i
+   65  ld hello.o -o program
+   66  ld hello.o console.o -o program
+   67  vi console.i
+   68  vi hellox64.s 
+   69  as hellox64.s -o hello.o
+   70  vi hellox64.s 
+   71  as hellox64.s -o hello.o
+   72  ld hello.o console.o -o program
+   73  ./program 
+   74  vi hellox64.s 
+   75  as hellox64.s -o hello.o
+   76  ld hello.o console.o -o program
+   77  ./program 
+   78  history > cmd0604morning.txt
+   79  vi cmd0604morning.txt 
+   80  clear
+   81  ls
+   82  cd Foundations/
+   83  ls
+   84  cd Machine/
+   85  ls
+   86  clear
+   87  vi registertest.s
+   88  as registertest.s 
+   89  ll
+   90  ld a.out console.o -o program
+   91  ll
+   92  ./program 
+   93  vi registertest.s
+   94  ld console.o a.out -o program
+   95  ld a.out console.o -o program
+   96  vi registertest.s
+   97  ssh unipro@linuxarm.km-hussain.xyz
+   98  uname -m
+   99  ssh unipro@linuxarm.km-hussain.xyz
+  100  uname -m
+  101  cd ..
+  102  history >cmd0604evening.txt 
+  103  vi cmd0604evening.txt 
+  104  cd ..
+  105  ls 
+  106  cp -r Foundations/ /mnt/d
+  107  exit
+  108  cd Machine/
+  109  cp registertest.s condjumptest1.s 
+  110  vi condjumptest1.s 
+  111  as condjumptest1.s 
+  112  ld a.out console.o -o program
+  113  ./program 
+  114  vi condjumptest1.s 
+  115  ./program 
+  116  vi condjumptest1.s 
+  117  as condjumptest1.s 
+  118  ld a.out console.o -o program
+  119  ./program 
+  120  vi condjumptest1.s 
+  121  vi condjumptest2.s 
+  122  as condjumptest2.s 
+  123  ld a.out console.o -o program
+  124  ./program 
+  125  vi condjumptest2.s 
+  126  ./program 
+  127  vi condjumptest1.s 
+  128  cd ..
+  129  history >cmd0704evening.txt 
+  130  vi cmd0704evening.txt 
+  131  exit
+  132  cp condjumptest1.s callproctest1.s
+  133  vi callproctest1.s 
+  134  as callproctest1.s 
+  135  ld a.out console.o -o program
+  136  ./program 
+  137  vi callproctest1.s 
+  138  as callproctest1.s 
+  139  ld a.out console.o -o program
+  140  ./program 
+  141  vi callproctest1.s 
+  142  vi gcd.s
+  143  vi console.i
+  144  vi gcd.s
+  145  as gcd.s -o gcd.o
+  146  ls
+  147  vi callproctest2.s 
+  148  as callproctest2.s 
+  149  ld a.out console.o -o program
+  150  ld a.out console.o gcd.o -o program
+  151  ./program 
+  152  vi gcd.s
+  153  as gcd.s -o gcd.o
+  154  ld a.out console.o -o program
+  155  ld a.out console.o gcd.o -o program
+  156  vi gcd.s
+  157  as gcd.s -o gcd.o
+  158  ld a.out console.o gcd.o -o program
+  159  ./program 
+  160  vi gcd.s
+  161  cd ..
+  162  history cmd0804morning.txt 
+  163  history >cmd0804morning.txt 
+  164  vi cmd0804morning.txt 
+  165  exit
+  166  cd Foundations/Machine/
+  167  ls
+  168  vi helloany1.c
+  169  cc -S helloany1.c 
+  170  ls
+  171  as helloany1.s
+  172  ld a.out console.o -o hello
+  173  ./hello 
+  174  vi helloany1.c
+  175  cc -S helloany1.c 
+  176  vi helloany1.s
+  177  as helloany1.s
+  178  ld a.out console.o -o hello
+  179  ./hello 
+  180  vi helloany2.py
+  181  python helloany2.py 
+  182  python3 helloany2.py 
+  183  scp helloany*.* unipro@linuxarm.km-husain.xyz:Testing
+  184  scp helloany*.* unipro@linuxarm.km-hussain.xyz:Testing
+  185  ssh unipro@linuxarm.km-hussain.xyz
+  186  ls
+  187  ls *.o
+  188  rm hello.o
+  189  ls *.o
+  190  cc -c helloany1.c
+  191  ls *.o
+  192  ld helloany1.o console.o -o greet
+  193  ./greet 
+  194  cd ..
+  195  history >cmd1004morning.txt 
+  196  vi cmd1004morning.txt 
+  197  ls
+  198  cd Machine
+  199  ls
+  200  vi memaddrtest.s
+  201  vi ~/.bashrc 
+  202  vi ~/.vimrc 
+  203  vi ~/.bashrc 
+  204  vi ~/.vimrc 
+  205  exec bash
+  206  exit
+  207  clear
+  208  cd Foundations/
+  209  mkdir Language
+  210  cd Language/
+  211  mkdir Basics
+  212  cd Basics/
+  213  vi variabletest.c
+  214  cc variabletest.c -o program
+  215  ls
+  216  ./program 
+  217  vi variabletest.c
+  218  ./program 
+  219  cc variabletest.c -o program
+  220  ./program 
+  221  vi variabletest.c
+  222  cd ..
+  223  ls
+  224  history >cmd1004morning.txt
+  225  vi cmd1004morning.txt 
+  226  cd ..
+  227  exit
+  228  clear
+  229  ls
+  230  cd Foundations/
+  231  ls
+  232  cd Language/
+  233  ls
+  234  cd ..
+  235  ls
+  236  cd Language/
+  237  ls
+  238  cd Basics/
+  239  ls
+  240  cd ..
+  241  ls
+  242  cd ..
+  243  ls
+  244  cd Machine/
+  245  ls
+  246  cd ..
+  247  cd Language/
+  248  ls
+  249  cd Basics/
+  250  ls
+  251  clear
+  252  ls
+  253  vi dowhiletest.c
+  254  cc dowhiletest.c -o program 
+  255  ./program 
+  256  vi dowhiletest.c
+  257  vi whiletest.c
+  258  cc whiletest.c -p program 
+  259  cc whiletest.c -o program 
+  260  ./program 
+  261  vi whiletest.c
+  262  vi fortest.c
+  263  cc fortest.c -o program 
+  264  ./program 
+  265  vi fortest.c
+  266  cd ..
+  267  mkdir Functions
+  268  cd Functions/
+  269  vi funccalltest.c
+  270  cc funccalltest.c -o program
+  271  ./program 
+  272  vi funccalltest.c
+  273  cd ..
+  274  ls
+  275  history >cmd1104evening.txt 
+  276  exit
+  277  cd ../Language/Basics/
+  278  vi arraytest.c
+  279  cc arraytest.c -o program
+  280  ./program 
+  281  vi arraytest.c
+  282  cc arraytest.c -o program
+  283  vi arraytest.c
+  284  cc arraytest.c -o program
+  285  vi arraytest.c
+  286  ./program 
+  287  cp variabletest.c ifelsetest.c
+  288  vi ifelsetest.c 
+  289  cc ifelsetest.c -o program
+  290  ./program 
+  291  vi ifelsetest.c 
+  292  cc ifelsetest.c -o program
+  293  ./program 
+  294  vi ifelsetest.c 
+  295  vi switchtest.c
+  296  cc switchtest.c -o program
+  297  ./program 
+  298  vi switchtest.c
+  299  pwd
+  300  ls
+  301  cd ..
+  302  ls
+  303  history >cmd1104morning.txt
+  304  vi cmd1104morning.txt 
+  305  exit
+  306  clear
+  307  cd Functions
+  308  ls *.o
+  309  ld -shared primes.o -o primes.so
+  310  ls primes.*
+  311  vi primes.c 
+  312  cc -c primes.c
+  313  ld -shared primes.o -o primes.so
+  314  vi primes.c 
+  315  cc -c primes.c
+  316  ld -shared primes.o -o primes.so
+  317  vi extfunctest3.py
+  318  python3 extfunctest3.py 
+  319  vi extfunctest3.py
+  320  python3 extfunctest3.py 
+  321  vi extfunctest3.py
+  322  python3 extfunctest3.py 
+  323  vi pointertest.c
+  324  cc pointertest.c -o program 
+  325  ./program 
+  326  vi pointertest.c
+  327  cc pointertest.c -o program 
+  328  ./program 
+  329  vi pointertest.c
+  330  cc pointertest.c -o program 
+  331  vi pointertest.c
+  332  cc pointertest.c -o program 
+  333  ./program 
+  334  vi pointertest.c
+  335  ls
+  336  cd ..
+  337  ls
+  338  history >cmd1204evening.txt 
+  339  vi cmd1204evening.txt 
+  340  clear
+  341  vi banner1.h
+  342  vi banner1.c
+  343  cc -c banner1.c
+  344  vi banner1.c
+  345  vi banner1.h
+  346  vi banner1.c
+  347  cc -c banner1.c
+  348  vi banner1.c
+  349  cc -c banner1.c
+  350  vi udttest1.c
+  351  ls
+  352  ls /usr/include/st
+  353  vi udttest1.c
+  354  cc udttest1.c banner1.o -o program
+  355  vi udttest1.c
+  356  cc udttest1.c banner1.o -o program
+  357  ./program 
+  358  vi udttest1.c
+  359  cc udttest1.c banner1.o -o program
+  360  ./program 
+  361  vi udttest1.c
+  362  cp banner1.h banner2.h
+  363  vi banner2.h 
+  364  cp banner1.c banner2.c
+  365  vi banner2.c
+  366  cc -c banner2.c
+  367  vi banner2.c
+  368  cc -c banner2.c
+  369  vi banner2.c
+  370  cc -c banner2.c
+  371  vi banner2.c
+  372  cc -c banner2.c
+  373  cp udttest1.c udttest2.c
+  374  vi udttest2.c 
+  375  cc udttest2.c banner2.o -o program
+  376  ./program
+  377  vi udttest2.c 
+  378  cc udttest2.c banner2.o -o program
+  379  ./program
+  380  vi udttest2.c 
+  381  cd ..
+  382  ls
+  383  cd Language/
+  384  ls
+  385  cp cmd*.* ../
+  386  ls
+  387  ls ..
+  388  mv cmd*.* ../
+  389  ls
+  390  ls ..
+  391  cd ..
+  392  history >cmd1304evening.txt 
+  393  vi cmd1304evening.txt 
+  394  ls
+  395  cd Language/
+  396  ls
+  397  vi udttest1.c
+  398  vi banner1.c
+  399  vi banner2.c
+  400  vi banner1.h
+  401  vi banner1.c
+  402  vi udttest1.c
+  403  vi banner2.h
+  404  vi banner2.c
+  405  exit
+  406  exit
+  407  cd Foundations/Methodology/Abstraction/
+  408  ls
+  409  ulimit -s
+  410  vi classtest2.cpp 
+  411  cp banner2.h banner3.h
+  412  vi banner3.h 
+  413  cp classtest2.cpp referencetest.cpp
+  414  vi referencetest.cpp 
+  415  c++ referencetest.cpp -o program 
+  416  ./program 
+  417  vi referencetest.cpp 
+  418  c++ referencetest.cpp -o program 
+  419  ./program 
+  420  vi referencetest.cpp 
+  421  c++ referencetest.cpp -o program 
+  422  ./program 
+  423  vi referencetest.cpp 
+  424  c++ referencetest.cpp -o program 
+  425  ./program 
+  426  vi referencetest.cpp 
+  427  c++ referencetest.cpp -o program 
+  428  ./program 
+  429  vi referencetest.cpp 
+  430  vi banner3.h 
+  431  c++ referencetest.cpp -o program 
+  432  ./program 
+  433  vi banner3.h 
+  434  vi referencetest.cpp 
+  435  c++ referencetest.cpp -o program 
+  436  ./program 
+  437  vi referencetest.cpp 
+  438  vi banner3.h 
+  439  vi referencetest.cpp 
+  440  c++ referencetest.cpp -o program 
+  441  vi referencetest.cpp 
+  442  c++ referencetest.cpp -o program 
+  443  ./program 
+  444  vi referencetest.cpp 
+  445  c++ referencetest.cpp -o program 
+  446  vi referencetest.cpp 
+  447  c++ referencetest.cpp -o program 
+  448  ./program 
+  449  vi referencetest.cpp 
+  450  c++ referencetest.cpp -o program 
+  451  ./program 
+  452  vi referencetest.cpp 
+  453  cd ..
+  454  ls
+  455  history >cmd1504morning.txt
+  456  vi cmd1504morning.txt 
+  457  vi cmd1404evening.txt 
+  458  vi cmd1504evening.txt 
+  459  vi cmd1504morning.txt
+  460  clear
+  461  ls
+  462  cd ..
+  463  ls
+  464  mkdir Nilesh
+  465  cd Nilesh/
+  466  cp -r ../Foundations/ .
+  467  ls 
+  468  clear
+  469  ls
+  470  cd Foundations/
+  471  ls
+  472  cd Methodology/
+  473  ls
+  474  cd Abstraction/
+  475  ls
+  476  vi banner1.h
+  477  vi banner1.cpp
+  478  ls
+  479  vi classtest1.cpp
+  480  vi banner1.cpp
+  481  vi banner1.c
+  482  ls
+  483  vi banner1.h
+  484  vi banner1.cpp
+  485  vi classtest1.cpp
+  486  vi banner1.h
+  487  vi banner2.h
+  488  vi classtest2.cpp
+  489  ls
+  490  vi banner3.h
+  491  vi referencetest.cpp 
+  492  cc referencetest.cpp 
+  493  c++ referencetest.cpp 
+  494  ./a.out
+  495  ls
+  496  vi banner.h
+  497  vi banner3.h
+  498  vi referencetest.cpp 
+  499  c++ referencetest.cpp 
+  500  ./a.out
+  501  vi banner3.h
+  502  c++ referencetest.cpp 
+  503  clear
+  504  ./a.out
+  505  vi banner3.h
+  506  c++ referencetest.cpp 
+  507  ./a.out
+  508  exit
+  509  clear
+  510  pwd
+  511  ls
+  512  cd ..
+  513  ls
+  514  cd Foundations/
+  515  ls
+  516  cd Methodology/
+  517  ls
+  518  cd Abstraction/
+  519  ls
+  520  vi newoptest1.cpp
+  521  vi newoptest2.cpp
+  522  vi newoptest1.cpp
+  523  vi newoptest2.cpp
+  524  vi banner3.h
+  525  vi newoptest2.cpp
+  526  c++ newoptest2.cpp
+  527  vi newoptest2.cpp
+  528  vi banner3.h
+  529  vi newoptest2.cpp
+  530  pwd
+  531  cd ..
+  532  ls
+  533  cd Nilesh/
+  534  ls
+  535  cp -r ../Foundations/ .
+  536  cd Foundations/
+  537  ls
+  538  cd Methodology/Abstraction/
+  539  ls
+  540  c++ newoptest2.cpp
+  541  ./a.out
+  542  vi newoptest2.cpp
+  543  c++ newoptest2.cpp
+  544  ./a.out
+  545  exit
+  546  clear
+  547  cd Foundations/Methodology/
+  548  ls
+  549  mkdir Polymorphism
+  550  cd Polymorphism/
+  551  vi banner.h
+  552  vi derivedclasstest.cpp
+  553  c++ derivedclasstest.cpp -o program
+  554  ./program 
+  555  vi derivedclasstest.cpp
+  556  vi banner.h
+  557  c++ derivedclasstest.cpp -o program
+  558  ./program 
+  559  vi banner.h
+  560  vi derivedclasstest.cpp
+  561  vi banner.h 
+  562  vi derivedclasstest.cpp
+  563  pwd
+  564  ls
+  565  history >cmd1804morning.txt

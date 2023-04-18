@@ -1,0 +1,48 @@
+  520  ./program 
+  521  vi newoptest1.cpp
+  522  vi classtest1.cpp 
+  523  vi newoptest1.cpp
+  524  c++ newoptest1.cpp -o program 
+  525  vi newoptest1.cpp
+  526  c++ newoptest1.cpp -o program 
+  527  vi newoptest1.cpp
+  528  c++ newoptest1.cpp -o program 
+  529  ./program 
+  530  vi newoptest1.cpp
+  531  c++ newoptest1.cpp -o program 
+  532  ./program 
+  533  vi newoptest1.cpp
+  534  c++ newoptest1.cpp -o program 
+  535  ./program 
+  536  vi newoptest1.cpp
+  537  c++ newoptest1.cpp -o program 
+  538  ./program 
+  539  vi newoptest1.cpp
+  540  c++ newoptest1.cpp -o program 
+  541  ./program 
+  542  vi newoptest1.cpp
+  543  vi newoptest2.cpp 
+  544  c++ newoptest2.cpp -o program 
+  545  ./program 
+  546  vi newoptest2.cpp 
+  547  c++ newoptest2.cpp -o program 
+  548  vi newoptest2.cpp 
+  549  ./program 
+  550  vi newoptest2.cpp 
+  551  c++ newoptest2.cpp -o program 
+  552  ./program 
+  553  vi newoptest2.cpp 
+  554  vi banner3.h 
+  555  c++ newoptest2.cpp -o program 
+  556  vi banner3.h 
+  557  c++ newoptest2.cpp -o program 
+  558  vi newoptest2.cpp 
+  559  vi banner3.h 
+  560  c++ newoptest2.cpp -o program 
+  561  vi banner3.h 
+  562  c++ newoptest2.cpp -o program 
+  563  vi newoptest2.cpp 
+  564  ls
+  565  cd ..
+  566  ls
+  567  history >cmd1704morning.txt
