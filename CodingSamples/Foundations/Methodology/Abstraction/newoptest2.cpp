@@ -11,7 +11,7 @@ int main(void)
 	//Using new[] operator to explicitly allocate memory for a specified number
 	//of instances of specified class, initializing these instances by calling 
 	//default constructor and acquiring the pointer to the first instance.
-	Banner* ourbanners = new Banner[n];
+	Banner* ourbanners = new Banner[n]; // non paramerised
 	for(int i = 0; i < n; ++i)
 	{
 		ourbanners[i].Resize(3 * i + 20, 2 * i + 5);

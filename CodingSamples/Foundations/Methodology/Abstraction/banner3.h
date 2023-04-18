@@ -7,8 +7,8 @@ class Banner
 public:
 	//optional parameters of functions are initialized with default arguments
 	//which are implicitly passed when the corresponding arguments are not
-	//passed by the caller
-	Banner(float w = 20, float h = 4)
+	//passed by the caller ,  new Banner()
+	Banner(float w = 20, float h = 8)
 	{
 		width = w;
 		height = h;
