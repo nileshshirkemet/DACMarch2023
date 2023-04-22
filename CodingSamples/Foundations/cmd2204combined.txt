@@ -1,0 +1,101 @@
+    1  clear
+    2  ls
+    3  mkdir Concurrency
+    4  cd Concurrency/
+    5  vi greet.c
+    6  cc greet.c -o greet
+    7  ./greet Jack Jill John
+    8  ps
+    9  ./greet Jack Jill John
+   10  vi greet.c
+   11  vi childproctest.c
+   12  cc childproctest.c -o program
+   13  ./program 
+   14  vi childproctest.c
+   15  cc childproctest.c -o program
+   16  ./program 
+   17  vi childproctest.c
+   18  cc childproctest.c -o program
+   19  ./program 
+   20  vi childproctest.c
+   21  cc childproctest.c -o program
+   22  ./program 
+   23  vi childproctest.c
+   24  cc childproctest.c -o program
+   25  ./program 
+   26  vi childproctest.c
+   27  cc childproctest.c -o program
+   28  ./program 
+   29  vi childproctest.c
+   30  cc childproctest.c -o program
+   31  ./program 
+   32  vi childproctest.c
+   33  cc childproctest.c -o program
+   34  ./program 
+   35  vi childproctest.c
+   36  vi worker.h
+   37  vi semaphoretest.c
+   38  cc semaphoretest.c -o program 
+   39  ./program 
+   40  vi semaphoretest.c
+   41  cc semaphoretest.c -o program 
+   42  ./program 
+   43  vi semaphoretest.c
+   44  cc semaphoretest.c -o program 
+   45  ./program 
+   46  vi semaphoretest.c
+   47  cc semaphoretest.c -o program 
+   48  ./program 
+   49  vi semaphoretest.c
+   50  cc semaphoretest.c -o program 
+   51  vi semaphoretest.c
+   52  cc semaphoretest.c -o program 
+   53  vi semaphoretest.c
+   54  cc semaphoretest.c -o program 
+   55  ./program 
+   56  vi semaphoretest.c
+   57  cc semaphoretest.c -o program 
+   58  ./program 
+   59  vi semaphoretest.c
+   60  cc semaphoretest.c -o program 
+   61  ./program 
+   62  vi semaphoretest.c
+   63  cc semaphoretest.c -o program 
+   64  ./program 
+   65  vi semaphoretest.c
+   66  vi threadtest.c
+   67  cc threadtest.c -o program
+   68  ./program 
+   69  vi threadtest.c
+   70  cc threadtest.c -o program
+   71  ./program 
+   72  vi threadtest.c
+   73  cc threadtest.c -o program
+   74  ./program 
+   75  vi threadtest.c
+   76  cc threadtest.c -o program
+   77  ./program 
+   78  vi threadtest.c
+   79  vi mutextest.c
+   80  cc threadtest.c -lpthread -o program
+   81  cc --version
+   82  vi mutextest.c
+   83  cc mutextest.c -o program 
+   84  vi mutextest.c
+   85  cc mutextest.c -o program 
+   86  vi mutextest.c
+   87  cc mutextest.c -o program 
+   88  ./program 
+   89  vi mutextest.c
+   90  cc mutextest.c -o program 
+   91  ./program 
+   92  vi mutextest.c
+   93  cc mutextest.c -o program 
+   94  ./program 
+   95  vi mutextest.c
+   96  cc mutextest.c -o program 
+   97  ./program 
+   98  vi mutextest.c
+   99  cd ..
+  100  ls
+  101  history >cmd2204combined.txt

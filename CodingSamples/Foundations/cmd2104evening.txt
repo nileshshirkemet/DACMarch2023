@@ -1,0 +1,46 @@
+    1  cd Platform/Basics/
+    2  cp streamiotest.c memmapiotest.c
+    3  vi memmapiotest.c 
+    4  cc memmapiotest.c -o program 
+    5  ./program 
+    6  ./program first.txt 
+    7  vi first.txt 
+    8  vi memmapiotest.c 
+    9  man fstat
+   10  vi memmapiotest.c 
+   11  cc memmapiotest.c revbuf.o -o program 
+   12  vi first.txt 
+   13  ./program first.txt 
+   14  vi first.txt 
+   15  ./program first.txt 
+   16  vi first.txt 
+   17  vi memmapiotest.c 
+   18  vi encbuf.c 
+   19  vi revbuf.c 
+   20  vi memmapiotest.c 
+   21  cc memmapiotest.c -o program 
+   22  vi memmapiotest.c 
+   23  cc -shared revbuf.c -o librev.so
+   24  cc -shared encbuf.c -o libenc.so
+   25  vi revbuf.c 
+   26  vi encbuf.c 
+   27  vi revbuf.c 
+   28  vi encbuf.c 
+   29  cc -shared -fPIC encbuf.c -o libenc.so
+   30  cc -shared -fPIC revbuf.c -o librev.so
+   31  cc memmapiotest.c -lrev -o program 
+   32  cp librev.so /usr/lib
+   33  sudo cp librev.so /usr/lib
+   34  cc memmapiotest.c -lrev -o program 
+   35  ./program first.txt 
+   36  vi first.txt 
+   37  sudo rm /usr/lib/librev.so 
+   38  ./program first.txt 
+   39  cc memmapiotest.c -lrev -o program 
+   40  cc memmapiotest.c -L. -lrev -o program 
+   41* ./program first.txt
+   42  export LD_LIBRARY_PATH=.
+   43  ./program first.txt 
+   44  unset LD_LIBRARY_PATH
+   45  ./program first.txt
+   49  history > cmd2104evening.txt 
