@@ -1,0 +1,54 @@
+    1  cd Java/Language/
+    2  ls
+    3  cp -r ClassTypeTest/ EnumTypeTest
+    4  cd EnumTypeTest/
+    5  vi Investment.java 
+    6  javac Investment.java 
+    7  ls
+    8  javac Program.java 
+    9  java Program 50000 8
+   10  java Program 200000 5
+   11  vi Program.java 
+   12  javac Program.java 
+   13  java Program 50000 8
+   14  java Program 200000 5
+   15  vi Investment.java 
+   16  cd ..
+   17  mkdir VarArgTest
+   18  cd VarArgTest/
+   19  vi Statistics.java
+   20  vi Program.java
+   21  javac Program.java 
+   22  java Program 
+   23  vi Program.java
+   24  javac Program.java 
+   25  vi Statistics.java
+   26  javac Statistics.java 
+   27  javac Program.java 
+   28  java Program 
+   29  vi Program.java
+   30  javac Program.java 
+   31  vi Statistics.java
+   32  javac Statistics.java 
+   33  javac Program.java 
+   34  java Program 
+   35  vi Statistics.java
+   36  vi Program.java
+   37  vi Statistics.java
+   38  vi Program.java
+   39  vi Statistics.java
+   40  javac Statistics.java 
+   41  vi Program.java 
+   42  javac Program.java 
+   43  vi Program.java 
+   44  javac Program.java 
+   45  java Program 
+   46  java Program 28.9 19.7 
+   47  vi Statistics.java 
+   48  vi Program.java 
+   49  javac Statistics.java 
+   50  javac Program.java 
+   51  java Program 28.9 19.7 
+   52  vi Statistics.java 
+   53  vi Program.java 
+   63  history > cmd2504morning.txt

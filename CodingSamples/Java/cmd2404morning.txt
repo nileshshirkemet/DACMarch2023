@@ -1,0 +1,78 @@
+  952  mkdir Java
+  953  cd Java
+  954  mkdir Language
+  955  cd Language/
+  956  java -version
+  957  vi Hello.java
+  958  ll
+  959  javac Hello.java 
+  960  ls
+  961  java Greeter
+  962  vi Greeter.class
+  963  uname -m
+  964  scp Greeter.class unipro@linuxarm.km-hussain.xyz:Testing
+  965  ssh unipro@linuxarm.km-hussain.xyz
+  966  uname -m
+  967  vi Hello.java 
+  968  javac Hello.java 
+  969  java Greeter 
+  970  vi Hello.java 
+  971  javac Hello.java 
+  972  java Greeter 
+  973  vi Hello.java 
+  974  javac Hello.java 
+  975  java Greeter 
+  976  mkdir PrimitiveTypeTest
+  977  cd PrimitiveTypeTest/
+  978  vi Investment.java
+  979  javac Investment.java 
+  980  ls
+  981  vi Program.java
+  982  javac Program.java 
+  983  vi Program.java
+  984  javac Program.java 
+  985  vi Program.java
+  986  javac Program.java 
+  987  vi Program.java
+  988  javac Program.java 
+  989  java Program 200000 5
+  990  java Program 50000 20
+  991  java Program 50000 2O
+  992  vi Investment.java
+  993  cd ..
+  994  cp -r PrimitiveTypeTest/ ClassTypeTest
+  995  cd ClassTypeTest/
+  996  vi Investment.java 
+  997  javac Investment.java 
+  998  vi Program.java 
+  999  javac Program.java 
+ 1000  vi Program.java 
+ 1001  javac Program.java 
+ 1002  java Program 200000 5
+ 1003  vi Program.java 
+ 1004  javac Program.java 
+ 1005  vi Program.java 
+ 1006  javac Program.java 
+ 1007  vi Program.java 
+ 1008  javac Program.java 
+ 1009  vi Program.java 
+ 1010  javac Program.java 
+ 1011  java Program 50000 8
+ 1012  java Program 200000 5
+ 1013  vi Program.java 
+ 1014  ls
+ 1015  cp Investment.class /mnt/d/copy
+ 1016  cp Investment.java /mnt/d/copy
+ 1017  cp Program.java /mnt/d/copy
+ 1018  cp Program.class /mnt/d/copy
+ 1026  cd Language/
+ 1035  vi Hello.java
+ 1036  vi PrimitiveTypeTest.java
+ 1037  cd PrimitiveTypeTest/
+ 1040  cd ClassTypeTest/
+ 1044  vi Investment.java 
+ 1047  cd PrimitiveTypeTest/
+ 1049  vi Investment.java 
+ 1050  vi Program.java 
+ 1051  vi Investment.java 
+ 1054  cd Java/Language/
