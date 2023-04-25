@@ -1,0 +1,53 @@
+    1  clear
+    2  ls
+    3  cd Java/Language/
+    4  ls
+    5  mkdir SubclassTest
+    6  cd SubclassTest/
+    7  mkdir src
+    8  vi src/Employee.java
+    9  javac -d . src/Employee.java
+   10  ls
+   11  ls payroll/
+   12  vi src/Employee.java
+   13  javac -d . src/Employee.java
+   14  vi src/Employee.java
+   15  javac Employee.java
+   16  javac -d . src/Employee.java
+   17  vi src/SalesPerson.java
+   18  javac Employee.java
+   19  vi src/Employee.java
+   20  vi src/SalesPerson.java
+   21  javac -d . src/SalesPerson.java 
+   22  ls payroll/
+   23  ls src/
+   24  vi Program.java
+   25  javac Program.java 
+   26  vi Program.java
+   27  javac Program.java 
+   28  vi Program.java
+   29  javac Program.java 
+   30  java Program 
+   31  vi Program.java
+   32  javac Program.java 
+   33  vi Program.java
+   34  javac Program.java 
+   35  java Program 
+   36  vi Program.java
+   37  javac Program.java 
+   38  vi Program.java
+   39  javac Program.java 
+   40  vi Program.java
+   41  javac Program.java 
+   42  vi Program.java
+   43  javac Program.java 
+   44  java Program 
+   45  vi Program.java
+   46  javac Program.java 
+   47  java Program 
+   48  vi Program.java
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls
+   53  history >cmd2504evening.txt 
