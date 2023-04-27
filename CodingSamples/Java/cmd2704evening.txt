@@ -1,0 +1,45 @@
+    1  ls
+    2  cd Language
+    3  ls
+    4  pwd
+    5  clear
+    6  cp -r AbstractClassTest/ InterfaceTest1
+    7  cd InterfaceTest1/
+    8  vi src/Profitable.java
+    9  javac -d . src/Profitable.java
+   10  javap banking.Profitable
+   11  vi src/SavingsAccount.java 
+   12  javac -d . src/*.java
+   13  vi src/SavingsAccount.java 
+   14  javac -d . src/*.java
+   15  vi Program.java 
+   16  javac Program.java 
+   17  java Program
+   18  vi Program.java 
+   19  javac Program.java 
+   20  vi Program.java 
+   21  javac Program.java 
+   22  java Program
+   23  vi Program.java 
+   24  cd ..
+   25  mkdir InterfaceTest2/
+   26  cd InterfaceTest2
+   27  mkdir src
+   28  vi src/TaxPayer.java
+   29  javac -d . src/*.java
+   30  vi src/Worker.java
+   31  vi src/Supervisor.java
+   32  javac -d . src/*.java
+   33  vi Program1.java
+   34  ls
+   35  javac Program1.java 
+   36  ls
+   37  vi Program1.java
+   38  javac Program1.java 
+   39  java Program jill 1800
+   40  java Program jack 25
+   41  java Program jim 2000
+   42  vi Program1.java
+   43  cd ..
+   44  ls
+   45  history >cmd2704evening.txt 
