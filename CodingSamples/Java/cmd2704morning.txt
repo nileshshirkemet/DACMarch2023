@@ -1,0 +1,1000 @@
+  203  vi ~/.bashrc 
+  204  vi ~/.vimrc 
+  205  exec bash
+  206  exit
+  207  clear
+  208  cd Foundations/
+  209  mkdir Language
+  210  cd Language/
+  211  mkdir Basics
+  212  cd Basics/
+  213  vi variabletest.c
+  214  cc variabletest.c -o program
+  215  ls
+  216  ./program 
+  217  vi variabletest.c
+  218  ./program 
+  219  cc variabletest.c -o program
+  220  ./program 
+  221  vi variabletest.c
+  222  cd ..
+  223  ls
+  224  history >cmd1004morning.txt
+  225  vi cmd1004morning.txt 
+  226  cd ..
+  227  exit
+  228  clear
+  229  ls
+  230  cd Foundations/
+  231  ls
+  232  cd Language/
+  233  ls
+  234  cd ..
+  235  ls
+  236  cd Language/
+  237  ls
+  238  cd Basics/
+  239  ls
+  240  cd ..
+  241  ls
+  242  cd ..
+  243  ls
+  244  cd Machine/
+  245  ls
+  246  cd ..
+  247  cd Language/
+  248  ls
+  249  cd Basics/
+  250  ls
+  251  clear
+  252  ls
+  253  vi dowhiletest.c
+  254  cc dowhiletest.c -o program 
+  255  ./program 
+  256  vi dowhiletest.c
+  257  vi whiletest.c
+  258  cc whiletest.c -p program 
+  259  cc whiletest.c -o program 
+  260  ./program 
+  261  vi whiletest.c
+  262  vi fortest.c
+  263  cc fortest.c -o program 
+  264  ./program 
+  265  vi fortest.c
+  266  cd ..
+  267  mkdir Functions
+  268  cd Functions/
+  269  vi funccalltest.c
+  270  cc funccalltest.c -o program
+  271  ./program 
+  272  vi funccalltest.c
+  273  cd ..
+  274  ls
+  275  history >cmd1104evening.txt 
+  276  exit
+  277  cd ../Language/Basics/
+  278  vi arraytest.c
+  279  cc arraytest.c -o program
+  280  ./program 
+  281  vi arraytest.c
+  282  cc arraytest.c -o program
+  283  vi arraytest.c
+  284  cc arraytest.c -o program
+  285  vi arraytest.c
+  286  ./program 
+  287  cp variabletest.c ifelsetest.c
+  288  vi ifelsetest.c 
+  289  cc ifelsetest.c -o program
+  290  ./program 
+  291  vi ifelsetest.c 
+  292  cc ifelsetest.c -o program
+  293  ./program 
+  294  vi ifelsetest.c 
+  295  vi switchtest.c
+  296  cc switchtest.c -o program
+  297  ./program 
+  298  vi switchtest.c
+  299  pwd
+  300  ls
+  301  cd ..
+  302  ls
+  303  history >cmd1104morning.txt
+  304  vi cmd1104morning.txt 
+  305  exit
+  306  clear
+  307  cd Functions
+  308  ls *.o
+  309  ld -shared primes.o -o primes.so
+  310  ls primes.*
+  311  vi primes.c 
+  312  cc -c primes.c
+  313  ld -shared primes.o -o primes.so
+  314  vi primes.c 
+  315  cc -c primes.c
+  316  ld -shared primes.o -o primes.so
+  317  vi extfunctest3.py
+  318  python3 extfunctest3.py 
+  319  vi extfunctest3.py
+  320  python3 extfunctest3.py 
+  321  vi extfunctest3.py
+  322  python3 extfunctest3.py 
+  323  vi pointertest.c
+  324  cc pointertest.c -o program 
+  325  ./program 
+  326  vi pointertest.c
+  327  cc pointertest.c -o program 
+  328  ./program 
+  329  vi pointertest.c
+  330  cc pointertest.c -o program 
+  331  vi pointertest.c
+  332  cc pointertest.c -o program 
+  333  ./program 
+  334  vi pointertest.c
+  335  ls
+  336  cd ..
+  337  ls
+  338  history >cmd1204evening.txt 
+  339  vi cmd1204evening.txt 
+  340  clear
+  341  vi banner1.h
+  342  vi banner1.c
+  343  cc -c banner1.c
+  344  vi banner1.c
+  345  vi banner1.h
+  346  vi banner1.c
+  347  cc -c banner1.c
+  348  vi banner1.c
+  349  cc -c banner1.c
+  350  vi udttest1.c
+  351  ls
+  352  ls /usr/include/st
+  353  vi udttest1.c
+  354  cc udttest1.c banner1.o -o program
+  355  vi udttest1.c
+  356  cc udttest1.c banner1.o -o program
+  357  ./program 
+  358  vi udttest1.c
+  359  cc udttest1.c banner1.o -o program
+  360  ./program 
+  361  vi udttest1.c
+  362  cp banner1.h banner2.h
+  363  vi banner2.h 
+  364  cp banner1.c banner2.c
+  365  vi banner2.c
+  366  cc -c banner2.c
+  367  vi banner2.c
+  368  cc -c banner2.c
+  369  vi banner2.c
+  370  cc -c banner2.c
+  371  vi banner2.c
+  372  cc -c banner2.c
+  373  cp udttest1.c udttest2.c
+  374  vi udttest2.c 
+  375  cc udttest2.c banner2.o -o program
+  376  ./program
+  377  vi udttest2.c 
+  378  cc udttest2.c banner2.o -o program
+  379  ./program
+  380  vi udttest2.c 
+  381  cd ..
+  382  ls
+  383  cd Language/
+  384  ls
+  385  cp cmd*.* ../
+  386  ls
+  387  ls ..
+  388  mv cmd*.* ../
+  389  ls
+  390  ls ..
+  391  cd ..
+  392  history >cmd1304evening.txt 
+  393  vi cmd1304evening.txt 
+  394  ls
+  395  cd Language/
+  396  ls
+  397  vi udttest1.c
+  398  vi banner1.c
+  399  vi banner2.c
+  400  vi banner1.h
+  401  vi banner1.c
+  402  vi udttest1.c
+  403  vi banner2.h
+  404  vi banner2.c
+  405  exit
+  406  exit
+  407  cd Foundations/Methodology/Abstraction/
+  408  ls
+  409  ulimit -s
+  410  vi classtest2.cpp 
+  411  cp banner2.h banner3.h
+  412  vi banner3.h 
+  413  cp classtest2.cpp referencetest.cpp
+  414  vi referencetest.cpp 
+  415  c++ referencetest.cpp -o program 
+  416  ./program 
+  417  vi referencetest.cpp 
+  418  c++ referencetest.cpp -o program 
+  419  ./program 
+  420  vi referencetest.cpp 
+  421  c++ referencetest.cpp -o program 
+  422  ./program 
+  423  vi referencetest.cpp 
+  424  c++ referencetest.cpp -o program 
+  425  ./program 
+  426  vi referencetest.cpp 
+  427  c++ referencetest.cpp -o program 
+  428  ./program 
+  429  vi referencetest.cpp 
+  430  vi banner3.h 
+  431  c++ referencetest.cpp -o program 
+  432  ./program 
+  433  vi banner3.h 
+  434  vi referencetest.cpp 
+  435  c++ referencetest.cpp -o program 
+  436  ./program 
+  437  vi referencetest.cpp 
+  438  vi banner3.h 
+  439  vi referencetest.cpp 
+  440  c++ referencetest.cpp -o program 
+  441  vi referencetest.cpp 
+  442  c++ referencetest.cpp -o program 
+  443  ./program 
+  444  vi referencetest.cpp 
+  445  c++ referencetest.cpp -o program 
+  446  vi referencetest.cpp 
+  447  c++ referencetest.cpp -o program 
+  448  ./program 
+  449  vi referencetest.cpp 
+  450  c++ referencetest.cpp -o program 
+  451  ./program 
+  452  vi referencetest.cpp 
+  453  cd ..
+  454  ls
+  455  history >cmd1504morning.txt
+  456  vi cmd1504morning.txt 
+  457  vi cmd1404evening.txt 
+  458  vi cmd1504evening.txt 
+  459  vi cmd1504morning.txt
+  460  clear
+  461  ls
+  462  cd ..
+  463  ls
+  464  mkdir Nilesh
+  465  cd Nilesh/
+  466  cp -r ../Foundations/ .
+  467  ls 
+  468  clear
+  469  ls
+  470  cd Foundations/
+  471  ls
+  472  cd Methodology/
+  473  ls
+  474  cd Abstraction/
+  475  ls
+  476  vi banner1.h
+  477  vi banner1.cpp
+  478  ls
+  479  vi classtest1.cpp
+  480  vi banner1.cpp
+  481  vi banner1.c
+  482  ls
+  483  vi banner1.h
+  484  vi banner1.cpp
+  485  vi classtest1.cpp
+  486  vi banner1.h
+  487  vi banner2.h
+  488  vi classtest2.cpp
+  489  ls
+  490  vi banner3.h
+  491  vi referencetest.cpp 
+  492  cc referencetest.cpp 
+  493  c++ referencetest.cpp 
+  494  ./a.out
+  495  ls
+  496  vi banner.h
+  497  vi banner3.h
+  498  vi referencetest.cpp 
+  499  c++ referencetest.cpp 
+  500  ./a.out
+  501  vi banner3.h
+  502  c++ referencetest.cpp 
+  503  clear
+  504  ./a.out
+  505  vi banner3.h
+  506  c++ referencetest.cpp 
+  507  ./a.out
+  508  exit
+  509  clear
+  510  pwd
+  511  ls
+  512  cd ..
+  513  ls
+  514  cd Foundations/
+  515  ls
+  516  cd Methodology/
+  517  ls
+  518  cd Abstraction/
+  519  ls
+  520  vi newoptest1.cpp
+  521  vi newoptest2.cpp
+  522  vi newoptest1.cpp
+  523  vi newoptest2.cpp
+  524  vi banner3.h
+  525  vi newoptest2.cpp
+  526  c++ newoptest2.cpp
+  527  vi newoptest2.cpp
+  528  vi banner3.h
+  529  vi newoptest2.cpp
+  530  pwd
+  531  cd ..
+  532  ls
+  533  cd Nilesh/
+  534  ls
+  535  cp -r ../Foundations/ .
+  536  cd Foundations/
+  537  ls
+  538  cd Methodology/Abstraction/
+  539  ls
+  540  c++ newoptest2.cpp
+  541  ./a.out
+  542  vi newoptest2.cpp
+  543  c++ newoptest2.cpp
+  544  ./a.out
+  545  exit
+  546  clear
+  547  cd Foundations/Methodology/
+  548  ls
+  549  mkdir Polymorphism
+  550  cd Polymorphism/
+  551  vi banner.h
+  552  vi derivedclasstest.cpp
+  553  c++ derivedclasstest.cpp -o program
+  554  ./program 
+  555  vi derivedclasstest.cpp
+  556  vi banner.h
+  557  c++ derivedclasstest.cpp -o program
+  558  ./program 
+  559  vi banner.h
+  560  vi derivedclasstest.cpp
+  561  vi banner.h 
+  562  vi derivedclasstest.cpp
+  563  pwd
+  564  ls
+  565  history >cmd1804morning.txt
+  566  vi cmd1804morning.txt 
+  567  mv cmd1804morning.txt ../
+  568  ls
+  569  cd ..
+  570  ls
+  571  cp -r Polymorphism/ ../../Nilesh/Foundations/Methodology/
+  572  cd ../..
+  573  ls
+  574  cd Nilesh
+  575  ls
+  576  cd Foundations/Methodology/Polymorphism/
+  577  ls
+  578  clear
+  579  vi series.h
+  580  vi series.cpp
+  581  c++ -c series.cpp 
+  582  vi series.h
+  583  c++ -c series.cpp 
+  584  vi adttest.cpp
+  585  c++ adttest.cpp series.o -o program 
+  586  ./program 
+  587  vi adttest.cpp
+  588  c++ adttest.cpp series.o -o program 
+  589  vi adttest.cpp
+  590  c++ adttest.cpp series.o -o program 
+  591  vi adttest.cpp
+  592  cd  ..
+  593  cd ..
+  594  ls
+  595  pwd
+  596  cd Methodology/
+  597  ls
+  598  ls Polymorphism/
+  599  pwd
+  600  cp -r Polymorphism/ ../../Foundations/Methodology/
+  601  cd ..
+  602  ls
+  603  cd Foundations/
+  604  ls
+  605  history cmd1804evening.txt 
+  606  history > cmd1804evening.txt 
+  607  vi cmd1804evening.txt 
+  608  ls
+  609  clear
+  610  cd ..
+  611  ls
+  612  cd Nilesh/
+  613  ls
+  614  cd Foundations/
+  615  cd Methodology/
+  616  ls
+  617  cd Polymorphism/
+  618  ls
+  619  vi banner.h 
+  620  vi derivedclasstest.cpp 
+  621  exit
+  622  clear
+  623  vi functmplttest.cpp
+  624  cd Polymorphism/
+  625  mv ../functmplttest.cpp .
+  626  c++ functmplttest.cpp -o program 
+  627  ./program 
+  628  mv ../functmplttest.cpp .
+  629  vi functmplttest.cpp
+  630  c++ functmplttest.cpp -o program 
+  631  ./program 
+  632  vi functmplttest.cpp
+  633  c++ functmplttest.cpp -o program 
+  634  ./program 
+  635  vi functmplttest.cpp
+  636  c++ functmplttest.cpp -o program 
+  637  vi functmplttest.cpp
+  638  c++ functmplttest.cpp -o program 
+  639  ./program 
+  640  vi functmplttest.cpp
+  641  c++ functmplttest.cpp -o program 
+  642  ./program 
+  643  vi functmplttest.cpp
+  644  c++ functmplttest.cpp -o program 
+  645  vi functmplttest.cpp
+  646  vi classtmplttest.cpp
+  647  c++ classtmplttest.cpp -o program
+  648  vi classtmplttest.cpp
+  649  c++ classtmplttest.cpp -o program
+  650  ./program 
+  651  vi classtmplttest.cpp
+  652  vi functmplttest.cpp
+  653  c++ functmplttest.cpp -o program 
+  654  ./program 
+  655  vi functmplttest.cpp
+  656  vi classtmplttest.cpp
+  657  c++ classtmplttest.cpp -o program
+  658  vi functmplttest.cpp
+  659  vi classtmplttest.cpp
+  660  ls
+  661  cp functmplttest.cpp /mnt/d/copy
+  662  cp classtmplttest.cpp /mnt/d/copy
+  663  exit
+  664  clear
+  665  cd Foundations/
+  666  mkdir Platform
+  667  cd Platform/
+  668  mkdir Basics
+  669  cd Basics/
+  670  vi syscalltest.c
+  671  cc syscalltest.c -o program
+  672  ./program Jack Jill John
+  673  ./program Jack Jill John Jane
+  674  ./program Jack and Jill John Jane
+  675  ./program "Jack and Jill" John Jane
+  676  vi syscalltest.c
+  677  cc syscalltest.c -o program
+  678  ./program Jack Jill John Jane
+  679  vi syscalltest.c
+  680  cd ..
+  681  ls
+  682  history >cmd2004morning.txt
+  683  vi cmd2004morning.txt 
+  684  mv cmd2004morning.txt cmd1904evening.txt 
+  685  cp cmd1904evening.txt cmd2004morning.txt
+  686  vi cmd2004morning.txt 
+  687  ls
+  688  clear
+  689  cd ..
+  690  ls
+  691  cp -r Foundations/ Nilesh/Foundations/
+  692  cd Nilesh
+  693  cd Foundations/
+  694  ls
+  695  cd Methodology/
+  696  ls
+  697  cd Polymorphism
+  698  ls
+  699  mkdir hrms
+  700  cd hrms
+  701  vi hrms.h
+  702  vi hrms.cpp
+  703  c++ hrms.cpp -o hrms
+  704  wq
+  705  clear
+  706  vi hrms.cpp
+  707  vi hrms.h
+  708  c++ hrms.cpp -o hrms
+  709  ./hrms
+  710  exit
+  711  ls
+  712  cd Foundations/
+  713  ls
+  714  cd Platform/
+  715  ls
+  716  cd Basics/
+  717  ls
+  718  clear
+  719  pwd
+  720  ls
+  721  clear
+  722  ls
+  723  vi syscalltest.c 
+  724  cc syscalltest.c -o program 
+  725  ./program Jack Jill John Jane
+  726  vi syscalltest.c 
+  727  cc syscalltest.c -o program 
+  728  ./program Jack Jill John Jane
+  729  vi syscalltest.c 
+  730  vi signaltest.c
+  731  cc signaltest.c -o program 
+  732  ./program 
+  733  vi signaltest.c
+  734  cc signaltest.c -o program 
+  735  ./program 
+  736  vi signaltest.c
+  737  cc signaltest.c -o program 
+  738  ./program 
+  739  echo $?
+  740  vi signaltest.c
+  741  cc signaltest.c -o program 
+  742  ./program 
+  743  vi signaltest.c
+  744  cc signaltest.c -o program 
+  745  vi signaltest.c
+  746  cc signaltest.c -o program 
+  747  ./program 
+  748  echo $?
+  749  vi signaltest.c
+  750  cc signaltest.c -o program 
+  751  ./program 
+  752  echo $?
+  753  vi signaltest.c
+  754  cc signaltest.c -o program 
+  755  ./program 
+  756  vi signaltest.c
+  757  kill -l
+  758  ./program 
+  759  vi signaltest.c
+  760  cc signaltest.c -o program 
+  761  ./program 
+  762  vi signaltest.c
+  763  cc signaltest.c -o program 
+  764  ./program 
+  765  echo $?
+  766  vi signaltest.c
+  767  cc signaltest.c -o program 
+  768  ./program 
+  769  vi signaltest.c
+  770  echo $?
+  771  ./program 
+  772  kill -l
+  773  vi signaltest.c
+  774  cc signaltest.c -o program 
+  775  ./program 
+  776  vi signaltest.c
+  777  cc signaltest.c -o program 
+  778  ./program 
+  779  vi signaltest.c
+  780  cc signaltest.c -o program 
+  781  ./program 
+  782  vi signaltest.c
+  783  cc signaltest.c -o program 
+  784  ./program 
+  785  kill -l
+  786  vi signaltest.c
+  787  cc signaltest.c -o program 
+  788  ./program 
+  789  vi signaltest.c
+  790  kill -l
+  791  vi signaltest.c
+  792  cd ..
+  793  history >cmd2004evening.txt
+  794  cd Platform/Basics/
+  795  cp streamiotest.c memmapiotest.c
+  796  vi memmapiotest.c 
+  797  cc memmapiotest.c -o program 
+  798  ./program 
+  799  ./program first.txt 
+  800  vi first.txt 
+  801  vi memmapiotest.c 
+  802  man fstat
+  803  vi memmapiotest.c 
+  804  cc memmapiotest.c revbuf.o -o program 
+  805  vi first.txt 
+  806  ./program first.txt 
+  807  vi first.txt 
+  808  ./program first.txt 
+  809  vi first.txt 
+  810  vi memmapiotest.c 
+  811  vi encbuf.c 
+  812  vi revbuf.c 
+  813  vi memmapiotest.c 
+  814  cc memmapiotest.c -o program 
+  815  vi memmapiotest.c 
+  816  cc -shared revbuf.c -o librev.so
+  817  cc -shared encbuf.c -o libenc.so
+  818  vi revbuf.c 
+  819  vi encbuf.c 
+  820  vi revbuf.c 
+  821  vi encbuf.c 
+  822  cc -shared -fPIC encbuf.c -o libenc.so
+  823  cc -shared -fPIC revbuf.c -o librev.so
+  824  cc memmapiotest.c -lrev -o program 
+  825  cp librev.so /usr/lib
+  826  sudo cp librev.so /usr/lib
+  827  cc memmapiotest.c -lrev -o program 
+  828  ./program first.txt 
+  829  vi first.txt 
+  830  sudo rm /usr/lib/librev.so 
+  831  ./program first.txt 
+  832  cc memmapiotest.c -lrev -o program 
+  833  cc memmapiotest.c -L. -lrev -o program 
+  834  ./program first.txt
+  835  export LD_LIBRARY_PATH=.
+  836  ./program first.txt 
+  837  unset LD_LIBRARY_PATH
+  838  ./program first.txt
+  839  pwd
+  840  cd ..
+  841  ls
+  842  history > cmd2104evening.txt 
+  843  vi cmd2104evening.txt 
+  844  exit
+  845  cd Foundations/Platform/Concurrency/
+  846  ps
+  847  ./greet Jack Jill
+  848  clear
+  849  ls
+  850  mkdir Concurrency
+  851  cd Concurrency/
+  852  vi greet.c
+  853  cc greet.c -o greet
+  854  ./greet Jack Jill John
+  855  ps
+  856  ./greet Jack Jill John
+  857  vi greet.c
+  858  vi childproctest.c
+  859  cc childproctest.c -o program
+  860  ./program 
+  861  vi childproctest.c
+  862  cc childproctest.c -o program
+  863  ./program 
+  864  vi childproctest.c
+  865  cc childproctest.c -o program
+  866  ./program 
+  867  vi childproctest.c
+  868  cc childproctest.c -o program
+  869  ./program 
+  870  vi childproctest.c
+  871  cc childproctest.c -o program
+  872  ./program 
+  873  vi childproctest.c
+  874  cc childproctest.c -o program
+  875  ./program 
+  876  vi childproctest.c
+  877  cc childproctest.c -o program
+  878  ./program 
+  879  vi childproctest.c
+  880  cc childproctest.c -o program
+  881  ./program 
+  882  vi childproctest.c
+  883  vi worker.h
+  884  vi semaphoretest.c
+  885  cc semaphoretest.c -o program 
+  886  ./program 
+  887  vi semaphoretest.c
+  888  cc semaphoretest.c -o program 
+  889  ./program 
+  890  vi semaphoretest.c
+  891  cc semaphoretest.c -o program 
+  892  ./program 
+  893  vi semaphoretest.c
+  894  cc semaphoretest.c -o program 
+  895  ./program 
+  896  vi semaphoretest.c
+  897  cc semaphoretest.c -o program 
+  898  vi semaphoretest.c
+  899  cc semaphoretest.c -o program 
+  900  vi semaphoretest.c
+  901  cc semaphoretest.c -o program 
+  902  ./program 
+  903  vi semaphoretest.c
+  904  cc semaphoretest.c -o program 
+  905  ./program 
+  906  vi semaphoretest.c
+  907  cc semaphoretest.c -o program 
+  908  ./program 
+  909  vi semaphoretest.c
+  910  cc semaphoretest.c -o program 
+  911  ./program 
+  912  vi semaphoretest.c
+  913  vi threadtest.c
+  914  cc threadtest.c -o program
+  915  ./program 
+  916  vi threadtest.c
+  917  cc threadtest.c -o program
+  918  ./program 
+  919  vi threadtest.c
+  920  cc threadtest.c -o program
+  921  ./program 
+  922  vi threadtest.c
+  923  cc threadtest.c -o program
+  924  ./program 
+  925  vi threadtest.c
+  926  vi mutextest.c
+  927  cc threadtest.c -lpthread -o program
+  928  cc --version
+  929  vi mutextest.c
+  930  cc mutextest.c -o program 
+  931  vi mutextest.c
+  932  cc mutextest.c -o program 
+  933  vi mutextest.c
+  934  cc mutextest.c -o program 
+  935  ./program 
+  936  vi mutextest.c
+  937  cc mutextest.c -o program 
+  938  ./program 
+  939  vi mutextest.c
+  940  cc mutextest.c -o program 
+  941  ./program 
+  942  vi mutextest.c
+  943  cc mutextest.c -o program 
+  944  ./program 
+  945  vi mutextest.c
+  946  cd ..
+  947  ls
+  948  history >cmd2204combined.txt
+  949  exit
+  950  java --version
+  951  clear
+  952  mkdir Java
+  953  cd Java
+  954  mkdir Language
+  955  cd Language/
+  956  java -version
+  957  vi Hello.java
+  958  ll
+  959  javac Hello.java 
+  960  ls
+  961  java Greeter
+  962  vi Greeter.class
+  963  uname -m
+  964  scp Greeter.class unipro@linuxarm.km-hussain.xyz:Testing
+  965  ssh unipro@linuxarm.km-hussain.xyz
+  966  uname -m
+  967  vi Hello.java 
+  968  javac Hello.java 
+  969  java Greeter 
+  970  vi Hello.java 
+  971  javac Hello.java 
+  972  java Greeter 
+  973  vi Hello.java 
+  974  javac Hello.java 
+  975  java Greeter 
+  976  mkdir PrimitiveTypeTest
+  977  cd PrimitiveTypeTest/
+  978  vi Investment.java
+  979  javac Investment.java 
+  980  ls
+  981  vi Program.java
+  982  javac Program.java 
+  983  vi Program.java
+  984  javac Program.java 
+  985  vi Program.java
+  986  javac Program.java 
+  987  vi Program.java
+  988  javac Program.java 
+  989  java Program 200000 5
+  990  java Program 50000 20
+  991  java Program 50000 2O
+  992  vi Investment.java
+  993  cd ..
+  994  cp -r PrimitiveTypeTest/ ClassTypeTest
+  995  cd ClassTypeTest/
+  996  vi Investment.java 
+  997  javac Investment.java 
+  998  vi Program.java 
+  999  javac Program.java 
+ 1000  vi Program.java 
+ 1001  javac Program.java 
+ 1002  java Program 200000 5
+ 1003  vi Program.java 
+ 1004  javac Program.java 
+ 1005  vi Program.java 
+ 1006  javac Program.java 
+ 1007  vi Program.java 
+ 1008  javac Program.java 
+ 1009  vi Program.java 
+ 1010  javac Program.java 
+ 1011  java Program 50000 8
+ 1012  java Program 200000 5
+ 1013  vi Program.java 
+ 1014  ls
+ 1015  cp Investment.class /mnt/d/copy
+ 1016  cp Investment.java /mnt/d/copy
+ 1017  cp Program.java /mnt/d/copy
+ 1018  cp Program.class /mnt/d/copy
+ 1019  clear
+ 1020  ls
+ 1021  exit
+ 1022  ls
+ 1023  cd java
+ 1024  cd Foundations/
+ 1025  ls
+ 1026  cd Language/
+ 1027  ls
+ 1028  cd..
+ 1029  cd ..
+ 1030  ls
+ 1031  cd Java/
+ 1032  ls
+ 1033  cd Language/
+ 1034  ls
+ 1035  vi Hello.java
+ 1036  vi PrimitiveTypeTest.java
+ 1037  cd PrimitiveTypeTest/
+ 1038  ls
+ 1039  cd ..
+ 1040  cd ClassTypeTest/
+ 1041  ls
+ 1042  clear
+ 1043  ls
+ 1044  vi Investment.java 
+ 1045  cd ..
+ 1046  ls
+ 1047  cd PrimitiveTypeTest/
+ 1048  ls
+ 1049  vi Investment.java 
+ 1050  vi Program.java 
+ 1051  vi Investment.java 
+ 1052  clear
+ 1053  cd ..
+ 1054  cd Java/Language/
+ 1055  ls
+ 1056  cp -r ClassTypeTest/ EnumTypeTest
+ 1057  cd EnumTypeTest/
+ 1058  vi Investment.java 
+ 1059  javac Investment.java 
+ 1060  ls
+ 1061  javac Program.java 
+ 1062  java Program 50000 8
+ 1063  java Program 200000 5
+ 1064  vi Program.java 
+ 1065  javac Program.java 
+ 1066  java Program 50000 8
+ 1067  java Program 200000 5
+ 1068  vi Investment.java 
+ 1069  cd ..
+ 1070  mkdir VarArgTest
+ 1071  cd VarArgTest/
+ 1072  vi Statistics.java
+ 1073  vi Program.java
+ 1074  javac Program.java 
+ 1075  java Program 
+ 1076  vi Program.java
+ 1077  javac Program.java 
+ 1078  vi Statistics.java
+ 1079  javac Statistics.java 
+ 1080  javac Program.java 
+ 1081  java Program 
+ 1082  vi Program.java
+ 1083  javac Program.java 
+ 1084  vi Statistics.java
+ 1085  javac Statistics.java 
+ 1086  javac Program.java 
+ 1087  java Program 
+ 1088  vi Statistics.java
+ 1089  vi Program.java
+ 1090  vi Statistics.java
+ 1091  vi Program.java
+ 1092  vi Statistics.java
+ 1093  javac Statistics.java 
+ 1094  vi Program.java 
+ 1095  javac Program.java 
+ 1096  vi Program.java 
+ 1097  javac Program.java 
+ 1098  java Program 
+ 1099  java Program 28.9 19.7 
+ 1100  vi Statistics.java 
+ 1101  vi Program.java 
+ 1102  javac Statistics.java 
+ 1103  javac Program.java 
+ 1104  java Program 28.9 19.7 
+ 1105  vi Statistics.java 
+ 1106  vi Program.java 
+ 1107  cd ..
+ 1108  pwd
+ 1109  ls
+ 1110  cd ..
+ 1111  ls
+ 1112  cd ..
+ 1113  ls
+ 1114  cd Java/
+ 1115  ls
+ 1116  history > cmd2504morning.txt
+ 1117  vi cmd2504morning.txt 
+ 1118  exit
+ 1119  ls
+ 1120  cp -r Java Nilesh/
+ 1121  ls
+ 1122  cd Nilesh/
+ 1123  ls
+ 1124  cd Java
+ 1125  ls
+ 1126  cd Language/
+ 1127  clear
+ 1128  ls
+ 1129  pwd
+ 1130  cd AbstractClassTest/
+ 1131  cd ..
+ 1132  cd ClassTypeTest/
+ 1133  clear
+ 1134  ls
+ 1135  cd ..
+ 1136  ls
+ 1137  cd SubclassTest/
+ 1138  ls
+ 1139  clear
+ 1140  ls
+ 1141  ll src
+ 1142  vi src/Employee.java 
+ 1143  vi src/SalesPerson.java
+ 1144  ls
+ 1145  rm -r payroll/
+ 1146  clear
+ 1147  ls
+ 1148  javac -d . src/*.java
+ 1149  ls
+ 1150  ls payroll/
+ 1151  vi Program.java 
+ 1152  ls
+ 1153  rm Program.class
+ 1154  javac Program.java
+ 1155  ls
+ 1156  vi Program.java 
+ 1157  cd ..
+ 1158  ls
+ 1159  clear
+ 1160  cd ObjectClassTest/
+ 1161  ls
+ 1162  vi Interval.java 
+ 1163  vi Program.java 
+ 1164  vi Interval.java 
+ 1165  clear
+ 1166  exit
+ 1167  clear
+ 1168  cd Java/Language/AbstractClassTest/
+ 1169  ls
+ 1170  vi src/SavingsAccount.java 
+ 1171  vi src/Banker.java
+ 1172  javac -d . src/Banker.java 
+ 1173  vi Program.java
+ 1174  javac Program.java 
+ 1175  vi Program.java
+ 1176  javac Program.java 
+ 1177  vi Program.java
+ 1178  javac Program.java 
+ 1179  java Program 
+ 1180  vi Program.java
+ 1181  javac Program.java 
+ 1182  javap banking.Account
+ 1183  vi Program.java
+ 1184  javac Program.java 
+ 1185  java Program 7000
+ 1186  java Program 17000
+ 1187  java Program 9OOO
+ 1188  javap java.lang.NumberFormatException
+ 1189  javap java.lang.IllegalArgumentException
+ 1190  vi Program.java
+ 1191  javac Program.java 
+ 1192  java Program 7000
+ 1193  java Program 17000
+ 1194  java Program 9OOO
+ 1195  vi Program.java
+ 1196  clear
+ 1197  ls
+ 1198  cd ..
+ 1199  ls
+ 1200  cd ..
+ 1201  ls
+ 1202  history > cmd2704morning.txt
