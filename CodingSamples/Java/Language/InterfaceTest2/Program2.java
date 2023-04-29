@@ -5,7 +5,7 @@ class Program {
 	//inner nested member class - a class defined inside another class
 	//with static modifier so that it can only refer to static members
 	//of its outer class
-	static class Auditor {
+	static class Auditor implements AutoCloseable{
 
 		public Auditor() {
 			System.out.println("Auditing begins...");
@@ -26,11 +26,12 @@ class Program {
 
 	private static void action(String name, int count) {
 		TaxPayer t = name.equals("jack") ? new Supervisor(count) : new Worker(count);
-		Auditor a = new Auditor();
-		try{
+		//try-with-resources can be used with any object whose class
+		//implements java.lang.AutoCloseable, and it automatically
+		//calls close method of this object when the control leaves 
+		//the try block
+		try(Auditor a = new Auditor()){
 			a.audit(name, t);
-		}finally{
-			a.close();
 		}
 	}
 

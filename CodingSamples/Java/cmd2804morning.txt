@@ -1,0 +1,69 @@
+    1  cd Java/Language/InterfaceTest2
+    2  vi Program1.java 
+    3  java Program jack 20
+    4  java Program jill 1200
+    5  java Program jim 2500
+    6  vi Program1.java 
+    7  javac Program1.java 
+    8  java Program jack 20
+    9  java Program jill 1200
+   10  java Program jim 2500
+   11  vi Program1.java 
+   12  javac Program1.java 
+   13  vi Program1.java 
+   14  cp Program1.java Program2.java
+   15  vi Program2.java 
+   16  javap java.lang.String
+   17  javap java.lang.AutoCloseable
+   18  vi Program2.java 
+   19  javac Program2.java 
+   20  vi Program2.java 
+   21  javac Program2.java 
+   22  java Program jack 20
+   23  java Program jim 2500
+   24  vi Program2.java 
+   25  javac Program2.java 
+   26  vi Program2.java 
+   27  javac Program2.java 
+   28  vi Program2.java 
+   29  javac Program2.java 
+   30  java Program jim 2500
+   31  vi Program2.java 
+   32  :wq
+   33  cd ../..
+   34  mkdir Runtime
+   35  cd Runtime/
+   36  mkdir GenMethodTest
+   37  cd GenMethodTest/
+   38  vi Program1.java
+   39  javac Program1.java 
+   40  vi Program1.java
+   41  javac Program1.java 
+   42  java Program 45
+   43  java Program 54
+   44  vi Program1.java
+   45  javac Program1.java 
+   46  vi Program1.java
+   47  javac Program1.java 
+   48  java Program 45
+   49  java Program 54
+   50  vi Program1.java
+   51  javac Program1.java 
+   52  java Program 45
+   53  java Program 54
+   54  cp Program1.java Program2.java
+   55  vi Program2.java 
+   56  vi Program1.java
+   57  javac Program1.java 
+   58  vi Program1.java
+   59  vi Program2.java 
+   60  javac Program2.java 
+   61  java Program 45
+   62  java Program 54
+   63  vi Program2.java 
+   64  javac Program2.java 
+   65  vi Program2.java 
+   66  vi Program1.java
+   67  javac Program2.java 
+   68  vi Program2.java 
+   69  history > cmd2804morning.txt 
