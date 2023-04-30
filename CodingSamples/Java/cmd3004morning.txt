@@ -1,0 +1,79 @@
+ 1398  cd Java/Runtime/CollectionTest/
+ 1399  vi Program.java 
+ 1400  javac Program.java 
+ 1401  java Program friday
+ 1402  java Program wednesday
+ 1403  java Program monday
+ 1404  java Program saturday
+ 1405  vi Program.java 
+ 1406  javac Program.java 
+ 1407  java Program monday
+ 1408  java Program saturday
+ 1409  vi Program.java 
+ 1410  javac Program.java 
+ 1411  java Program saturday
+ 1412  java Program thursday
+ 1413  java Program sunday
+ 1414  vi Program.java 
+ 1415  javac Program.java 
+ 1416  java Program friday
+ 1417  java Program sunday
+ 1418  vi ~/Foundations/Language/Functions/funcptrtest.c 
+ 1419  vi ~/Foundations/Language/Functions/pointertest.c 
+ 1420  vi ~/Foundations/Language/Functions/funcptrtest.c 
+ 1421  cd ..
+ 1422  mkdir MethodRefTest\
+ 1423  mkdir MethodRefTest
+ 1424  cd MethodRefTest/
+ 1425  vi Investment.java
+ 1426  javac Investment.java
+ 1427  vi Investment.java
+ 1428  javac Investment.java
+ 1429  vi Program1.java
+ 1430  javac Program1.java 
+ 1431  java Program 200000 5
+ 1432  vi Investment.java 
+ 1433  vi Program1.java
+ 1434  javac Program1.java 
+ 1435  vi Investment.java 
+ 1436  vi Program1.java
+ 1437  javac Program1.java 
+ 1438  java Program 200000 5
+ 1439  vi Investment.java 
+ 1440  javap java.lang.Iterable
+ 1441  javap java.lang.Runnable
+ 1442  javap java.lang.Iterator
+ 1443  javap java.lang.Comparable
+ 1444  javap java.util.Iterator
+ 1445  javap java.io.Serializable
+ 1446  cp Program1.java Program2.java
+ 1447  vi Program2.java 
+ 1448  javac Program2.java 
+ 1449  java Program 200000 5
+ 1450  vi Program2.java 
+ 1451  javac Program2.java 
+ 1452  vi Program2.java 
+ 1453  vi Investment.java 
+ 1454  vi Program2.java 
+ 1455  javac Program2.java 
+ 1456  vi Program2.java 
+ 1457  javac Program2.java 
+ 1458  java Program 200000 5
+ 1459  javap -p Program
+ 1460  vi Investment.java 
+ 1461  javac Investment.java 
+ 1462  javac Program2.java 
+ 1463  vi Investment.java 
+ 1464  javac Investment.java 
+ 1465  javac Program2.java 
+ 1466  vi Investment.java 
+ 1467  javac Program2.java 
+ 1468  vi Investment.java 
+ 1469  javac Program2.java 
+ 1470  vi Program2.java 
+ 1471  cd ..
+ 1472  history > cmd3004morning.txt
+ 1473  ls
+ 1474  cd ..
+ 1475  ls
+ 1476  history > cmd3004morning.txt
