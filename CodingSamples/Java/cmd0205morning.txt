@@ -1,0 +1,74 @@
+    1  cd Java/Runtime/
+    2  ls
+    3  mkdir FunctionalStreamTest
+    4  cd FunctionalStreamTest/
+    5  javap java.util.stream.Stream
+    6  vi Shop.java
+    7  javac Shop.java 
+    8  ls
+    9  javap Item
+   10  javap -p Item
+   11  vi Shop.java
+   12  javac Shop.java
+   13  vi Shop.java
+   14  javac Shop.java
+   15  vi Program.java
+   16  javac Program.java 
+   17  vi Program.java
+   18  javac Program.java 
+   19  java Program items intel
+   20  java Program items samsung
+   21  java Program items microsoft
+   22  java Program items canon
+   23  vi Program.java
+   24  javac Program.java 
+   25  java Program items samsung
+   26  java Program items intel
+   27  java Program items amd
+   28  java Program items canon
+   29  vi Program.java
+   30  javac Program.java 
+   31  vi Program.java
+   32  javac Program.java 
+   33  vi Shop.java 
+   34  javac Program.java 
+   35  vi Program.java
+   36  vi Shop.java 
+   37  vi Program.java
+   38  javac Program.java 
+   39  vi Program.java
+   40  javac Program.java 
+   41  vi Program.java
+   42  javac Program.java 
+   43  vi Program.java
+   44  javac Program.java 
+   45  vi Program.java
+   46  javac Program.java 
+   47  vi Program.java
+   48  vi Shop.java 
+   49  javac Program.java 
+   50  cd ../MethodRefTest/
+   51  ls
+   52  javac Program1.java 
+   53  cd ../MethodRefTest/
+   54  cd ../FunctionalStreamTest/
+   55  javac Program.java 
+   56  vi Shop.java 
+   57  vi Program.java 
+   58  javac Program.java 
+   59  vi Program.java 
+   60  javac Program.java 
+   61  vi Shop.java 
+   62  javac Program.java 
+   63  cd ..
+   64  rm -r FunctionalStreamTest/
+   65  cd FunctionalStreamTest/
+   66  javac Program.java 
+   67  rm *.class
+   68  javac Program.java 
+   69  ls
+   70  vi Shop.java 
+   71  javac Shop.java 
+   72  javac Program.java 
+   73  java Program customers 30000
+   76  history >cmd0205morning.txt 
