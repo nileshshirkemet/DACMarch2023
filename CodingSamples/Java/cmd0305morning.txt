@@ -1,0 +1,45 @@
+ 1488  cd Java/Runtime/
+ 1489  mkdir ReflectionTest2/
+ 1490  cd ReflectionTest2
+ 1491  mkdir src
+ 1492  vi src/EducationLoan.java
+ 1493  vi src/PersonalLoan.java
+ 1494  vi src/HomeLoan.java
+ 1495  javac -d . src/*.java
+ 1496  vi Program1.java
+ 1497  javap java.lang.Class
+ 1498  javap java.lang.reflect.Method
+ 1499  vi Program1.java
+ 1500  javac Program1.java
+ 1501  java Program 1200000 finance.EducationLoan common
+ 1502  vi Program1.java
+ 1503  java Program 1200000 finance.EducationLoan scholar
+ 1504  java Program 1200000 finance.HomeLoan common
+ 1505  java Program 1200000 finance.HomeLoan woman
+ 1506  java Program 1200000 finance.HomeLoan welfare
+ 1507  java Program 1200000 finance.PersonalLoan common
+ 1508  java Program 1200000 finance.PersonalLoan employee
+ 1509  java Program 1200000 finance.CarLoan common
+ 1510  java Program 1200000 finance.PersonalLoan senior
+ 1511  vi Program1.java
+ 1512  javac Program1.java
+ 1513  java Program 1200000 Personal employee
+ 1514  java Program 1200000 finance.PersonalLoan senior
+ 1515  vi Program1.java
+ 1516  vi src/MaxDuration.java
+ 1517  javac -d . src/*.java
+ 1518  vi src/EducationLoan.java 
+ 1519  vi src/HomeLoan.java 
+ 1520  vi src/PersonalLoan.java 
+ 1521  javac -d . src/*.java
+ 1522  vi src/MaxDuration.java 
+ 1523  javac -d . src/*.java
+ 1524  vi src/PersonalLoan.java 
+ 1525  javac -d . src/*.java
+ 1526  vi src/MaxDuration.java 
+ 1527  javac -d . src/*.java
+ 1528  vi src/MaxDuration.java 
+ 1529  vi src/EducationLoan.java 
+ 1530  vi src/PersonalLoan.java 
+ 1531  vi src/HomeLoan.java 
+ 1535  history > cmd0305morning.txt 

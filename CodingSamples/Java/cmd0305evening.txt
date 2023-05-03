@@ -1,0 +1,80 @@
+    1  cd Runtime/ReflectionTest2/
+    2  ls
+    3  cp Program1.java Program2.java
+    4  vi Program2.java 
+    5  javac Program2.java 
+    6  vi Program2.java 
+    7  javac Program2.java 
+    8  java Program 1200000 Education common
+    9  java Program 1200000 Education scholar
+   10  java Program 1200000 Home common
+   11  vi src/HomeLoan.java 
+   12  javac -d . src/*.java
+   13  java Program 1200000 Home common
+   14  java Program 1200000 Home woman
+   15  java Program 1200000 Home welfare
+   16  vi Program2.java 
+   17  vi src/CarLoan.java
+   18  vi src/PersonalLoan.java
+   19  vi src/CarLoan.java
+   20  javac -d . src/CarLoan.java
+   21  vi src/CarLoan.java
+   22  javac -d . src/CarLoan.java
+   23  vi src/CarLoan.java
+   24  java Program 1200000 Personal common
+   25  java Program 1200000 Car common
+   26  vi src/CarLoan.java
+   27  javac -d . src/CarLoan.java
+   28  vi src/CarLoan.java
+   29  javac -d . src/CarLoan.java
+   30  java Program 1200000 Car common
+   31  ls
+   32  mkdir lib
+   33  mv finance/ lib/
+   34  ls
+   35  java Program 1200000 Car common
+   36  ls
+   37  java -Djava.class.path=lib:. Program 1200000 Car common
+   38  java Program 1200000 Car common
+   39  java -cp lib:. Program 1200000 Car common
+   40* 
+   41  ls
+   42  jar -t -f finlib.jar 
+   43  java -cp finlib.jar:. Program 1200000 Car common
+   44  java Program 1200000 Car common
+   45  export CLASSPATH=finlib.jar:.
+   46  java Program 1200000 Car common
+   47  unset CLASSPATH
+   48  java Program 1200000 Car common
+   49  cd ..
+   50  javap java.lang.Object
+   51  mkdir NativeMethodTest
+   52  cd NativeMethodTest/
+   53  vi Computation.java
+   54  ls
+   55  javac -h . Computation.java 
+   56  ls
+   57  vi Computation.h
+   58  vi Computation.java
+   59  vi Computation.h
+   60  vi computation.c
+   61  wget iitdac.met.edu/java/shared/Makefile
+   62  wget iitdac.met.edu/shared/java/Makefile
+   63  ls
+   64  vi Makefile 
+   65  make
+   66  sudo apt install make
+   67  make
+   68  vi computation.c
+   69  make
+   70  ls
+   71  vi Makefile 
+   72  ls
+   73  vi Program.java
+   74  javac Program.java 
+   75  java Program gcd 26 39
+   76  java -Djava.library.path=. Program gcd 26 39
+   77  java -Djava.library.path=. Program gcd 499995 799992
+   78  java  Program gcd 499995 799992
+   79  export LD_LIBRARY_PATH=.
+   80  java  Program gcd 499995 799992
