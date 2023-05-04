@@ -1,0 +1,47 @@
+    1  cd Java/Runtime/NativeMethodTest/
+    2  ls
+    3  vi computation.c 
+    4  vi Computation.java 
+    5  javac -h . Computation.java 
+    6  vi Computation.h
+    7  vi computation.c 
+    8  rm libcomputation.so 
+    9  make
+   10  ls
+   11  vi Program.java 
+   12  javac Program.java 
+   13  vi Program.java 
+   14  javac Program.java 
+   15  export LD_LIBRARY_PATH=.
+   16  java Program gcd 24 60
+   17  java Program squares 1.2 4.7 3.8 2.4
+   18  java Program squares 1.0 2.0 3.0
+   19  vi computation.c 
+   20  vi Makefile 
+   21  wget iitdac.met.edu/shared/java/quadeqn.h
+   22  wget iitdac.met.edu/shared/java/quadeqn.o
+   23  ls
+   24  vi quadeqn.h 
+   25  vi LegacyQE.java
+   26  javac -h . LegacyQE.java 
+   27  ls
+   28  vi LegacyQE.h
+   29  vi legacyqe.cpp
+   30  javap -p -s LegacyQE
+   31  vi legacyqe.cpp
+   32  vi Makefile 
+   33  ls
+   34  make
+   35  ls
+   36  vi Program.java 
+   37  javac Program.java 
+   38  java Program solve 1 -7 12
+   39  java Program solve 5 13 -6
+   40  vi Program.java 
+   41  javac Program.java 
+   42  java Program solve 5 13 -6
+   43  java Program solve 1 -3 4
+   44  cd ../..
+   45  mkdir Platform
+   46  cd Platform/
+   53  history > cmd0405morning.txt 
