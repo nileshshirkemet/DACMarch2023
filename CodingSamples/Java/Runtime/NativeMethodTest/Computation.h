@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jlong JNICALL Java_Computation_gcdOf
   (JNIEnv *, jclass, jlong, jlong);
 
+/*
+ * Class:     Computation
+ * Method:    sumOfSquares
+ * Signature: ([D)D
+ */
+JNIEXPORT jdouble JNICALL Java_Computation_sumOfSquares
+  (JNIEnv *, jclass, jdoubleArray);
+
 #ifdef __cplusplus
 }
 #endif
