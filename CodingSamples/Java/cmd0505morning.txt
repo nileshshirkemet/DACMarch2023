@@ -1,0 +1,1000 @@
+  747  ./program 
+  748  echo $?
+  749  vi signaltest.c
+  750  cc signaltest.c -o program 
+  751  ./program 
+  752  echo $?
+  753  vi signaltest.c
+  754  cc signaltest.c -o program 
+  755  ./program 
+  756  vi signaltest.c
+  757  kill -l
+  758  ./program 
+  759  vi signaltest.c
+  760  cc signaltest.c -o program 
+  761  ./program 
+  762  vi signaltest.c
+  763  cc signaltest.c -o program 
+  764  ./program 
+  765  echo $?
+  766  vi signaltest.c
+  767  cc signaltest.c -o program 
+  768  ./program 
+  769  vi signaltest.c
+  770  echo $?
+  771  ./program 
+  772  kill -l
+  773  vi signaltest.c
+  774  cc signaltest.c -o program 
+  775  ./program 
+  776  vi signaltest.c
+  777  cc signaltest.c -o program 
+  778  ./program 
+  779  vi signaltest.c
+  780  cc signaltest.c -o program 
+  781  ./program 
+  782  vi signaltest.c
+  783  cc signaltest.c -o program 
+  784  ./program 
+  785  kill -l
+  786  vi signaltest.c
+  787  cc signaltest.c -o program 
+  788  ./program 
+  789  vi signaltest.c
+  790  kill -l
+  791  vi signaltest.c
+  792  cd ..
+  793  history >cmd2004evening.txt
+  794  cd Platform/Basics/
+  795  cp streamiotest.c memmapiotest.c
+  796  vi memmapiotest.c 
+  797  cc memmapiotest.c -o program 
+  798  ./program 
+  799  ./program first.txt 
+  800  vi first.txt 
+  801  vi memmapiotest.c 
+  802  man fstat
+  803  vi memmapiotest.c 
+  804  cc memmapiotest.c revbuf.o -o program 
+  805  vi first.txt 
+  806  ./program first.txt 
+  807  vi first.txt 
+  808  ./program first.txt 
+  809  vi first.txt 
+  810  vi memmapiotest.c 
+  811  vi encbuf.c 
+  812  vi revbuf.c 
+  813  vi memmapiotest.c 
+  814  cc memmapiotest.c -o program 
+  815  vi memmapiotest.c 
+  816  cc -shared revbuf.c -o librev.so
+  817  cc -shared encbuf.c -o libenc.so
+  818  vi revbuf.c 
+  819  vi encbuf.c 
+  820  vi revbuf.c 
+  821  vi encbuf.c 
+  822  cc -shared -fPIC encbuf.c -o libenc.so
+  823  cc -shared -fPIC revbuf.c -o librev.so
+  824  cc memmapiotest.c -lrev -o program 
+  825  cp librev.so /usr/lib
+  826  sudo cp librev.so /usr/lib
+  827  cc memmapiotest.c -lrev -o program 
+  828  ./program first.txt 
+  829  vi first.txt 
+  830  sudo rm /usr/lib/librev.so 
+  831  ./program first.txt 
+  832  cc memmapiotest.c -lrev -o program 
+  833  cc memmapiotest.c -L. -lrev -o program 
+  834  ./program first.txt
+  835  export LD_LIBRARY_PATH=.
+  836  ./program first.txt 
+  837  unset LD_LIBRARY_PATH
+  838  ./program first.txt
+  839  pwd
+  840  cd ..
+  841  ls
+  842  history > cmd2104evening.txt 
+  843  vi cmd2104evening.txt 
+  844  exit
+  845  cd Foundations/Platform/Concurrency/
+  846  ps
+  847  ./greet Jack Jill
+  848  clear
+  849  ls
+  850  mkdir Concurrency
+  851  cd Concurrency/
+  852  vi greet.c
+  853  cc greet.c -o greet
+  854  ./greet Jack Jill John
+  855  ps
+  856  ./greet Jack Jill John
+  857  vi greet.c
+  858  vi childproctest.c
+  859  cc childproctest.c -o program
+  860  ./program 
+  861  vi childproctest.c
+  862  cc childproctest.c -o program
+  863  ./program 
+  864  vi childproctest.c
+  865  cc childproctest.c -o program
+  866  ./program 
+  867  vi childproctest.c
+  868  cc childproctest.c -o program
+  869  ./program 
+  870  vi childproctest.c
+  871  cc childproctest.c -o program
+  872  ./program 
+  873  vi childproctest.c
+  874  cc childproctest.c -o program
+  875  ./program 
+  876  vi childproctest.c
+  877  cc childproctest.c -o program
+  878  ./program 
+  879  vi childproctest.c
+  880  cc childproctest.c -o program
+  881  ./program 
+  882  vi childproctest.c
+  883  vi worker.h
+  884  vi semaphoretest.c
+  885  cc semaphoretest.c -o program 
+  886  ./program 
+  887  vi semaphoretest.c
+  888  cc semaphoretest.c -o program 
+  889  ./program 
+  890  vi semaphoretest.c
+  891  cc semaphoretest.c -o program 
+  892  ./program 
+  893  vi semaphoretest.c
+  894  cc semaphoretest.c -o program 
+  895  ./program 
+  896  vi semaphoretest.c
+  897  cc semaphoretest.c -o program 
+  898  vi semaphoretest.c
+  899  cc semaphoretest.c -o program 
+  900  vi semaphoretest.c
+  901  cc semaphoretest.c -o program 
+  902  ./program 
+  903  vi semaphoretest.c
+  904  cc semaphoretest.c -o program 
+  905  ./program 
+  906  vi semaphoretest.c
+  907  cc semaphoretest.c -o program 
+  908  ./program 
+  909  vi semaphoretest.c
+  910  cc semaphoretest.c -o program 
+  911  ./program 
+  912  vi semaphoretest.c
+  913  vi threadtest.c
+  914  cc threadtest.c -o program
+  915  ./program 
+  916  vi threadtest.c
+  917  cc threadtest.c -o program
+  918  ./program 
+  919  vi threadtest.c
+  920  cc threadtest.c -o program
+  921  ./program 
+  922  vi threadtest.c
+  923  cc threadtest.c -o program
+  924  ./program 
+  925  vi threadtest.c
+  926  vi mutextest.c
+  927  cc threadtest.c -lpthread -o program
+  928  cc --version
+  929  vi mutextest.c
+  930  cc mutextest.c -o program 
+  931  vi mutextest.c
+  932  cc mutextest.c -o program 
+  933  vi mutextest.c
+  934  cc mutextest.c -o program 
+  935  ./program 
+  936  vi mutextest.c
+  937  cc mutextest.c -o program 
+  938  ./program 
+  939  vi mutextest.c
+  940  cc mutextest.c -o program 
+  941  ./program 
+  942  vi mutextest.c
+  943  cc mutextest.c -o program 
+  944  ./program 
+  945  vi mutextest.c
+  946  cd ..
+  947  ls
+  948  history >cmd2204combined.txt
+  949  exit
+  950  java --version
+  951  clear
+  952  mkdir Java
+  953  cd Java
+  954  mkdir Language
+  955  cd Language/
+  956  java -version
+  957  vi Hello.java
+  958  ll
+  959  javac Hello.java 
+  960  ls
+  961  java Greeter
+  962  vi Greeter.class
+  963  uname -m
+  964  scp Greeter.class unipro@linuxarm.km-hussain.xyz:Testing
+  965  ssh unipro@linuxarm.km-hussain.xyz
+  966  uname -m
+  967  vi Hello.java 
+  968  javac Hello.java 
+  969  java Greeter 
+  970  vi Hello.java 
+  971  javac Hello.java 
+  972  java Greeter 
+  973  vi Hello.java 
+  974  javac Hello.java 
+  975  java Greeter 
+  976  mkdir PrimitiveTypeTest
+  977  cd PrimitiveTypeTest/
+  978  vi Investment.java
+  979  javac Investment.java 
+  980  ls
+  981  vi Program.java
+  982  javac Program.java 
+  983  vi Program.java
+  984  javac Program.java 
+  985  vi Program.java
+  986  javac Program.java 
+  987  vi Program.java
+  988  javac Program.java 
+  989  java Program 200000 5
+  990  java Program 50000 20
+  991  java Program 50000 2O
+  992  vi Investment.java
+  993  cd ..
+  994  cp -r PrimitiveTypeTest/ ClassTypeTest
+  995  cd ClassTypeTest/
+  996  vi Investment.java 
+  997  javac Investment.java 
+  998  vi Program.java 
+  999  javac Program.java 
+ 1000  vi Program.java 
+ 1001  javac Program.java 
+ 1002  java Program 200000 5
+ 1003  vi Program.java 
+ 1004  javac Program.java 
+ 1005  vi Program.java 
+ 1006  javac Program.java 
+ 1007  vi Program.java 
+ 1008  javac Program.java 
+ 1009  vi Program.java 
+ 1010  javac Program.java 
+ 1011  java Program 50000 8
+ 1012  java Program 200000 5
+ 1013  vi Program.java 
+ 1014  ls
+ 1015  cp Investment.class /mnt/d/copy
+ 1016  cp Investment.java /mnt/d/copy
+ 1017  cp Program.java /mnt/d/copy
+ 1018  cp Program.class /mnt/d/copy
+ 1019  clear
+ 1020  ls
+ 1021  exit
+ 1022  ls
+ 1023  cd java
+ 1024  cd Foundations/
+ 1025  ls
+ 1026  cd Language/
+ 1027  ls
+ 1028  cd..
+ 1029  cd ..
+ 1030  ls
+ 1031  cd Java/
+ 1032  ls
+ 1033  cd Language/
+ 1034  ls
+ 1035  vi Hello.java
+ 1036  vi PrimitiveTypeTest.java
+ 1037  cd PrimitiveTypeTest/
+ 1038  ls
+ 1039  cd ..
+ 1040  cd ClassTypeTest/
+ 1041  ls
+ 1042  clear
+ 1043  ls
+ 1044  vi Investment.java 
+ 1045  cd ..
+ 1046  ls
+ 1047  cd PrimitiveTypeTest/
+ 1048  ls
+ 1049  vi Investment.java 
+ 1050  vi Program.java 
+ 1051  vi Investment.java 
+ 1052  clear
+ 1053  cd ..
+ 1054  cd Java/Language/
+ 1055  ls
+ 1056  cp -r ClassTypeTest/ EnumTypeTest
+ 1057  cd EnumTypeTest/
+ 1058  vi Investment.java 
+ 1059  javac Investment.java 
+ 1060  ls
+ 1061  javac Program.java 
+ 1062  java Program 50000 8
+ 1063  java Program 200000 5
+ 1064  vi Program.java 
+ 1065  javac Program.java 
+ 1066  java Program 50000 8
+ 1067  java Program 200000 5
+ 1068  vi Investment.java 
+ 1069  cd ..
+ 1070  mkdir VarArgTest
+ 1071  cd VarArgTest/
+ 1072  vi Statistics.java
+ 1073  vi Program.java
+ 1074  javac Program.java 
+ 1075  java Program 
+ 1076  vi Program.java
+ 1077  javac Program.java 
+ 1078  vi Statistics.java
+ 1079  javac Statistics.java 
+ 1080  javac Program.java 
+ 1081  java Program 
+ 1082  vi Program.java
+ 1083  javac Program.java 
+ 1084  vi Statistics.java
+ 1085  javac Statistics.java 
+ 1086  javac Program.java 
+ 1087  java Program 
+ 1088  vi Statistics.java
+ 1089  vi Program.java
+ 1090  vi Statistics.java
+ 1091  vi Program.java
+ 1092  vi Statistics.java
+ 1093  javac Statistics.java 
+ 1094  vi Program.java 
+ 1095  javac Program.java 
+ 1096  vi Program.java 
+ 1097  javac Program.java 
+ 1098  java Program 
+ 1099  java Program 28.9 19.7 
+ 1100  vi Statistics.java 
+ 1101  vi Program.java 
+ 1102  javac Statistics.java 
+ 1103  javac Program.java 
+ 1104  java Program 28.9 19.7 
+ 1105  vi Statistics.java 
+ 1106  vi Program.java 
+ 1107  cd ..
+ 1108  pwd
+ 1109  ls
+ 1110  cd ..
+ 1111  ls
+ 1112  cd ..
+ 1113  ls
+ 1114  cd Java/
+ 1115  ls
+ 1116  history > cmd2504morning.txt
+ 1117  vi cmd2504morning.txt 
+ 1118  exit
+ 1119  ls
+ 1120  cp -r Java Nilesh/
+ 1121  ls
+ 1122  cd Nilesh/
+ 1123  ls
+ 1124  cd Java
+ 1125  ls
+ 1126  cd Language/
+ 1127  clear
+ 1128  ls
+ 1129  pwd
+ 1130  cd AbstractClassTest/
+ 1131  cd ..
+ 1132  cd ClassTypeTest/
+ 1133  clear
+ 1134  ls
+ 1135  cd ..
+ 1136  ls
+ 1137  cd SubclassTest/
+ 1138  ls
+ 1139  clear
+ 1140  ls
+ 1141  ll src
+ 1142  vi src/Employee.java 
+ 1143  vi src/SalesPerson.java
+ 1144  ls
+ 1145  rm -r payroll/
+ 1146  clear
+ 1147  ls
+ 1148  javac -d . src/*.java
+ 1149  ls
+ 1150  ls payroll/
+ 1151  vi Program.java 
+ 1152  ls
+ 1153  rm Program.class
+ 1154  javac Program.java
+ 1155  ls
+ 1156  vi Program.java 
+ 1157  cd ..
+ 1158  ls
+ 1159  clear
+ 1160  cd ObjectClassTest/
+ 1161  ls
+ 1162  vi Interval.java 
+ 1163  vi Program.java 
+ 1164  vi Interval.java 
+ 1165  clear
+ 1166  exit
+ 1167  cd ..
+ 1168  cd Nilesh/
+ 1169  ls
+ 1170  cd Demos/
+ 1171  ls
+ 1172  cp /mnt/d/copy/checkedExceptionTest.java .
+ 1173  vi checkedExceptionTest.java 
+ 1174  javac checkedExceptionTest.java 
+ 1175  vi checkedExceptionTest.java 
+ 1176  java MainTest 5 10
+ 1177  java MainTest 0 10
+ 1178  vi checkedExceptionTest.java \
+ 1179  javac checkedExceptionTest.java
+ 1180  vi checkedExceptionTest.java
+ 1181  javac checkedExceptionTest.java
+ 1182  vi checkedExceptionTest.java
+ 1183  javac checkedExceptionTest.java
+ 1184  vi checkedExceptionTest.java
+ 1185  javac checkedExceptionTest.java
+ 1186  vi checkedExceptionTest.java
+ 1187  javac checkedExceptionTest.java
+ 1188  vi checkedExceptionTest.java
+ 1189  javac checkedExceptionTest.java
+ 1190  vi checkedExceptionTest.java
+ 1191  javac checkedExceptionTest.java
+ 1192  vi checkedExceptionTest.java
+ 1193  javac checkedExceptionTest.java
+ 1194  java MainTest 5 10
+ 1195  java MainTest 0 10
+ 1196  vi checkedExceptionTest.java
+ 1197  exit
+ 1198  cd Runtime/GenMethodTest/
+ 1199  vi Program2.java 
+ 1200  javac Program2.java 
+ 1201  vi Program2.java 
+ 1202  javac Program2.java 
+ 1203  vi Program2.java 
+ 1204  cp Program1.java Program3.java
+ 1205  vi Program3.java 
+ 1206  javac Program3.java 
+ 1207  vi Program3.java 
+ 1208  javac Program3.java 
+ 1209  vi Program3.java 
+ 1210  javac Program3.java 
+ 1211  vi Program3.java 
+ 1212  javac Program3.java 
+ 1213  vi Program2.java 
+ 1214  javac Program2.java 
+ 1215  vi Program2.java 
+ 1216  javac Program2.java 
+ 1217  vi Program1.java 
+ 1218  javac Program1.java 
+ 1219  vi Program1.java 
+ 1220  vi Program2.java 
+ 1221  vi Program3.java 
+ 1222  javac Program3.java 
+ 1223  java Program 45
+ 1224  java Program 54
+ 1225  vi Program3.java 
+ 1226  javac Program3.java 
+ 1227  java Program 
+ 1228  vi Program3.java 
+ 1229  javap java.lang.String
+ 1230  javap java.lang.Double
+ 1231  vi Program3.java 
+ 1232  javac Program3.java 
+ 1233  vi Program3.java 
+ 1234  javap java.lang.Comparable
+ 1235  javap java.lang.String
+ 1236  javap java.lang.Double
+ 1237  vi Program3.java 
+ 1238  javac Program3.java 
+ 1239  java Program 
+ 1240  vi Program3.java 
+ 1241  cp ../../Language/ObjectClassTest/Interval.java .
+ 1242  vi Interval.java 
+ 1243  javac Interval.java 
+ 1244  vi Program3.java 
+ 1245  javac Program3.java 
+ 1246  vi Program3.java 
+ 1247  vi Interval.java 
+ 1248  javac Interval.java 
+ 1249  javac Program3.java 
+ 1250  java Program 
+ 1251  vi Program3.java 
+ 1252  javap java.lang.Number
+ 1253  javap java.lang.Double
+ 1254  vi Program3.java 
+ 1255  cd ..
+ 1256  ls
+ 1257  history >cmd2804evening.txt
+ 1258  ls
+ 1259  pwd
+ 1260  cd ..
+ 1261  cp Nilesh/
+ 1262  cd Nilesh/Java/
+ 1263  ls
+ 1264  cd Language/
+ 1265  ls
+ 1266  pwd
+ 1267  cp -r ../../Java/Language/AbstractClassTest/ .
+ 1268  ls ..
+ 1269  pwd
+ 1270  ls ../../Java/Language/AbstractClassTest/
+ 1271  cp -r ../../Java/Language/AbstractClassTest/ .
+ 1272  clear
+ 1273  ls
+ 1274  pwd
+ 1275  ls
+ 1276  cd InterfaceTest
+ 1277  cd AbstractClassTest/
+ 1278  ls
+ 1279  clear
+ 1280  pwd
+ 1281  ls
+ 1282  ll src
+ 1283  clear
+ 1284  ls
+ 1285  ll src
+ 1286  vi src/IllegalTransferException.java 
+ 1287  vi src/InsufficientFundsException.java
+ 1288  vi src/Account.java 
+ 1289  clear
+ 1290  vi src/SavingsAccount.java 
+ 1291  vi src/CurrentAccount.java 
+ 1292  vi src/Banker.java 
+ 1293  vi Program.java 
+ 1294  cd ..
+ 1295  ls
+ 1296  cd InterfaceTest2
+ 1297  ls
+ 1298  cd InterfaceTest1
+ 1299  cd ..
+ 1300  clear
+ 1301  cd InterfaceTest1
+ 1302  ls
+ 1303  ll src
+ 1304  vi src/SavingsAccount.java 
+ 1305  vi src/Banker.java 
+ 1306  vi src/Program.java
+ 1307  ls
+ 1308  vi Program.java 
+ 1309  cd ..
+ 1310  ls
+ 1311  cd InterfaceTest2Demo/
+ 1312  ls
+ 1313  ll src
+ 1314  vi src/Account.java 
+ 1315  vi src/CurrentAccount.java 
+ 1316  vi src/SavingsAccount.java
+ 1317  vi Program.java 
+ 1318  clear
+ 1319  exit
+ 1320  cd Runtime/GenMethodTest/
+ 1321  vi Program2.java 
+ 1322  cd ../GenClassTest/
+ 1323  vi Program2.java 
+ 1324  cd ..
+ 1325  mkdir IteratorTest
+ 1326  cd IteratorTest/
+ 1327  cp ../GenClassTest/SimpleStack.java .
+ 1328  javap java.util.Iterator
+ 1329  vi SimpleStack.java 
+ 1330  javac SimpleStack.java 
+ 1331  vi SimpleStack.java 
+ 1332  javac SimpleStack.java 
+ 1333  vi Program.java
+ 1334  javac Program.java
+ 1335  java Program 
+ 1336  vi Program.java
+ 1337  javac Program.java
+ 1338  java Program 
+ 1339  vi Program.java
+ 1340  ls
+ 1341  javap 'SimpleStack$1'
+ 1342  vi SimpleStack.java 
+ 1343  javap java.lang.Iterable
+ 1344  vi SimpleStack.java 
+ 1345  javac SimpleStack.java 
+ 1346  vi SimpleStack.java 
+ 1347  javac SimpleStack.java 
+ 1348  vi SimpleStack.java 
+ 1349  javac SimpleStack.java 
+ 1350  vi Program.java 
+ 1351  javac Program.java 
+ 1352  vi Program.java 
+ 1353  javac Program.java 
+ 1354  java Program 
+ 1355  vi SimpleStack.java 
+ 1356  javac Program.java 
+ 1357  vi SimpleStack.java 
+ 1358  javac Program.java 
+ 1359  java Program 
+ 1360  mkdir CollectionTest
+ 1361  cd CollectionTest/
+ 1362  cd ..
+ 1363  rmdir CollectionTest/
+ 1364  cd ..
+ 1365  mkdir CollectionTest
+ 1366  cd CollectionTest/
+ 1367  cp ../GenMethodTest/Interval.java .
+ 1368  vi Program.java
+ 1369  javac Program.java 
+ 1370  java Program 
+ 1371  vi Program.java
+ 1372  javac Program.java 
+ 1373  java Program 
+ 1374  vi Program.java
+ 1375  javac Program.java 
+ 1376  java Program 
+ 1377  vi Program.java
+ 1378  javac Program.java 
+ 1379  java Program 
+ 1380  vi Program.java
+ 1381  javac Program.java 
+ 1382  java Program 
+ 1383  vi Program.java
+ 1384  javac Program.java 
+ 1385  java Program 
+ 1386  cd ..
+ 1387  ls
+ 1388  cd ..
+ 1389  ls
+ 1390  history > cmd2904evening.txt
+ 1391  ls
+ 1392  clear
+ 1393  ls
+ 1394  exit
+ 1395  clear
+ 1396  exit
+ 1397  clear
+ 1398  exit
+ 1399  vi Program.java 
+ 1400  javac Program.java 
+ 1401  vi Program
+ 1402  java Program customers 25000
+ 1403  cd ..
+ 1404  mkdir ReflectionTest1
+ 1405  cd ReflectionTest1/
+ 1406  cp ../FunctionalStreamTest/Shop.java .
+ 1407  vi Shop.java 
+ 1408  javac Shop.java 
+ 1409  vi Program1.java
+ 1410  javac Program1.java
+ 1411  vi Program1.java
+ 1412  javac Program1.java
+ 1413  vi Program1.java
+ 1414  javac Program1.java
+ 1415  vi Program1.java
+ 1416  javac Program1.java
+ 1417  java Program 
+ 1418  vi Shop.java 
+ 1419  javac Shop.java 
+ 1420  java Program 
+ 1421  vi Shop.java 
+ 1422  vi Program1.java
+ 1423  vi Shop.java 
+ 1424  vi Program1.java
+ 1425  javac Program1.java
+ 1426  vi Program1.java
+ 1427  javac Program1.java
+ 1428  java Program 
+ 1429  vi Program1.java
+ 1430  vi Shop.java 
+ 1431  javac Shop.java 
+ 1432  java Program 
+ 1433  vi Shop.java 
+ 1434  javac Shop.java 
+ 1435  cp Program1.java Program2.java
+ 1436  vi Program2.java 
+ 1437  javap Item
+ 1438  javap Customer
+ 1439  vi Program2.java 
+ 1440  javac Program2.java 
+ 1441  java Program 
+ 1442  vi Program2.java 
+ 1443  javac Program2.java 
+ 1444  java Program
+ 1445  vi Program2.java 
+ 1446  javap java.lang.Object
+ 1447  vi Program2.java 
+ 1448  javac Program2.java 
+ 1449  vi Program2.java 
+ 1450  javac Program2.java 
+ 1451  java Program
+ 1452  vi Program2.java 
+ 1453  javac Program2.java 
+ 1454  java Program
+ 1455  vi Program2.java 
+ 1456  javac Program2.java 
+ 1457  vi Program2.java 
+ 1458  javap -p Customer
+ 1459  vi Program2.java 
+ 1460  javac Program2.java 
+ 1461  java Program
+ 1462  vi Shop.java 
+ 1463  javac Shop.java 
+ 1464  java Program
+ 1465  vi Shop.java 
+ 1466  javac Shop.java 
+ 1467  java Program
+ 1468  vi Shop.java 
+ 1469  javac Shop.java 
+ 1470  java Program
+ 1471  vi Program2.java 
+ 1472  vi Program1.java 
+ 1473  vi Program2.java 
+ 1474  cd ../../
+ 1475  history >cmd0205evening.txt 
+ 1476  ls
+ 1477  cd Runtime/
+ 1478  ls
+ 1479  cd ReflectionTest1/
+ 1480  ls
+ 1481  vi Program2.java 
+ 1482  cd ..
+ 1483  ls
+ 1484  cd ..
+ 1485  ls
+ 1486  exit
+ 1487  cd Runtime/ReflectionTest2/
+ 1488  ls
+ 1489  cp Program1.java Program2.java
+ 1490  vi Program2.java 
+ 1491  javac Program2.java 
+ 1492  vi Program2.java 
+ 1493  javac Program2.java 
+ 1494  java Program 1200000 Education common
+ 1495  java Program 1200000 Education scholar
+ 1496  java Program 1200000 Home common
+ 1497  vi src/HomeLoan.java 
+ 1498  javac -d . src/*.java
+ 1499  java Program 1200000 Home common
+ 1500  java Program 1200000 Home woman
+ 1501  java Program 1200000 Home welfare
+ 1502  vi Program2.java 
+ 1503  vi src/CarLoan.java
+ 1504  vi src/PersonalLoan.java
+ 1505  vi src/CarLoan.java
+ 1506  javac -d . src/CarLoan.java
+ 1507  vi src/CarLoan.java
+ 1508  javac -d . src/CarLoan.java
+ 1509  vi src/CarLoan.java
+ 1510  java Program 1200000 Personal common
+ 1511  java Program 1200000 Car common
+ 1512  vi src/CarLoan.java
+ 1513  javac -d . src/CarLoan.java
+ 1514  vi src/CarLoan.java
+ 1515  javac -d . src/CarLoan.java
+ 1516  java Program 1200000 Car common
+ 1517  ls
+ 1518  mkdir lib
+ 1519  mv finance/ lib/
+ 1520  ls
+ 1521  java Program 1200000 Car common
+ 1522  ls
+ 1523  java -Djava.class.path=lib:. Program 1200000 Car common
+ 1524  java Program 1200000 Car common
+ 1525  java -cp lib:. Program 1200000 Car common
+ 1526  ls
+ 1527  jar -t -f finlib.jar 
+ 1528  java -cp finlib.jar:. Program 1200000 Car common
+ 1529  java Program 1200000 Car common
+ 1530  export CLASSPATH=finlib.jar:.
+ 1531  java Program 1200000 Car common
+ 1532  unset CLASSPATH
+ 1533  java Program 1200000 Car common
+ 1534  cd ..
+ 1535  javap java.lang.Object
+ 1536  mkdir NativeMethodTest
+ 1537  cd NativeMethodTest/
+ 1538  vi Computation.java
+ 1539  ls
+ 1540  javac -h . Computation.java 
+ 1541  ls
+ 1542  vi Computation.h
+ 1543  vi Computation.java
+ 1544  vi Computation.h
+ 1545  vi computation.c
+ 1546  wget iitdac.met.edu/java/shared/Makefile
+ 1547  wget iitdac.met.edu/shared/java/Makefile
+ 1548  ls
+ 1549  vi Makefile 
+ 1550  make
+ 1551  sudo apt install make
+ 1552  make
+ 1553  vi computation.c
+ 1554  make
+ 1555  ls
+ 1556  vi Makefile 
+ 1557  ls
+ 1558  vi Program.java
+ 1559  javac Program.java 
+ 1560  java Program gcd 26 39
+ 1561  java -Djava.library.path=. Program gcd 26 39
+ 1562  java -Djava.library.path=. Program gcd 499995 799992
+ 1563  java  Program gcd 499995 799992
+ 1564  export LD_LIBRARY_PATH=.
+ 1565  java  Program gcd 499995 799992
+ 1566  cd ../../
+ 1567  history > cmd0305evening.txt 
+ 1568  ls
+ 1569  exit
+ 1570  cd Java/Runtime/NativeMethodTest/
+ 1571  ls
+ 1572  vi computation.c 
+ 1573  vi Computation.java 
+ 1574  javac -h . Computation.java 
+ 1575  vi Computation.h
+ 1576  vi computation.c 
+ 1577  rm libcomputation.so 
+ 1578  make
+ 1579  ls
+ 1580  vi Program.java 
+ 1581  javac Program.java 
+ 1582  vi Program.java 
+ 1583  javac Program.java 
+ 1584  export LD_LIBRARY_PATH=.
+ 1585  java Program gcd 24 60
+ 1586  java Program squares 1.2 4.7 3.8 2.4
+ 1587  java Program squares 1.0 2.0 3.0
+ 1588  vi computation.c 
+ 1589  vi Makefile 
+ 1590  wget iitdac.met.edu/shared/java/quadeqn.h
+ 1591  wget iitdac.met.edu/shared/java/quadeqn.o
+ 1592  ls
+ 1593  vi quadeqn.h 
+ 1594  vi LegacyQE.java
+ 1595  javac -h . LegacyQE.java 
+ 1596  ls
+ 1597  vi LegacyQE.h
+ 1598  vi legacyqe.cpp
+ 1599  javap -p -s LegacyQE
+ 1600  vi legacyqe.cpp
+ 1601  vi Makefile 
+ 1602  ls
+ 1603  make
+ 1604  ls
+ 1605  vi Program.java 
+ 1606  javac Program.java 
+ 1607  java Program solve 1 -7 12
+ 1608  java Program solve 5 13 -6
+ 1609  vi Program.java 
+ 1610  javac Program.java 
+ 1611  java Program solve 5 13 -6
+ 1612  java Program solve 1 -3 4
+ 1613  cd ../..
+ 1614  mkdir Platform
+ 1615  cd Platform/
+ 1616  pwd
+ 1617  cd ../../
+ 1618  cd -
+ 1619  ls
+ 1620  cd ..
+ 1621  ls
+ 1622  history > cmd0405morning.txt 
+ 1623  vi cmd0405morning.txt 
+ 1624  exit
+ 1625  cd Java/Platform/
+ 1626  mkdir ThreadTest
+ 1627  cd ThreadTest/
+ 1628  vi Worker.java
+ 1629  javac Worker.java 
+ 1630  vi Program1.java
+ 1631  javac Program1.java 
+ 1632  java Program 
+ 1633  vi Program1.java
+ 1634  javac Program1.java 
+ 1635  java Program 
+ 1636  cp Program1.java Program2.java
+ 1637  vi Program2.java 
+ 1638  javac Program2.java 
+ 1639  java Program 
+ 1640  vi Program2.java 
+ 1641  java Program 3
+ 1642  java Program 5
+ 1643  cp Program2.java Program3.java
+ 1644  vi Program3.java 
+ 1645  javac Program3.java 
+ 1646  java Program 
+ 1647  vi Program3.java 
+ 1648  javac Program3.java 
+ 1649  java Program 
+ 1650  java Program 7
+ 1651  java Program 9
+ 1652  java Program 11
+ 1653  vi Program3.java 
+ 1654  cd ..
+ 1655  mkdir MonitorTest
+ 1656  cd MonitorTest/
+ 1657  cp ../ThreadTest/Worker.java .
+ 1658  vi Worker.java 
+ 1659  javac Worker.java 
+ 1660  vi Program1.java
+ 1661  javac Program1.java 
+ 1662  vi Program1.java
+ 1663  javac Program1.java 
+ 1664  vi Program1.java
+ 1665  javac Program1.java 
+ 1666  java Program 
+ 1667  cp Program1.java Program2.java
+ 1668  vi Program2.java 
+ 1669  javac Program2.java 
+ 1670  java Program 
+ 1671  cp Program2.java Program3.java
+ 1672  vi Program3.java 
+ 1673  javac Program3.java 
+ 1674  java Program 
+ 1675  vi Program3.java 
+ 1676  cd ../../
+ 1677  history > cmd0405evening.txt 
+ 1678  exit
+ 1679  clear
+ 1680  cd Java/Platform/MonitorTest/
+ 1681  ls
+ 1682  vi Program2.java 
+ 1683  vi Program3.java 
+ 1684  cd ..
+ 1685  mkdir AsyncParallelTest
+ 1686  cd AsyncParallelTest/
+ 1687  cp ../ThreadTest/Worker.java 
+ 1688  cp ../ThreadTest/Worker.java .
+ 1689  vi Worker.java 
+ 1690  javac Worker.java 
+ 1691  vi Program1.java
+ 1692  javac Program1.java
+ 1693  java Program 5
+ 1694  vi Worker.java 
+ 1695  javac Program1.java
+ 1696  java Program 5
+ 1697  vi Worker.java 
+ 1698  javac Program1.java
+ 1699  java Program 5
+ 1700  javac Worker.java 
+ 1701  vi Worker.java 
+ 1702  javac Program1.java
+ 1703  java Program 5
+ 1704  java Program 10
+ 1705  java Program 20
+ 1706  java Program 30
+ 1707  cp Program1.java Program2.java
+ 1708  vi Program2.java 
+ 1709  javac Program2.java 
+ 1710  java Program 10
+ 1711  vi Program2.java 
+ 1712  javac Program2.java 
+ 1713  java Program 10
+ 1714  vi Program2.java 
+ 1715  vi Program1.java 
+ 1716  javac Program1.java 
+ 1717  java Program 10
+ 1718  vi Program2.java 
+ 1719  javac Program2.java 
+ 1720  java Program 10
+ 1721  vi Program2.java 
+ 1722  vi Program1.java 
+ 1723  vi Program2.java 
+ 1724  javac Program2.java 
+ 1725  java Program 10
+ 1726  vi Program2.java 
+ 1727  javac Program2.java 
+ 1728  java Program 20
+ 1729  vi Program2.java 
+ 1730  cp Program2.java Program3.java
+ 1731  vi Program3.java
+ 1732  javac Program3.java
+ 1733  java Program 20
+ 1734  vi Program3.java
+ 1735  javac Program2.java 
+ 1736  java Program 30
+ 1737  javac Program3.java
+ 1738  java Program 30
+ 1739  vi Program3.java
+ 1740  clear
+ 1741  cd ..
+ 1742  ls
+ 1743  cd ThreadTest
+ 1744  ls
+ 1745  cd ../../
+ 1746  history > cmd0505morning.txt

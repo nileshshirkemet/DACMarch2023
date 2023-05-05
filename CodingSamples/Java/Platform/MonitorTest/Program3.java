@@ -10,6 +10,7 @@ class Program {
 
 		public synchronized void deposit(int amount) {
 			balance = Worker.doWork(amount, balance, 1);
+			notify(); //signal this object
 		}
 
 		public boolean withdraw(int amount) {
@@ -25,6 +26,13 @@ class Program {
 				}
 			}
 			return success;
+		}
+
+		public synchronized boolean withdrawAfterDeposit(int amount) throws InterruptedException {
+			//temporarily unlock the monitor of this object and wait
+			//to relock it once some other thread signals this object
+			wait();
+			return withdraw(amount);
 		}
 	}
 
