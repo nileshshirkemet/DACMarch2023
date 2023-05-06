@@ -1,0 +1,43 @@
+    1  clear
+    2  cd Runtime/
+    3  ls
+    4  cd ..
+    5  cd Platform/
+    6  ls
+    7  mkdir TCPServerTest
+    8  cd TCPServerTest/
+    9  wget iitdac.met.edu/shared/java/CitiTek.xml
+   10  vi CitiTek.xml 
+   11  vi Program1.java
+   12  vi CitiTek.xml 
+   13  vi Program1.java
+   14  javac Program1.java 
+   15  vi Program1.java
+   16  javac Program1.java 
+   17  vi Program1.java
+   18  javac Program1.java 
+   19  vi Program1.java
+   20  javac Program1.java 
+   21  java Program 
+   22  java Program &
+   23  java Program 
+   24  telnet localhost 4010
+   25  vi Program1.java
+   26  telnet localhost 4020
+   27  ps
+   28  kill 179
+   29  ps
+   30  telnet localhost 4010
+   31  java Program &
+   32  telnet localhost 4010
+   33  pkill -ef Program
+   34  cp Program1.java Program2.java
+   35  cp Program2.java
+   36  vi Program2.java
+   37  javac Program2.java 
+   38  java Program &
+   39  telnet localhost 4010
+   40  vi Program2.java
+   41  clear
+   42  cd ..
+   43  history >cmd0605evening.txt 

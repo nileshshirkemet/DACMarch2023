@@ -1,0 +1,36 @@
+    1  cd Java/Platform/
+    2  ls
+    3  mkdir SerializationTest
+    4  cd SerializationTest/
+    5  mkdir src
+    6  vi src/Visitor.java
+    7  javac -d . src/Visitor.java 
+    8  vi src/Site.java
+    9  javap java.util.stream.Stream
+   10  javap java.util.Optional<T>
+   11  javap java.util.Optional
+   12  vi src/Site.java
+   13  vi src/Visitor.java 
+   14  javac -d . src/*.java
+   15  vi Program.java
+   16  javac Program.java 
+   17  java Program Jack
+   18  java Program Jill
+   19  java Program
+   20  java Program Jill
+   21  java Program
+   22  java Program John
+   23  java Program
+   24  ls
+   25  vi CitiZoo.store 
+   26  java Program
+   27  rm CitiZoo.store 
+   28  java Program
+   29  java Program Jack
+   30  java Program John
+   31  java Program Jill
+   32  java Program John
+   33  java Program 
+   34  vi Program.java
+   35  vi src/Site.java 
+   36  history > cmd0605morning.txt
