@@ -1,0 +1,27 @@
+    1  clear
+    2  cd Platform/
+    3  ls
+    4  mkdir HttpClientTest
+    5  cd HttpClientTest/
+    6  cp ../TCPServerTest/Program1.java Server.java
+    7  vi Server.java 
+    8  cp ../TCPServerTest/CitiTek.xml .
+    9  vi Server.java 
+   10  javac Server.java 
+   11  vi Server.java 
+   12  javac Server.java 
+   13  vi Server.java 
+   14  javac Server.java 
+   15  java Server &
+   16  vi Server.java 
+   17  vi Program.java
+   18  cp ../TCPClientTest/ItemInfo.java .
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program keyboard 6 localhost
+   22  java Program mouse 100 localhost
+   23  java Program mouse 300 localhost
+   24  java Program hdd 5 localhost
+   25  vi Program.java
+   26  cd ..
+   27  history >cmd0805evening.txt
