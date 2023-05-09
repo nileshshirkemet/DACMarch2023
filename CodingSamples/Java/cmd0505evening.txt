@@ -1,0 +1,49 @@
+    1  pwd
+    2  ls
+    3  mkdir FileStreamTest
+    4  cd FileStreamTest/
+    5  vi Transformer.java
+    6  javac Transformer.java 
+    7  vi Transformer.java
+    8  javac Transformer.java 
+    9  vi Transformer.java
+   10  javac Transformer.java 
+   11  vi Program.java
+   12  cp Program.java data1.txt
+   13  vi data1.txt 
+   14  javac Program.java 
+   15  ls
+   16  java Program data1.txt data2.txt
+   17  ls
+   18  vi data2.txt 
+   19  java Program data2.txt data3.txt
+   20  ls
+   21  vi data3.txt 
+   22  vi Program.java
+   23  javap java.io.FileInputStream
+   24  javap java.io.InputStream
+   25  javap java.io.Closeable
+   26  cd ..
+   27  mkdir FileChannelTest
+   28  cd FileChannelTest/
+   29  vi Transformer.java
+   30  javac Transformer.java
+   31  vi Program.java
+   32  cp ../FileStreamTest/data1.txt 
+   33  cp ../FileStreamTest/data1.txt .
+   34  ls
+   35  vi data1.txt 
+   36  pwd
+   37  vi Program.java 
+   38  javac Program.java 
+   39  vi Program.java 
+   40  javac Program.java 
+   41  vi data1.txt 
+   42  java Program data1.txt 
+   43  vi data1.txt 
+   44  java Program data1.txt 
+   45  vi data1.txt 
+   46  vi Program.java 
+   47  cd ..
+   48  ls
+   49  history >cmd0505evening.txt 

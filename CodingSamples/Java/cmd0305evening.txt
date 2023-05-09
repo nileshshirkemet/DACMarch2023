@@ -78,3 +78,5 @@
    78  java  Program gcd 499995 799992
    79  export LD_LIBRARY_PATH=.
    80  java  Program gcd 499995 799992
+   81  cd ../../
+   82  history > cmd0305evening.txt 
