@@ -1,0 +1,59 @@
+    1  cd  Java/
+    2  mkdir Enterprise
+    3  cd Enterprise/
+    4  cp ~/Test/drivers .
+    5  cp -r ~/Test/drivers .
+    6  ls
+    7  ls drivers/
+    8  mkdir SimpleSQLTest
+    9  cd SimpleSQLTest/
+   10  mysql -h 127.0.0.1 -u root 
+   11  mysql -h 127.0.0.1 -u root -p
+   12  export CLASSPATH=../drivers/*:.
+   13  vi Program.java
+   14  javac Program.java 
+   15  java Program 
+   16  vi Program.java
+   17  javac Program.java 
+   18  java Program 
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program 
+   22  vi Program.java
+   23  javac Program.java 
+   24  java Program 
+   25  vi Program.java
+   26  javac Program.java 
+   27  java Program 
+   28  vi Program.java
+   29  wget iitdac.met.edu/shared/java/salesmy.sql
+   30  vi Program.java
+   31  javac Program.java 
+   32  java Program 
+   33  vi Program.java
+   34  javac Program.java 
+   35  java Program 
+   36  java Program 303
+   37  java Program 
+   38  java Program 307
+   39  vi Program.java
+   40  mkdir ParamSQLTest
+   41  cd ParamSQLTest/
+   42  vi Program.java
+   43  javac Program.java
+   44  vi Program.java
+   45  javac Program.java
+   46  java Program 
+   47  cd ..
+   48  mv ParamSQLTest/ ..
+   49  cd ..
+   50  java Program 
+   51  cd ParamSQLTest/
+   52  java Program 
+   53  vi Program.java 
+   54  javac Program.java 
+   55  java Program CU104 103 18
+   56  java Program CU102 106 15
+   57  java Program CU102 105 15
+   58  cd ..
+   59  history > cmd0905evening.txt

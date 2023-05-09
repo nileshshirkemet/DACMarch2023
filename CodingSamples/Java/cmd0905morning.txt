@@ -1,0 +1,35 @@
+	1  clear
+    2  cd Java/
+    3  ls
+    4  clear
+    5  sudo apt install mysql-client
+    6  mysql 
+    7  mysql -h localhost -u root
+    8  mysql -h 192.168.1.90 -u root
+    9  mysql -h iitdac.met.edu -u root
+   10  mysql -h iitdac.met.edu -u 'root@localhost'
+   11  ls
+   12  cd ~/Test
+   13  ls
+   14  cd ~
+   15  mkdir Test
+   16  cd Test
+   17  ls
+   18  wget iitdac.met.edu/shared/java/drivers.tar.gz
+   19  tar xf drivers.tar.gz 
+   20  ls
+   21  ls drivers
+   22  export CLASSPATH=drivers/*:.
+   23  cd SimpleSQLTest/
+   24  export CLASSPATH=../drivers/*:.
+   25  vi Program.java 
+   26  javac Program.java 
+   27  java Program 
+   28  vi Program.java 
+   29  mysql -h localhost -u root -proot
+   30  mysql -h 127.0.0.1 -u root -proot
+   31  cd ..
+   32  ls
+   33  cd Java/
+   34  ls
+   35  history >cmd0905morning.txt
