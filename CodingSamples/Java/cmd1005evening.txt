@@ -1,0 +1,45 @@
+ 1957  cd Java/Enterprise/
+ 1958  ls
+ 1959  mkdir EntityMappingTest
+ 1960  cd EntityMappingTest/
+ 1961  export CLASSPATH=../drivers/*:.
+ 1962  mkdir META-INF
+ 1963  wget -P META-INF/ iitdac.met.edu/shared/java/persistence.xml
+ 1964  vi META-INF/persistence.xml 
+ 1965  mkdir src
+ 1966  vi src/ProductEntity.java
+ 1967  javac -d . src/*.java
+ 1968  vi Program.java
+ 1969  javac Program.java
+ 1970  vi Program.java
+ 1971  javac Program.java
+ 1972  java Program 
+ 1973  vi Program.java
+ 1974  javac Program.java
+ 1975  vi Program.java
+ 1976  javac Program.java
+ 1977  java Program 
+ 1978  vi Program.java
+ 1979  vi src/OrderEntity.java
+ 1980  wget -P META-INF/ iitdac.met.edu/shared/java/orm.xml
+ 1981  vi META-INF/orm.xml 
+ 1982  vi src/ProductEntity.java 
+ 1983  javac -d . src/*.java
+ 1984  vi Program.java 
+ 1985  javac Program.java 
+ 1986  vi Program.java 
+ 1987  javac Program.java 
+ 1988  java Program 
+ 1989  java Program 103
+ 1990  vi Program.java 
+ 1991  javac Program.java 
+ 1992  java Program 103
+ 1993  java Program 104
+ 1994  java Program 101
+ 1995  java Program 105
+ 1996  java Program 108
+ 1997  vi Program.java 
+ 1998  exit
+ 1999  ls
+ 2000  cd Java/
+ 2001  history > cmd1005evening.txt

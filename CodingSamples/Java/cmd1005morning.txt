@@ -1,0 +1,14 @@
+    1  cd Java/Enterprise/ParamSQLTest/
+    2  vi Program.java 
+    3  cd ..
+    4  mkdir StoredProcTest
+    5  cd StoredProcTest/
+    6  export CLASSPATH=../drivers/*:.
+    7  cp ../ParamSQLTest/Program.java .
+    8  vi Program.java 
+    9  javac Program.java 
+   10  java Program CU101 103 8
+   11  java Program CU108 102 16
+   12  java Program CU104 102 16
+   13  vi Program.java 
+   16  history > cmd1005morning.txt 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+   <persistence-unit name="Shop" transaction-type="RESOURCE_LOCAL">
+     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+     <properties>
+       <property name="eclipselink.logging.level" value="OFF" />
+       
+       <property name="jakarta.persistence.jdbc.url" value="jdbc:oracle:thin:@//iitdac.met.edu/xe"/>
+       <property name="jakarta.persistence.jdbc.user" value="scott"/>
+       <property name="jakarta.persistence.jdbc.password" value="tiger"/>
+   
+     </properties>
+     <exclude-unlisted-classes>false</exclude-unlisted-classes>
+     <!--
+     <class></class>
+     -->
+   </persistence-unit>
+</persistence>
+

@@ -1,0 +1,28 @@
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="3.0">
+
+	<entity class="shopping.OrderEntity">        
+		<table name="orders"/>
+		<attributes>
+			<id name="orderNo">
+				<column name="ord_no"/>
+			</id>
+			<basic name="orderDate">
+				<column name="ord_date"/>
+			</basic>
+			<basic name="customerId">
+				<column name="cust_id"/>
+			</basic>
+			<basic name="productNo">
+				<column name="pno"/>
+			</basic>
+			<basic name="quantity">
+				<column name="qty"/>
+			</basic>
+		</attributes>
+	</entity>
+
+
+</entity-mappings>
+
