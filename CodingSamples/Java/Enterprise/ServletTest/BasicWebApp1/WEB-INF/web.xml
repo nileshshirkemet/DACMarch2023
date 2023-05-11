@@ -8,6 +8,19 @@
 		<welcome-file>welcome.html</welcome-file>
 	</welcome-file-list>
 
+	<servlet>
+		<servlet-name>Greeter</servlet-name>
+		<servlet-class>basic.web.app.GreetingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Greeter</servlet-name>
+		<url-pattern>/greet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Greeter</servlet-name>
+		<url-pattern>*.app</url-pattern>
+	</servlet-mapping>
+
 
 </web-app>
 

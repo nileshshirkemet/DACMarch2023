@@ -1,0 +1,42 @@
+    1  clear
+    2  cd ServletTest/
+    3  ls
+    4  mv NileshWebApp/ /tmp
+    5  ls
+    6  export CLASSPATH=~/glassfish7/glassfish/lib/jakartaee.jar:. 
+    7  javap jakarta.servlet.Servlet
+    8  mkdir src
+    9  vi src/GreetingServlet.java
+   10  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   11  vi src/GreetingServlet.java
+   12  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   13  vi src/GreetingServlet.java
+   14  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   15  vi src/GreetingServlet.java
+   16  vi BasicWebApp1/WEB-INF/web.xml 
+   17  ~/glassfish7/bin/asadmin undeploy BasicWebApp1
+   18  ~/glassfish7/bin/asadmin deploy BasicWebApp1
+   19  vi BasicWebApp1/WEB-INF/web.xml 
+   20  vi src/GreetingServlet.java
+   21  vi BasicWebApp1/WEB-INF/web.xml 
+   22  touch BasicWebApp1/.reload
+   23  vi BasicWebApp1/WEB-INF/web.xml 
+   24  touch BasicWebApp1/.reload
+   25  vi BasicWebApp1/WEB-INF/web.xml 
+   26  cp BasicWebApp1/welcome.html BasicWebApp1/formpost.html
+   27  vi BasicWebApp1/formpost.html
+   28  vi src/CountingServlet.java
+   29  vi BasicWebApp1/formpost.html
+   30  vi src/CountingServlet.java
+   31  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   32  vi src/CountingServlet.java
+   33  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   34  touch BasicWebApp1/.reload
+   35  vi src/CountingServlet.java
+   36  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   37  touch BasicWebApp1/.reload
+   38  vi src/CountingServlet.java
+   39  ~/glassfish7/bin/asadmin stop-domain
+   40  ~/glassfish7/bin/asadmin start-domain
+   41  ~/glassfish7/bin/asadmin stop-domain
+   45  history > cmd1105evening.txt 

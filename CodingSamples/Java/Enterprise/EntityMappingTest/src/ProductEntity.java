@@ -30,7 +30,7 @@ public class ProductEntity implements java.io.Serializable {
 	public int getStock() { return stock; }
 	public void setStock(int value) { stock = value; }
 
-	public List<OrderEntity> getOrders() { return orders; }
+public List<OrderEntity> getOrders() { return orders; }
 	public void setOrders(List<OrderEntity> value) { orders = value; }
 
 }

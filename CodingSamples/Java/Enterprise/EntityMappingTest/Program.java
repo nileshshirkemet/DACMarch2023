@@ -7,7 +7,7 @@ class Program {
 		var emf = Persistence.createEntityManagerFactory("Shop");
 		var em = emf.createEntityManager();
 		if(args.length == 0){
-			var query = em.createQuery("SELECT e FROM ProductEntity e WHERE e.stock > 0", ProductEntity.class);
+			var query =em.createQuery("SELECT e FROM ProductEntity e WHERE e.stock > 0", ProductEntity.class);
 			var products = query.getResultList();
 			for(var entry : products){
 				System.out.printf("%d\t%.2f\t%d%n", entry.getProductNo(), entry.getPrice(), entry.getStock());
