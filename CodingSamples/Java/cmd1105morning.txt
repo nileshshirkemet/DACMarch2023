@@ -1,0 +1,19 @@
+    1  clear
+    2  ls
+    3  cd ..
+    4  cd Enterprise/
+    5  mkdir ServletTest
+    6  cd ServletTest/
+    7  mkdir -p  BasicWebApp1/WEB-INF/classes
+    8  wget -P BasicWebApp1/WEB-INF/ iitdac.met.edu/shared/java/web.xml
+    9  ~/glassfish7/bin/asadmin start-domain
+   10  vi BasicWebApp1/welcome.html
+   11  ~/glassfish7/bin/asadmin deploy BasicWebApp1
+   12  vi BasicWebApp1/WEB-INF/web.xml 
+   13  ~/glassfish7/bin/asadmin redeploy BasicWebApp1
+   14  ~/glassfish7/bin/asadmin undeploy BasicWebApp1
+   15  ~/glassfish7/bin/asadmin deploy BasicWebApp1
+   16  vi BasicWebApp1/WEB-INF/web.xml 
+   17  vi BasicWebApp1/welcome.html 
+   18  cd ..
+   19  history >cmd1105morning.txt
