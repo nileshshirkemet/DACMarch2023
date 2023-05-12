@@ -1,0 +1,122 @@
+    1  mkdir JSPTest
+    2  cd JSPTest/
+    3  mkdir -p BasicWebApp2/WEB-INF/classes
+    4  cp ../ServletTest/BasicWebApp1/WEB-INF/web.xml BasicWebApp2/WEB-INF/
+    5  vi BasicWebApp2/WEB-INF/web.xml 
+    6  vi BasicWebApp2/welcome.jsp
+    7  ~/glassfish7/bin/asadmin start-domain
+    8  ~/glassfish7/bin/asadmin deploy BasicWebApp2
+    9  vi BasicWebApp2/welcome.jsp
+   10  mkdir src
+   11  vi src/GreeterBean.java
+   12  javac -d BasicWebApp2/WEB-INF/classes/ src/GreeterBean.java 
+   13  touch BasicWebApp2/.reload
+   14  vi greeterview.jsp
+   15  ls
+   16  cp BasicWebApp2/welcome.jsp BasicWebApp2/greeterview.jsp
+   17  vi BasicWebApp2/greeterview.jsp
+   18  cd ..
+   19  history >cmd1205morning.txt
+   20  ls
+   21  cd Enterprise/
+   22  ls
+   23  cd ServletTest/
+   24  ls
+   25  ll src
+   26  ll BasicWebApp1/
+   27  vi BasicWebApp1/welcome.html 
+   28  ls src
+   29  clear
+   30  ls
+   31  ll src
+   32  vi src/GreetingServlet.java 
+   33  ls
+   34  vi BasicWebApp1/WEB-INF/web.xml
+   35  vi src/GreetingServlet.java 
+   36  vi BasicWebApp1/WEB-INF/web.xml
+   37  vi src/CountingServlet.java 
+   38  ls
+   39  ls BasicWebApp1/
+   40  vi BasicWebApp1/formpost.html 
+   41  vi src/CountingServlet.java 
+   42  ls
+   43  cd ..
+   44  ls
+   45  clear
+   46  mkdir -p MyServletTest/MyWebApp/WEB-INF/classes
+   47  ls MyServletTest/
+   48  ls MyServletTest/MyWebApp/
+   49  ls MyServletTest/MyWebApp/WEB-INF/
+   50  cp ServletTest/BasicWebApp1/WEB-INF/web.xml MyServletTest/MyWebApp/WEB-INF/
+   51  cd MyServletTest/
+   52  mkdir src
+   53  clear
+   54  cd ..
+   55  cp ServletTest/src/GreetingServlet.java  MyServletTest/src
+   56  ls
+   57  cd MyServletTest/
+   58  ll
+   59  cd MyWebApp/
+   60  vi welcome.html
+   61  clear
+   62  ls
+   63  cd ..
+   64  ll src
+   65  ls
+   66  vi src/GreetingServlet.java 
+   67  javac -d MyWebApp/WEB-INF/classes/ src/GreetingServlet.java 
+   68  clear
+   69  export CLASSPATH=~/glassfish7/glassfish/lib/jakartaee.jar:. 
+   70  javac -d MyWebApp/WEB-INF/classes/ src/GreetingServlet.java 
+   71  vi MyWebApp/WEB-INF/web.xml
+   72  ~/glassfish7/bin/asadmin deploy MyWebApp/
+   73  vi MyWebApp/WEB-INF/web.xml
+   74  ls
+   75  clear
+   76  cd ..
+   77  ls
+   78  cd MyServletTest/
+   79  ls
+   80  ~/glassfish7/bin/asadmin undeploy MyWebApp/
+   81  cd ..
+   82  rm MyServletTest/
+   83  rm -r MyServletTest/
+   84  clear
+   85  ls
+   86  cd JSPTest/
+   87  vi BasicWebApp2/greeterview.jsp 
+   88  vi src/GreeterBean.java 
+   89  vi BasicWebApp2/greeterview.jsp 
+   90  vi src/GreeterBean.java 
+   91  javac -d BasicWebApp2/WEB-INF/classes/ src/GreeterBean.java 
+   92  touch BasicWebApp2/.reload
+   93  vi BasicWebApp2/greeterview.jsp 
+   94  touch BasicWebApp2/.reload
+   95  vi BasicWebApp2/greeterview.jsp 
+   96  vi src/LottoTag.java
+   97  echo $CLASSPATH
+   98  javac -d BasicWebApp2/WEB-INF/classes/ src/LottoTag.java 
+   99  vi src/LottoTag.java
+  100  javac -d BasicWebApp2/WEB-INF/classes/ src/LottoTag.java 
+  101  wget -P BasicWebApp2/WEB-INF/ iitdac.met.edu/shared/java/taglib.tld
+  102  vi BasicWebApp2/WEB-INF/taglib.tld 
+  103  vi src/LottoTag.java
+  104  wget -P BasicWebApp2/WEB-INF/ iitdac.met.edu/shared/java/taglib.tld
+  105  vi BasicWebApp2/WEB-INF/taglib.tld 
+  106  vi src/LottoTag.java
+  107  touch BasicWebApp2/.reload 
+  108  cp BasicWebApp2/welcome.jsp BasicWebApp2/lottoview.jsp
+  109  vi BasicWebApp2/lottoview.jsp
+  110  vi src/LottoTag.java
+  111  javac -d BasicWebApp2/WEB-INF/classes/ src/LottoTag.java 
+  112  touch BasicWebApp2/.reload 
+  113  vi BasicWebApp2/lottoview.jsp
+  114  vi src/LottoTag.java
+  115  vi BasicWebApp2/lottoview.jsp
+  116  vi src/LottoTag.java
+  117  vi BasicWebApp2/WEB-INF/taglib.tld 
+  118  vi src/LottoTag.java
+  119  vi BasicWebApp2/lottoview.jsp
+  120  ls
+  121  cd ..
+  122  history >cmd1205evening.txt
