@@ -1,0 +1,19 @@
+    1  mkdir JSPTest
+    2  cd JSPTest/
+    3  mkdir -p BasicWebApp2/WEB-INF/classes
+    4  cp ../ServletTest/BasicWebApp1/WEB-INF/web.xml BasicWebApp2/WEB-INF/
+    5  vi BasicWebApp2/WEB-INF/web.xml 
+    6  vi BasicWebApp2/welcome.jsp
+    7  ~/glassfish7/bin/asadmin start-domain
+    8  ~/glassfish7/bin/asadmin deploy BasicWebApp2
+    9  vi BasicWebApp2/welcome.jsp
+   10  mkdir src
+   11  vi src/GreeterBean.java
+   12  javac -d BasicWebApp2/WEB-INF/classes/ src/GreeterBean.java 
+   13  touch BasicWebApp2/.reload
+   14  vi greeterview.jsp
+   15  ls
+   16  cp BasicWebApp2/welcome.jsp BasicWebApp2/greeterview.jsp
+   17  vi BasicWebApp2/greeterview.jsp
+   18  cd ..
+   19  history >cmd1205morning.txt
