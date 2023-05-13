@@ -1,0 +1,13 @@
+    1  cd Enterprise/JSTLTest/
+    2  vi DBWebApp/customer.jsp 
+    3  vi src/DB.java 
+    4  javac -d DBWebApp/WEB-INF/classes/ -cp DBWebApp/WEB-INF/lib/ojdbc8.jar src/*.java
+    5  touch DBWebApp/.reload
+    6  vi DBWebApp/customer.jsp 
+    7  vi DBWebApp/order.jsp 
+    8  vi DBWebApp/customer.jsp 
+    9  vi DBWebApp/order.jsp 
+   10  vi DBWebApp/customer.jsp 
+   11  vi DBWebApp/order.jsp 
+   12  cd ../../
+   13  history > cmd1305evening.txt 

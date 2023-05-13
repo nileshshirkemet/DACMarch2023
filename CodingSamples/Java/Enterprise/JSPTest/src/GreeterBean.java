@@ -12,7 +12,7 @@ public class GreeterBean implements java.io.Serializable {
 	public final String getPeriod() { return period; }
 	public final void setPeriod(String value) { period = value; }
 
-	private final int getGreetCount() { return count; }
+	public final int getGreetCount() { return count; }
 
 	public synchronized String getMessage() {
 		if(person == null)
