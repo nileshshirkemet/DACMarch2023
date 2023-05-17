@@ -1,0 +1,35 @@
+  12 cd .\Language\Basics\PrimitiveTypeTest\                                 
+  13 cd .\DemoApp\                                                           
+  14 dir                                                                     
+  15 code                                                                    
+  16 code .                                                                  
+  17 code .                                                                  
+  18 dotnet build                                                            
+  19 dotnet .\bin\Debug\net6.0\DemoApp.dll 200000 5                          
+  20 dotnet run 200000 5                                                     
+  21 cd ../..                                                                
+  22 cp .\PrimitiveTypeTest\ StructTypeTest                                  
+  23 ls                                                                      
+  24 rmdir .\StructTypeTest\                                                 
+  25 cp -r .\PrimitiveTypeTest\ StructTypeTest                               
+  26 cd .\StructTypeTest\DemoApp\                                            
+  27 ls                                                                      
+  28 code .                                                                  
+  29 dotnet run 200000 5                                                     
+  30 dotnet run 50000 6                                                      
+  31 dotnet run 50000 6                                                      
+  32 dotnet run 200000 5                                                     
+  33 dotnet run 50000 6                                                      
+  34 dotnet run 200000 5                                                     
+  35 ildasm .\bin\Debug\net6.0\DemoApp.dll                                   
+  36 dotnet run 50000 6                                                      
+  37 code .                                                                  
+  38 dotnet run 50000 6                                                      
+  39 cd ../..                                                                
+  40 cp -r .\StructTypeTest\ EnumTypeTest                                    
+  41 cd .\EnumTypeTest\DemoApp\                                              
+  42 code .                                                                  
+  43 dotnet run 50000 6                                                      
+  44 dotnet run 200000 5                                                     
+  45 dotnet run 50000 6                                                      
+  46 dotnet run 200000 5 
