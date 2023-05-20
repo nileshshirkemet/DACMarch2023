@@ -1,0 +1,12 @@
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\bin\Debug\net7.0\Taxation.deps.json
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\bin\Debug\net7.0\Taxation.dll
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\bin\Debug\net7.0\Taxation.pdb
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.csproj.AssemblyReference.cache
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.AssemblyInfoInputs.cache
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.AssemblyInfo.cs
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.csproj.CoreCompileInputs.cache
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.dll
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\refint\Taxation.dll
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\Taxation.pdb
+C:\Users\efaculty1\DotNet\Language\InterfaceTest2\Taxation\obj\Debug\net7.0\ref\Taxation.dll
