@@ -1,0 +1,12 @@
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\bin\Debug\net7.0\BankLib.deps.json
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\bin\Debug\net7.0\BankLib.dll
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\bin\Debug\net7.0\BankLib.pdb
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.csproj.AssemblyReference.cache
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.AssemblyInfoInputs.cache
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.AssemblyInfo.cs
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.csproj.CoreCompileInputs.cache
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.dll
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\refint\BankLib.dll
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\BankLib.pdb
+C:\Users\efaculty1\DotNet\Runtime\ReflectionTest2\BankLib\obj\Debug\net7.0\ref\BankLib.dll
