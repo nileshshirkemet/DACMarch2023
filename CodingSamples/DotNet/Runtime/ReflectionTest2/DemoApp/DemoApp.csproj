@@ -11,4 +11,9 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Program1.cs"/>
+    <Compile Remove="Program2.cs"/>
+  </ItemGroup>
+  
 </Project>
