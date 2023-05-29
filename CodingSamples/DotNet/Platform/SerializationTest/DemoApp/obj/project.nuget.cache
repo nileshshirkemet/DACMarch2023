@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qmKbdyKn9sBgHuOfsCxxQYxy2PV5Tt3IUGd5ZVr/1/pkWgq3/yO/oUHRNpm6YRhK3kn0P8lGzJbZsdOCi+zGwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\efaculty1\\DotNet\\Platform\\SerializationTest\\DemoApp\\DemoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\met.tours\\2.0.0\\met.tours.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

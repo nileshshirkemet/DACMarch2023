@@ -1,0 +1,12 @@
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\bin\Debug\net7.0\Tourism.deps.json
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\bin\Debug\net7.0\Tourism.dll
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\bin\Debug\net7.0\Tourism.pdb
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.csproj.AssemblyReference.cache
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.AssemblyInfoInputs.cache
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.AssemblyInfo.cs
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.csproj.CoreCompileInputs.cache
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.dll
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\refint\Tourism.dll
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\Tourism.pdb
+C:\Users\efaculty1\DotNet\Platform\SerializationTest\Tourism1\obj\Debug\net7.0\ref\Tourism.dll
