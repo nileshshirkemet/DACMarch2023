@@ -1,0 +1,10 @@
+<shop>
+    <item id="cpu">rate:19000,stock:50</item>
+    <item id="motherboard">rate:8500,stock:65</item>
+    <item id="ddr">rate:3500,stock:85</item>
+    <item id="ssd">rate:4500,stock:30</item>
+    <item id="keyboard">rate:900,stock:90</item>
+    <item id="mouse">rate:550,stock:120</item>
+    <item id="monitor">rate:8000,stock:15</item>
+</shop>
+

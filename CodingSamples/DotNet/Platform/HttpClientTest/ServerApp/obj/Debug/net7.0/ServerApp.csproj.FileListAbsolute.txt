@@ -1,0 +1,15 @@
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\bin\Debug\net7.0\ServerApp.exe
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\bin\Debug\net7.0\ServerApp.deps.json
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\bin\Debug\net7.0\ServerApp.runtimeconfig.json
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\bin\Debug\net7.0\ServerApp.dll
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\bin\Debug\net7.0\ServerApp.pdb
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.csproj.AssemblyReference.cache
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.AssemblyInfoInputs.cache
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.AssemblyInfo.cs
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.dll
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\refint\ServerApp.dll
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.pdb
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ServerApp.genruntimeconfig.cache
+C:\Users\efaculty1\DotNet\Platform\HttpClientTest\ServerApp\obj\Debug\net7.0\ref\ServerApp.dll
