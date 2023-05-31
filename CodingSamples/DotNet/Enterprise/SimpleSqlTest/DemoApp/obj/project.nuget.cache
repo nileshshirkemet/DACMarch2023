@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "d6kGfqvCON0MsvLP2c7USW0P/NcgPaTKJLu9OQ/4PRG4Smpgr2yfzgazdfs7hl4c+SEXPB4llcBpoqSe259jvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\SimpleSqlTest\\DemoApp\\DemoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.data.sqlite\\7.0.5\\microsoft.data.sqlite.7.0.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
