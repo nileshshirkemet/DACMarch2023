@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\AspNetCoreTest\\BasicWebApp\\wwwroot\\formpost.html",
+      "PackagePath": "staticwebassets\\formpost.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BasicWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BasicWebApp.props",
+      "PackagePath": "build\\BasicWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BasicWebApp.props",
+      "PackagePath": "buildMultiTargeting\\BasicWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BasicWebApp.props",
+      "PackagePath": "buildTransitive\\BasicWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
