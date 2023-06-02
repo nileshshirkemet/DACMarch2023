@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RkM8z/wO1frr2f2/M/w8tjLJEDDGRHM8XWUyocs9Z0crX50NPllv8aDWRAvqQmNi7SyPXbYva7wp8qaIN9A6oA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\AspNetCoreMvcTest\\BasicWebApp\\BasicWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\met.tours\\2.0.0\\met.tours.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
