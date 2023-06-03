@@ -1,0 +1,25 @@
+@page "/Greet/{guest=Visitor}"
+@inject BasicWebApp.Services.ICounter ctr
+@addTagHelper *, BasicWebApp
+@{
+    string visitor = (string)RouteData.Values["guest"];
+    bool formal = ctr.CountNext(visitor) % 2 > 0;
+}
+<html>
+    <head>
+        <title>BasicWebApp</title>
+    </head>
+    <body>
+        @if(formal)
+        {
+            <h1>Hello @visitor</h1>
+        }
+        else
+        {
+            <h1>Hi @visitor</h1>
+        }
+        <p>
+            <b>Winner: </b><span lotto-digit-count="8"></span>
+        </p>
+    </body>
+</html>
