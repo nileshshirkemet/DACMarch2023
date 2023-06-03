@@ -1,0 +1,30 @@
+@page
+@model DBWebApp.Pages.DetailModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+    <head>
+        <title>DBWebApp</title>
+    </head>
+    <body>
+        <h1>Welcome Customer @Model.Current.Id</h1>
+        <h3>Your Orders</h3>
+        <table border="1">
+            <tr>
+                <th>Product No</th>
+                <th>Quantity</th>
+                <th>Order Date</th>
+            </tr>
+            @foreach (var entry in Model.Current.Orders)
+            {
+                <tr>
+                    <td>@entry.ProductNo</td>
+                    <td>@entry.Quantity</td>
+                    <td>@entry.OrderDate.ToString("yyyy-MM-dd")</td>
+                </tr>
+            }
+        </table>
+        <p>
+            <a asp-page-handler="logout">Logout</a>
+        </p>
+    </body>
+</html>
