@@ -1,0 +1,20 @@
+Database System  : SQLite
+Provider Package : Microsoft.Data.Sqlite/Microsoft.EntityFrameworkCore.Sqlite
+Connection String: "Data Source=<db-file-path>"
+Connection Class : Microsoft.Data.Sqlite.SqliteConnection
+
+Database System  : SQL Server
+Provider Package : Microsoft.Data.SqlClient/Microsoft.EntityFrameworkCore.SqlServer
+Connection String: "Data Source=<host>;Database=<db-name>;User Id=<uid>;Password=<pwd>;Encrypt=False|Trust Server Certificate=True";
+Connection Class : Microsoft.Data.SqlClient.SqlConnection
+
+Database System  : MySQL
+Provider Package : MySql.Data/MySql.EntityFrameworkCore
+Connection String: "Data Source=<host>;Database=<db-name>;User Id=<uid>;Password=<pwd>"
+Connection Class : MySql.Data.MySqlClient.MySqlConnection
+
+Database System  : Oracle
+Provider Package : Oracle.ManagedDataAccess.Core/Oracle.EntityFrameworkCore
+Connection String: "Data Source=<host>/<sid>;User Id=<uid>;Password=<pwd>"
+Connection Class : Oracle.ManagedDataAccess.Client.OracleConnection
+
