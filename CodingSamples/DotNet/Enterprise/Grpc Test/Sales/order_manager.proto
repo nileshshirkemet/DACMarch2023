@@ -1,0 +1,27 @@
+syntax = "proto3";
+package sales;
+
+service OrderManager {
+    rpc PlaceOrder(OrderInput) returns (OrderStatus);
+    rpc FetchOrders(CustomerInput) returns (stream CustomerOrder);
+}
+
+message OrderInput {
+    string customer_code = 1;
+    int32 item_code = 2;
+    int32 item_count = 3;
+}
+
+message OrderStatus {
+    int32 confirmation_code = 1;
+}
+
+message CustomerInput {
+    string customer_code = 1;
+}
+
+message CustomerOrder {
+    int32 item_code = 1;
+    int32 item_count = 2;
+    string confirmation_date = 3;
+}

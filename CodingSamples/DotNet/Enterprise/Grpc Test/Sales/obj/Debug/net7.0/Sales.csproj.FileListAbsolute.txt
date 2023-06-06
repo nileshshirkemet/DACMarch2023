@@ -1,0 +1,12 @@
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.csproj.AssemblyReference.cache
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.AssemblyInfoInputs.cache
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.AssemblyInfo.cs
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.csproj.CoreCompileInputs.cache
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\bin\Debug\net7.0\Sales.deps.json
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\bin\Debug\net7.0\Sales.dll
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\bin\Debug\net7.0\Sales.pdb
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.dll
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\refint\Sales.dll
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\Sales.pdb
+C:\Users\efaculty1\DotNet\Enterprise\GrpcTest\Sales\obj\Debug\net7.0\ref\Sales.dll

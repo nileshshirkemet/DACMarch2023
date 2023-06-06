@@ -1,0 +1,2 @@
+obj\Debug\net7.0/OrderManager.cs \
+obj\Debug\net7.0/OrderManagerGrpc.cs: order_manager.proto
