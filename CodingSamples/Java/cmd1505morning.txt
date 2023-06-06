@@ -1,0 +1,23 @@
+    1  cp -r EntityMappingTest/ RMITest
+    2  cd RMITest/
+    3  export CLASSPATH=../drivers/*:.
+    4  rm -r shopping/
+    5  rm src/ProductEntity.java 
+    6  rm Program.*
+    7  ls
+    8  ls src/
+    9  ls META-INF/
+   10  vi src/CounterEntity.java
+   11  vi META-INF/orm.xml 
+   12  vi src/OrderManager.java
+   13  vi src/CounterEntity.java
+   14  vi src/OrderEntity.java 
+   15  vi src/OrderManagerService.java
+   16  javac -d . src/*.java
+   17  vi Program.java
+   18  javac Program.java
+   19  java Program &
+   20  vi src/OrderManagerService.java
+   21  pwd
+   22  cd ../../
+   23  history > cmd1505morning.txt 

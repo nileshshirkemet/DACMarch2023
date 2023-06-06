@@ -1,0 +1,27 @@
+    1  cd ..
+    2  ~/glassfish7/bin/asadmin stop-domain
+    3  ~/glassfish7/bin/asadmin start-domain
+    4  mkdir JSTLTest
+    5  cs JSTLTest/
+    6  cd JSTLTest/
+    7  mkdir -p DBWebApp/WEB-INF/classes
+    8  mkdir DBWebApp/WEB-INF/lib
+    9  cp ../drivers/ojdbc8.jar DBWebApp/WEB-INF/lib/
+   10  cp ../JSPTest/BasicWebApp2/WEB-INF/web.xml DBWebApp/WEB-INF/
+   11  vi DBWebApp/WEB-INF/web.xml 
+   12  mkdir src
+   13  vi src/DB.java
+   14  javac -d DBWebApp/WEB-INF/classes/ src/*.java
+   15  javac -d DBWebApp/WEB-INF/classes/ -cp DBWebApp/WEB-INF/lib/* src/*.java
+   16  javac -d DBWebApp/WEB-INF/classes/ -cp DBWebApp/WEB-INF/lib/ojdbc8.jar src/*.java
+   17  vi src/DB.java
+   18  vi src/CustomerOrder.java
+   19  vi src/CustomerBean.java
+   20  javac -d DBWebApp/WEB-INF/classes/ -cp DBWebApp/WEB-INF/lib/ojdbc8.jar src/*.java
+   21  ~/glassfish7/bin/asadmin deploy DBWebApp
+   22  vi DBWebApp/customer.jsp
+   23  cp DBWebApp/customer.jsp DBWebApp/order.jsp
+   24  vi DBWebApp/order.jsp
+   25  pwd
+   26  cd ../../
+   27  history > cmd1305morning.txt 

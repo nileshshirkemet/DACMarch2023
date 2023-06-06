@@ -1,0 +1,46 @@
+    1  mkdir JAXRSTest
+    2  mkdir -p RESTWebApp/WEB-INFO/classes
+    3  mv RESTWebApp JAXRSTest/
+    4  cd JAXRSTest/
+    5  ls
+    6  cp ../ServletTest/BasicWebApp1/WEB-INF/web.xml RESTWebApp/WEB-INFO/
+    7  mkdir src
+    8  cp ../RMITest/src/OrderManager.java src/
+    9  cp ../RMITest/src/OrderEntity.java src/
+   10  cd RESTWebApp/
+   11  wget iitdac.met.edu/shared/web/salesui.tar.gz
+   12  tar xf salesui.tar.gz 
+   13  rm salesui.tar.gz 
+   14  cd ..
+   15  mv RESTWebApp/WEB-INFO/ RESTWebApp/WEB-INF
+   16  vi RESTWebApp/WEB-INF/web.xml 
+   17  ~/glassfish7/bin/asadmin start-domain
+   18  ~/glassfish7/bin/asadmin deploy RESTWebApp
+   19  ls src/
+   20  vi src/SalesAgentService.java
+   21  javac -cp ~/glassfish7/glassfish/lib/jakartaee.jar -d RESTWebApp/WEB-INF/classes/ src/*.java
+   22  touch RESTWebApp/.reload
+   23  sudo apt install httpie
+   24  http localhost:8080/RESTWebApp/api/sales/CU101
+   25  http localhost:8080/RESTWebApp/api/sales/CU103
+   26  http localhost:8080/RESTWebApp/api/sales/CU108
+   27  vi post.json
+   28  http localhost:8080/RESTWebApp/api/sales/CU101
+   29  http localhost:8080/RESTWebApp/api/sales @post.json 
+   30  http localhost:8080/RESTWebApp/api/sales/CU101
+   31  ls RESTWebApp/
+   32  ls RESTWebApp/scripts/
+   33  cd RESTWebApp/
+   34  vi corsdemo.html 
+   35  python3 -m http.server 8081
+   36  vi corsdemo.html 
+   37  cd ..
+   38  vi src/EnableCORSFilter.java
+   39  javac -cp ~/glassfish7/glassfish/lib/jakartaee.jar -d RESTWebApp/WEB-INF/classes/ src/*.java
+   40  touch RESTWebApp/.reload
+   41  http localhost:8080/RESTWebApp/api/sales/CU101
+   42  cd RESTWebApp/
+   43  python3 -m http.server 8081
+   44  vi index.js 
+   45  cd ..
+   46  history >cmd1505evening.txt
