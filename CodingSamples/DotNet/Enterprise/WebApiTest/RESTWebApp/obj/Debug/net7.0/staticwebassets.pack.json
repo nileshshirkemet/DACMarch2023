@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\corsdemo.html",
+      "PackagePath": "staticwebassets\\corsdemo.html"
+    },
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\scripts\\babel.min.js",
+      "PackagePath": "staticwebassets\\scripts\\babel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\scripts\\react-dom.development.js",
+      "PackagePath": "staticwebassets\\scripts\\react-dom.development.js"
+    },
+    {
+      "Id": "C:\\Users\\efaculty1\\DotNet\\Enterprise\\WebApiTest\\RESTWebApp\\wwwroot\\scripts\\react.development.js",
+      "PackagePath": "staticwebassets\\scripts\\react.development.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RESTWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RESTWebApp.props",
+      "PackagePath": "build\\RESTWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RESTWebApp.props",
+      "PackagePath": "buildMultiTargeting\\RESTWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RESTWebApp.props",
+      "PackagePath": "buildTransitive\\RESTWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
