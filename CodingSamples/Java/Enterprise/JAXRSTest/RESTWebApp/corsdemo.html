@@ -1,0 +1,44 @@
+<html>
+
+	<head>
+		<title>RESTWebApp</title>
+	</head>
+
+
+	<body>
+		<h1>Welcome Sales Agent</h1>
+		<form>
+			<p>
+				<b>Customer ID: </b>
+				<input type="text" id="customerIdInput" required="required"/>
+				<input type="button" id="lookupButton" value="Lookup"/>
+			</p>
+			<b>Ordered Quantity: </b><span id="quantityOutput">0</span>
+		</form>
+		<script type="text/javascript">
+			let customerIdInput = document.getElementById("customerIdInput");
+			let lookupButton = document.getElementById("lookupButton");
+			let quantityOutput = document.getElementById("quantityOutput");
+			lookupButton.onclick = async function(){
+				let response = await fetch("http://localhost:8080/RESTWebApp/api/sales/" + customerIdInput.value);
+				if(response.ok){
+					let result = await response.json();
+					let total = 0;
+					for(const entry of result){
+						total += parseInt(entry.quantity);
+					}
+					quantityOutput.innerText = total;
+				}else if(response.status == 404){
+					quantityOutput.innerText = "Not Found";
+				}else{
+					quantityOutput.innerText = "Error";
+				}
+			};
+		</script>
+	</body>
+
+</html>
+<!--
+python3 -m http.server 5000
+-->
+
