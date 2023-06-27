@@ -1,0 +1,18 @@
+table{
+    border: solid;
+    width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+}
+/* css grouping */
+th,td   
+{
+    border: solid;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+thead tr{
+    background-color: aquamarine;
+}

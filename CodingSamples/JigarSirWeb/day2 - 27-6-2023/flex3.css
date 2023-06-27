@@ -1,0 +1,12 @@
+.x1{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.left{
+    width: 25%;
+    
+}
+.right{
+    width: 75%;
+}
