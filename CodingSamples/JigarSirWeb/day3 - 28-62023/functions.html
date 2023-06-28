@@ -1,0 +1,14 @@
+<script>
+    function emi(p, r, n) {
+        //P x R x (1+R)^N / [(1+R)^N-1]
+        r = r / 12 / 100
+        n = n * 12
+        emi = p * r * (1 + r) ** n / ((1 + r) ** n - 1)
+
+        console.log(emi, Math)
+        console.log(Math.round(emi))
+
+    }
+    emi(100000, 8, 30)     // function call
+
+</script>

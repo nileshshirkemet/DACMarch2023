@@ -1,0 +1,28 @@
+<script>
+    var product = {
+        name: "puma",
+        price: 1000,
+        path: "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/u/z/g/32-sp1016-sparky-original-imagq4342y5thvyq.jpeg?q=70"
+    }
+    console.log(product)
+    document.write(`
+       <div>
+          <img src = "${product.path}"> 
+          <h2>
+              ${product.price}
+            </h2>
+            <p> ${product.name}</p>
+       </div>
+    `)
+</script>
+<style>
+    div {
+        border: solid;
+        width: 300px;
+
+    }
+
+    img {
+        width: 100%;
+    }
+</style>
