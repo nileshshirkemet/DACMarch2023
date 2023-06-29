@@ -1,3 +1,49 @@
 /* img{
     width: 100px;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap');
+
+@import url(style1.css);
+
+body {
+    font-family: cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    ;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+    background-color: #ff0000;
+    background-color: #ffff00;
+    background-color: #000000;
+
+}
+
+footer a {
+    color: rgb(255, 255, 255) !important;
+}
+
+footer a:hover {
+    color: orange !important;
+}
+
+img:hover {
+    transform: scale(1.10);
+}
+
+@media screen and (max-width:576px) {
+    .logo {
+        text-align: center;
+    }
+    .top-menu{
+        justify-content: center !important;
+    }
+    img{
+        width: 100%;
+    }
+
+}
