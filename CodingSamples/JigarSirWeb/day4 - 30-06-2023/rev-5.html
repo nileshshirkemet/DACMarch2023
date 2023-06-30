@@ -1,0 +1,12 @@
+<script>
+    //callback : its function which is passed into another function as an argument
+
+    function Outer(a,b,c1,c2){
+        console.log(typeof a , a);
+        console.log(typeof b , b);
+        console.log(typeof c1);
+        console.log(typeof c2);
+    }
+
+    Outer(10,20, function(){} , ()=>{})
+</script>

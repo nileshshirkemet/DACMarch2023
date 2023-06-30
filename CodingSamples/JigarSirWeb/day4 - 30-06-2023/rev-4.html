@@ -1,0 +1,22 @@
+<script>
+    //Named func
+    function myfun1(){
+        console.log(Math);
+        console.log(Math.abs(-90));
+    }
+    //Anonymous or unnamed
+    var myvar = function(){
+        console.log(Math.round(1.4));
+        console.log(Math.round(1.5));
+    }
+    //Arrow
+    var myvar1 = ()=>{
+        console.log(Math.pow(4,3)); // 4^3
+        console.log(Math.sqrt(100)); //
+    }
+    
+</script>
+<!-- events in javascript -->
+<button onclick="myfun1()">Enter1</button>
+<button onmouseover="myvar()">Enter2</button>
+<button onmouseout="myvar1()">Enter3</button>
