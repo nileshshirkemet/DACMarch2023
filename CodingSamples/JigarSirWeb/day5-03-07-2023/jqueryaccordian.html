@@ -1,0 +1,41 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+
+<h1>
+    heading1
+</h1>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo praesentium natus sed fugit officiis maiores amet
+    maxime sunt eos harum consequuntur aut accusantium ex non hic placeat, iure, quas ad.
+</p>
+<h1>
+    heading2
+</h1>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo praesentium natus sed fugit officiis maiores amet
+    maxime sunt eos harum consequuntur aut accusantium ex non hic placeat, iure, quas ad.
+</p>
+<h1>
+    heading3
+</h1>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo praesentium natus sed fugit officiis maiores amet
+    maxime sunt eos harum consequuntur aut accusantium ex non hic placeat, iure, quas ad.
+</p>
+<style>
+    h1,
+    p {
+        border: solid;
+        width: 500px;
+        margin: auto;
+    }
+</style>
+<script>
+    $("p").hide()
+    $("h1").click(function () {
+        //    $("p").slideDown() 
+        
+        $("p").slideUp()
+        $(this).next().slideDown()
+    })
+</script>

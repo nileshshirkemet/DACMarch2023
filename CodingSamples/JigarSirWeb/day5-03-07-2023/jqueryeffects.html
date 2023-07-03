@@ -1,0 +1,29 @@
+<!-- traverse and jqery effects -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<h1>
+    heading1
+</h1>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo praesentium natus sed fugit officiis maiores amet
+    maxime sunt eos harum consequuntur aut accusantium ex non hic placeat, iure, quas ad.
+</p>
+<style>
+    h1,
+    p {
+        border: solid;
+        width: 500px;
+        margin: auto;
+    }
+
+    p {
+        display: none;
+    }
+</style>
+<script>
+    $("h1").click(function () {
+        // alert()
+        // $("p").slideToggle(3000)
+        $("p").fadeToggle(3000)
+    })
+</script>

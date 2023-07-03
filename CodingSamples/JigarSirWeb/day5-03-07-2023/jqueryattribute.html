@@ -1,0 +1,13 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<input type="checkbox" id="x1">
+<input type="password">
+<script>
+    $("#x1").change(function(){
+        // (3>2)?( console.log('y')) :( console.log('n'))
+        ($(this).is(":checked"))
+        ?
+        ($(this).next().attr("type","text"))
+        :
+        ($(this).next().attr("type","password"))
+    })
+</script>

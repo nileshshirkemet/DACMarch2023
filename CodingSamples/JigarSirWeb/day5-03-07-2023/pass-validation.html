@@ -1,0 +1,17 @@
+<!-- password validation
+    1 cap char
+    1 small char
+    1 number
+    1 special char
+-->
+<script>
+    // var x1 = /^()()()().{4,8}$/
+    var x1 =/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@\-#]).{4,8}$/
+    var answer = "Z2@1-a" 
+    var result = x1.test(answer)
+    console.log(result);
+ </script>
+
+ <!-- /^()()()().$/     . - each group -->
+ <!-- ?=     current character onward -->
+ <!-- *  search anywhere in the string -->

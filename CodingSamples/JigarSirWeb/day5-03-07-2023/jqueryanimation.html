@@ -1,0 +1,25 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<button>
+    enter
+</button>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique porro, fugit, quaerat nihil voluptatibus velit
+    beatae doloremque inventore iure odit maxime. Quae dolor numquam veniam tempore accusamus, hic asperiores assumenda.
+</p>
+<style>
+    p {
+        border: solid;
+        height: 200px;
+        width: 200px;
+
+    }
+</style>
+<script>
+    $("button").click(function () {
+        $("p").animate({
+            "margin-left": "300px",
+            "font-size": "30px"
+
+        }, 3000)
+    })
+</script>
