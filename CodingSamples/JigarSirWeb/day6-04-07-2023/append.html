@@ -1,0 +1,19 @@
+<button id="x1">Enter</button>
+
+<ul style="border:solid" id="x2">
+
+</ul>
+
+<script>
+    document.getElementById('x1').onclick = function () {
+        var liTag = document.createElement('li');
+        console.log(liTag, typeof liTag);
+
+        console.log(document.getElementById('x2'));
+        console.log(typeof document.getElementById('x2'));
+
+        liTag.innerHTML = Math.random();
+        // document.getElementById('x2').innerHTML = liTag;
+        document.getElementById('x2').append(liTag);
+    }
+</script>

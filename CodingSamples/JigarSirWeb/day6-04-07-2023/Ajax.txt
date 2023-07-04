@@ -1,0 +1,27 @@
+- Ajax is not a technology .
+- Ajax is a technique which uses exiting technologies eg: html,css(for 
+presentation purpose) javascript(for comm purpose) .
+- Ajax performs operations with server side lang or Api without  page    refresh .
+- Ajax performs operations on client side only(i.e. on browser side) .
+- to transfer (get/post) data you need either xml or json apart from text .
+- Ajax ->  Asynchronous JavaScript And XML
+- json ->  javascript object notation , it is technique . 
+- xml  ->  it is technology .
+- url =  domain + route + parameters
+- eg -> icc.com/match/1000
+        domain /route/parameters
+
+
+
+  step 1
+-  Xml Http Request object is required to perform Ajax operations 
+
+
+- promise
+- promise is a special object in javascript . 
+- use to handle any Asynchronous operation .
+-  3 stages 
+   a -> pending
+   b -> fulfilled   (then )
+   c -> rejected    (catch)
+-  
