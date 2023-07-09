@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>  
+   
+   <session-factory>      
+   
+      <property name = "hibernate.connection.driver_class">
+         com.mysql.cj.jdbc.Driver
+      </property>
+
+      <property name = "hibernate.connection.url">
+         jdbc:mysql://localhost/sales
+      </property>
+   
+      <property name = "hibernate.connection.username">root</property>
+   
+      <property name = "hibernate.connection.password">root</property>    
+      
+      <property name = "hibernate.show_sql">
+         true
+      </property>
+      
+    <!--   <property name = "hibernate.hbm2ddl.auto">
+         create
+      </property> -->
+
+      <property name = "hibernate.dialect">
+         org.hibernate.dialect.MySQL8Dialect
+      </property>
+      
+      <mapping class="com.met.model.Account"/>
+      
+   </session-factory>   
+   
+</hibernate-configuration>
+
+<!-- oracle.jdbc.OracleDriver
+jdbc:oracle:thin:@//192.168.4.161:1521/xe
+milind
+org.hibernate.dialect.Oracle10gDialect -->
