@@ -1,0 +1,129 @@
+hibernate	JPA
+
+save -> 	persist
+Update -> 	merge
+delete -> 	remove
+get -> 		find
+
+
+
+Hibernate provides 2 ways to get object
+get	/	load
+
+1) Eager loading      		lazy loading
+2) Return actuall class		return proxy class
+3) invalid value
+	null			throw ObjectNotFound Exception
+
+
+
+
+
+is a relationship
+
+
+has a relationship
+
+
+
+
+1 object has a ref to another object
+
+
+
+Employee has a Address
+
+
+class Employee{
+
+	private int id;
+	private String name;
+	private String emailId;
+
+	private Address address;
+}
+
+
+
+
+
+class Address{
+
+	private int id;
+	private String city;
+	private String country;
+}
+
+
+
+Employee has information about Address
+Address doesnot have any information about EMployee
+		//Unidirection
+
+
+
+
+Order Tbl
+1001    50000
+
+
+
+OrderLineTbl
+fk_order_id     product    value
+1001            shirt	    20000
+1001            mobile	    30000
+
+
+
+	
+Hibernate: insert into Employee (emailId, name, id) values (?, ?, ?)
+Hibernate: insert into Address (city, country, id) values (?, ?, ?)
+Hibernate: insert into Address (city, country, id) values (?, ?, ?)
+Hibernate: update Address set fk_emp_id=? where id=?
+Hibernate: update Address set fk_emp_id=? where id=?
+
+		fk_emp_id
+
+
+onetomany
+
+Advantage : session.save(employee)	
+			all the addresses associated with this empoyee would be saved.
+
+Disadvntage: Since address dont have information about employee, addiytional update queries are fired.
+
+
+
+
+
+
+
+Address have any information about EMployee
+Employee doesnot information about Address
+		//Unidirection
+
+
+
+
+
+insrt into addres
+
+
+Hibernate: insert into Employee (emailId, name, id) values (?, ?, ?)
+Hibernate: insert into Address (city, country, fk_emp_id, id) values (?, ?, ?, ?)
+Hibernate: insert into Address (city, country, fk_emp_id, id) values (?, ?, ?, ?)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
