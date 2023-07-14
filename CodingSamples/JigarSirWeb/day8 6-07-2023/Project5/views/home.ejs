@@ -1,0 +1,23 @@
+<%-include("menu.ejs")%>
+<h1>
+    Home page
+</h1>
+<%=x %>
+<table class="table">
+    <thead>
+      <tr>
+        
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+        <% x.forEach(function(xyz) { %>
+            <tr>
+                <td><%= xyz.name %></td>
+                <td><%= xyz.age %></td>
+            </tr>
+         <% }); %> 
+    </tbody>
+  </table>                                                                                                                                                                                                                                                                                                                                                                                                                                                     
