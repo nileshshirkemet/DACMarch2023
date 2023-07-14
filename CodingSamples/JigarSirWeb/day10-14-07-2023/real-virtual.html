@@ -1,0 +1,42 @@
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<div id="root1">
+
+</div>
+<script>
+    setInterval(()=>{
+        // console.log(Math.random());
+        var record = `        
+            <div>
+                <div>
+                    <h1>
+                        Hello World!
+                        <span> Number  : ${Math.random()}</span>
+                    </h1>
+                </div>
+            </div>
+        `;
+        document.getElementById('root1').innerHTML = record;
+    } , 1000);
+</script>
+
+<div id="root2"></div>
+<script type="text/babel">
+     setInterval(()=>{
+        var record = (
+            <div>
+                <div>
+                    <h1>
+                        Hello World!
+                        <span> Number  : {Math.random()}</span>
+                    </h1>
+                </div>
+            </div>
+        );
+        ReactDOM.render(record, document.getElementById('root2'));
+     }, 1000)
+</script>
