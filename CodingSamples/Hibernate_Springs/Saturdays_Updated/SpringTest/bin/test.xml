@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx" 
+ xmlns:p="http://www.springframework.org/schema/p" xmlns:c="http://www.springframework.org/schema/c" 
+ xmlns:context="http://www.springframework.org/schema/context" 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+ http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-4.0.xsd" >
+ 
+ 	<bean id="emp1" class="com.met.model.Employee"></bean>
+ 	
+ 	
+ 	<bean id="emp2" class="com.met.model.Employee" scope="singleton"></bean>
+ 	
+ 	
+ 	<bean id="emp3" class="com.met.model.Employee" scope="prototype"></bean>
+ 	
+ 	
+ 	<!-- String name, int age -->
+ 	<bean id="emp4" class="com.met.model.Employee">
+ 		<constructor-arg name="name" value="Jack"></constructor-arg>
+ 		<constructor-arg name="age" value="25"></constructor-arg>
+ 	</bean>
+ 
+ 	<bean id="emp5" class="com.met.model.Employee">
+ 		<constructor-arg index="0" value="Jill"></constructor-arg>
+ 		<constructor-arg index="1" value="24"></constructor-arg>
+ 	</bean>
+ 	
+ 	
+ 	<bean id="emp6" class="com.met.model.Employee">
+ 		<property name="name" value="Jane"></property>
+ 		<property name="age" value="27"></property>
+ 		<property name="salary" value="69000"></property>
+ 		<property name="designation" value="SE"></property>
+ 	</bean>
+ 	
+ 	
+ 
+ </beans>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
