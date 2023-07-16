@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx" 
+ xmlns:p="http://www.springframework.org/schema/p" xmlns:c="http://www.springframework.org/schema/c" 
+ xmlns:context="http://www.springframework.org/schema/context" 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+ http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-4.0.xsd" 
+ >
+ <!-- default-lazy-init="true" --> 
+ 
+ 
+ 	<bean id="emp1" class="com.met.model.Employee"></bean>
+ 	
+ 	
+ 	<!-- Employee emp1 = new Employee(); -->
+ 	
+ 	<bean id="emp2" class="com.met.model.Employee" scope="singleton"></bean>
+ 	<!-- Employee emp2 = new Employee(); -->
+ 	
+ 	<bean id="emp3" class="com.met.model.Employee" scope="prototype"></bean>
+ 	
+ 	
+ 	<!-- String name, int age -->
+ 	<bean id="emp4" class="com.met.model.Employee">
+ 		<constructor-arg name="name" value="Jack"></constructor-arg>
+ 		<constructor-arg name="age" value="25"></constructor-arg>
+ 	</bean>
+ 	
+ 	<!-- Employee emp4 = new Employee("Jack", 25); -->
+ 
+ 	<bean id="emp5" class="com.met.model.Employee">
+ 		<constructor-arg index="0" value="Jill"></constructor-arg>
+ 		<constructor-arg index="1" value="24"></constructor-arg>
+ 	</bean>
+ 	
+ 	<bean id="emp6" class="com.met.model.Employee">
+ 		<property name="name" value="Jane"></property>
+ 		<property name="age" value="27"></property>
+ 		<property name="salary" value="69000"></property>
+ 		<property name="designation" value="SE"></property>
+ 	</bean>
+ 	
+ 	<!-- Employee emp6 = new Employee();
+ 	emp6.setName("Jane");
+ 	emp6.setAge(27);
+ 	emp6.setSalary(69000);
+ 	emp6.setDesignation("SE"); -->
+ 	
+ 	
+ 	<bean id="emp7" class="com.met.model.Employee">
+ 		<constructor-arg index="0" value="James"></constructor-arg>
+ 		<constructor-arg index="1" value="24"></constructor-arg>
+ 		<property name="salary" value="80000"></property>
+ 		<property name="designation" value="SE"></property>
+ 	</bean>
+ 	
+ 	
+ 	<!-- Employee emp7 = new Employee("James", 24);
+ 	emp7.Salary(80000);
+ 	emp7.setDesignation("SE"); -->
+ 	
+ 	
+ 	<!-- <bean id="emp8" class="com.met.model.Employee">
+ 		<constructor-arg index="0" value="James"></constructor-arg>
+ 		<constructor-arg index="1" value="24"></constructor-arg>
+ 		<constructor-arg index="3" value="98222"></constructor-arg>
+ 	</bean> -->
+ 	
+ 	
+ 	<bean id="emp8" class="com.met.model.Employee" scope="singleton" lazy-init="true"></bean>
+ 
+ 	<bean id="stage1" class="com.met.model.Stage" factory-method="getStage"></bean>
+ 	
+ 	<bean id="stage2" class="com.met.model.Stage" factory-method="getStage"></bean>
+ 
+ 
+ 	<bean id="address1" class="com.met.model.Address">
+ 		<property name="city" value="NY"></property>
+ 		<property name="country" value="USA"></property>
+ 	</bean>
+ 	
+ 	
+ 	<!-- String name, int age, double salary, String designation, Address address -->
+ 	
+ 	
+ 	<!-- Dependency injection (DI) is a process whereby objects define their dependencies 
+ 	(that is, the other objects with which they work) only through constructor arguments, 
+ 	arguments to a factory method, or properties.
+ 	here in our example we have defined Spring bean emp9 is dependent on address1 Spring bean --> 
+ 	
+ 	<!-- Spring at runtime will create EMployee object Spring bean and Address object Spring bean
+ 	and it will inject dependent Address bean into Employee.
+ 	This is fundamentaly inverse, instead of java developer writing code SPring container
+ 	is creating objects hence it is known as IOC (Inverion of control) -->
+ 	
+ 	
+ 	<bean id="emp9" class="com.met.model.Employee">
+ 		<constructor-arg index="0" value="James"></constructor-arg>
+ 		<constructor-arg index="1" value="24"></constructor-arg>
+ 		<constructor-arg index="2" value="100000"></constructor-arg>
+ 		<constructor-arg index="3" value="SSE"></constructor-arg>
+ 		<constructor-arg index="4" ref="address2"></constructor-arg>
+ 	</bean>
+ 
+ 	<bean id="address2" class="com.met.model.Address">
+ 		<property name="city" value="Mumbai"></property>
+ 		<property name="country" value="India"></property>
+ 	</bean>
+ 
+ </beans>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
