@@ -1,0 +1,93 @@
+Spring Boot
+
+HOw to bootstrap your spring framework application.
+
+
+https://start.spring.io/
+
+Spring Web WEB
+Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+
+
+
+@SpringBootApplication
+
+
+1) Configure DispatcherServlet in web.xml
+2) Create XML file to add beans     
+3) Configure Third party app tomcat to start our application.
+
+
+application.properties file is by default provided by Spring boot to add properties
+
+@EnableAutoCOnfiguration
+
+
+Controller, service, dao layer
+
+
+
+
+JdbcTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+
+ HibernateJpaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.persistence.EntityManager' (OnClassCondition)
+
+
+
+@SpringBootApplication
+	1> @Configuration
+	2> @COmponentScan
+        3) @EnableAutoCOnfiguration
+
+
+
+Hikari.dataSource
+
+
+oracle.ucp.jdbc.PoolDataSource
+org.apache.commons.dbcp2.BasicDataSource
+
+1.x
+org.apache.tomcat.jdbc.pool.DataSource
+2.x
+com.zaxxer.hikari.HikariDataSource
+
+
+
+Starter Dependencies		
+Spring boot is opininated .  
+Production grade
+just run
+
+
+
+MOnitor application Spring boot has provided actutator framework
+
+
+
+
+
+
+select e1_0.id,e1_0.designation,e1_0.email_id,e1_0.name from employeetbl e1_0
+
+
+name -> name
+emailId -> email_Id -> emailid
+
+
+
+
+
+
+
+
+
+
+
+
+

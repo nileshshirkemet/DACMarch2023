@@ -1,0 +1,176 @@
+DispatcherServlet uses Jackson libs to convert
+
+JavaObject to json String      ->    Serialization
+JsonString to JavaObject       ->    De-Serialization
+
+
+{
+    "id": 3,
+    "name": "Jill",
+    "emailId": "jill@met.edu",
+    "designation": "SSE"
+}
+
+
+
+
+
+
+
+JAXB
+
+Java Api for Xml Binding
+
+Java Object to XML
+XMl -> Java Object
+
+
+
+
+<employee>			-> XMLRootElement
+  <id>3</id>
+  <name>jill</name>		-> XMLElement
+  <designation>SSE</designation>
+  <emailId>jill@met.edu</emailId>
+</employee>
+
+
+Path Extension
+http://localhost:8090/SpringRESTTest/rest/emp/getEmp/3
+
+http://localhost:8090/SpringRESTTest/rest/emp/getEmp/3.json	
+http://localhost:8090/SpringRESTTest/rest/emp/getEmp/3.xml	
+
+
+
+
+
+react js app will hit Spring REST service
+
+POST 
+saveEmp
+
+{
+    "id": 3,
+    "name": "Jill",
+    "emailId": "jill@met.edu",
+    "designation": "SSE"
+}
+
+
+http://localhost:8090/SpringRESTTest/rest/saveEmp
+
+Dispatcher servlet take this JSOn String
+Give to Jackson, this will convert to EMployeeObject
+
+
+
+
+ReactJs -> 8081
+Spring Rest Service -> 8090
+
+CrossOrigin  -> AJAX 
+
+
+Get -> get all records
+POST   -> create new record
+
+PUT ->   update a record/s or it can create a new record
+
+Delete  -> delete a record/s
+
+
+
+No Spring WebApplicationInitializer types detected on classpath
+
+
+
+WebApplicationInitializer
+	
+
+onStartUp
+
+AbstractAnnotationConfigDispatcherServletInitializer  implements WebApplicationInitializer
+
+
+
+
+
+ suitable unit testing framework ->  JUNIT
+
+
+
+
+
+
+Central repository -> repository maintained by Maven community (beyond the firewall) https://repo1.maven.org/maven2
+			
+
+Remote Repository :  Every organization has their own repository ()
+		
+Local Repository :  
+	C:\Users\Admin\.m2\repository     %USER_HOME%\.m2\repository
+
+
+
+
+
+	add
+	subsctract
+	deposit
+	withdrawr
+
+
+	transfer(){
+		withdraw();
+		deposit();
+	}
+	
+
+
+0.0.1-SNAPSHOT -> 0.0.1.jar  -> 0.0.2.jar
+
+
+https://start.spring.io/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
