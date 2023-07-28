@@ -1,0 +1,112 @@
+Employee
+
+
+entityManager.persist(employee);
+
+entityManager.find(Employee.class, id);
+
+entityManager.createQuery
+
+entityManager.remove(employee);
+
+
+Account
+
+entityManager.persist(account)
+
+entityManager.find(Account.class, id);
+
+entityManager.createQuery
+
+
+entityManager.remove(account);
+
+
+
+Spring boot data jpa
+
+DAO..
+
+
+
+1) Auto COnfiguration     -> NO need for configuration Spring beans like datasource, jdbctemplate, sessionfactory, 				hibernatetxmanager
+2) Starter Dependencies   -> I just want to start web application, provide me all jars.
+				It also manages integration compatible jars (like spring and hibernate)
+			
+3) Repository interfaces  -> No DAO class required.
+
+4) Production grade	-> Actuator framework
+
+5) Just run           -> Run Spring boot app as normal main method .
+
+
+
+
+
+
+
+2023-07-27T09:51:28.495+05:30  INFO 6876 --- [           main] c.m.i.c.s.SpringbootjpaApplication       : Started SpringbootjpaApplication in 14.71 seconds (process running for 15.847)
+2023-07-27T09:51:28.507+05:30 DEBUG 6876 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-07-27T09:51:28.511+05:30 DEBUG 6876 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+**********************Spring boot app started****************************
+
+
+
+DelegatingFilterProxy   -> JSP, Servlet, Web Filters provided by j2EE
+
+
+DefaultSecurityFilterChain  -> Spring beans filters
+
+
+[org.springframework.security.web.session.DisableEncodeUrlFilter@78e34499, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5776a9f8, org.springframework.security.web.context.SecurityContextHolderFilter@779cb140, org.springframework.security.web.header.HeaderWriterFilter@92775a3, org.springframework.security.web.csrf.CsrfFilter@1e9a10e9, org.springframework.security.web.authentication.logout.LogoutFilter@4b3eaf39, 
+
+
+org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@328e687e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b332eda, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6771efaa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@743b7025, 
+org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70a91d72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fd77205, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@446fb72e, org.springframework.security.web.access.ExceptionTranslationFilter@38326fd5, 
+
+
+org.springframework.security.web.access.intercept.AuthorizationFilter@36a8ebca]
+
+
+Dispatcherservlet
+
+
+UsernamePasswordAuthenticationFilter
+
+AuthenticationManager  -> AuthenticationProvider -> UserDetailsService
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
